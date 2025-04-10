@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Partnermap</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-pMprNk08+NcdMKxgYBGp91zrfkYyp2LoC6EY9j6i5nU=" crossorigin=""/>
+  <style>
+    body {
+      margin: 0;
+      background-color: #121212;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      color: white;
+    }
+    #map {
+      height: 100vh;
+    }
+    .leaflet-control-geocoder {
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 12px;
+      box-shadow: 0 0 10px #00000055;
+    }
+    .leaflet-popup-content-wrapper {
+      background: #1e1e1e;
+      color: white;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-o9N1j6kGZng9FfD1LpGpZlsQAAQ0jL+N9s1FQZ8D+Po=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+  <script>
+    const map = L.map('map', {
+      zoomControl: true
+    }).setView([46.8182, 8.2275], 8);
+
+    const tileLayer = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>',
+      maxZoom: 20,
+    }).addTo(map);
+
+    const redIcon = new L.Icon({
+      iconUrl: 'https://cdn-icons-png.flaticon.com/512/2776/2776067.png',
+      iconSize: [32, 32],
+      iconAnchor: [16, 32],
+      popupAnchor: [0, -32],
+      className: 'location-pin'
+    });
+
+    const garageIcon = new L.Icon({
+      iconUrl: 'https://cdn-icons-png.flaticon.com/512/2983/2983846.png',
+      iconSize: [28, 28],
+      iconAnchor: [14, 28],
+      popupAnchor: [0, -28],
+      className: 'garage-pin'
+    });
+
+    fetch('partnergaragen.json')
+      .then(res => res.json())
+      .then(data => {
+        data.forEach(garage => {
+          if (garage.lat && garage.lng) {
+            L.marker([garage.lat, garage.lng], { icon: garageIcon })
+              .addTo(map)
+              .bindPopup(`<b>${garage.Strasse}</b><br>${garage.PLZ} ${garage.Ort}`);
+          }
+        });
+      });
+
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(pos => {
+        const { latitude, longitude } = pos.coords;
+        L.marker([latitude, longitude], { icon: redIcon })
+          .addTo(map)
+          .bindPopup("Mein Standort")
+          .openPopup();
+      });
+    }
+
+    L.Control.geocoder({
+      defaultMarkGeocode: false,
+      placeholder: 'PLZ eingeben…'
+    })
+      .on('markgeocode', function(e) {
+        const bbox = e.geocode.bbox;
+        map.fitBounds(bbox);
+      })
+      .addTo(map);
+  </script>
+</body>
+</html>

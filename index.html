@@ -3,30 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Partnergaragen</title>
+  <title>Partnergaragen Map</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     html, body, #map {
-      margin: 0;
-      height: 100%;
-      background: #000;
-      font-family: sans-serif;
+      height: 100%; margin: 0; background: #111;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     }
+
     .searchbox {
       position: absolute;
       top: 10px;
       left: 50%;
       transform: translateX(-50%);
-      background: rgba(0, 0, 0, 0.7);
-      color: white;
-      border: 1px solid #444;
-      border-radius: 10px;
-      padding: 8px 15px;
       z-index: 1000;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 8px 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px #000;
     }
-    input[type="text"] {
+
+    .searchbox input {
       background: transparent;
-      color: white;
+      color: #fff;
       border: none;
       outline: none;
       font-size: 16px;
@@ -41,18 +40,16 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
-    const map = L.map('map').setView([47, 8], 8);
+    const map = L.map('map').setView([47.0, 8.0], 8);
 
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-      attribution: '&copy; Esri &mdash; World Imagery'
+      attribution: '&copy; Esri &mdash; Source: Esri, Earthstar Geographics'
     }).addTo(map);
 
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
-      attribution: '&copy; Esri &mdash; Boundaries & Labels',
-      pane: 'overlayPane'
+    const borders = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      opacity: 0.3
     }).addTo(map);
 
-    // Schlüssel-Icon
     const schluesselIcon = L.icon({
       iconUrl: "https://cdn-icons-png.flaticon.com/512/1086/1086741.png",
       iconSize: [30, 30],
@@ -62,40 +59,43 @@
       shadowAnchor: [12, 41]
     });
 
-    // Standort
+    const standortIcon = L.icon({
+      iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
+      iconSize: [32, 32],
+      iconAnchor: [16, 32],
+      shadowUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-shadow.png",
+      shadowSize: [41, 41],
+      shadowAnchor: [12, 41]
+    });
+
     navigator.geolocation.getCurrentPosition(pos => {
       L.marker([pos.coords.latitude, pos.coords.longitude], {
-        title: "Mein Standort",
-        icon: L.icon({
-          iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
-          iconSize: [32, 32],
-          iconAnchor: [16, 32],
-          shadowUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-shadow.png",
-          shadowSize: [41, 41],
-          shadowAnchor: [12, 41]
-        })
+        icon: standortIcon
       }).addTo(map).bindPopup("Mein Standort");
     });
 
-    // Marker laden
     fetch("partnergaragen.json")
       .then(res => res.json())
       .then(data => {
+        const markers = [];
+
         data.forEach(e => {
           if (e.lat && e.lng) {
             const marker = L.marker([e.lat, e.lng], { icon: schluesselIcon })
               .addTo(map)
               .bindPopup(`<b>${e.Strasse}</b><br>${e.PLZ} ${e.Ort}`);
             marker._data = e;
+            markers.push(marker);
           }
         });
 
         document.getElementById("plzSearch").addEventListener("input", e => {
           const input = e.target.value.trim();
-          map.eachLayer(layer => {
-            if (layer._data) {
-              const match = layer._data.PLZ.startsWith(input);
-              layer.setOpacity(match ? 1 : 0);
+          markers.forEach(marker => {
+            if (marker._data && marker._data.PLZ.startsWith(input)) {
+              marker.setOpacity(1);
+            } else {
+              marker.setOpacity(0);
             }
           });
         });

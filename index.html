@@ -2,28 +2,33 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Partnergaragen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Partnergaragen Karte</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
-    html, body, #map { margin: 0; height: 100%; background: #111; }
-    .search-container {
+    html, body, #map { margin: 0; padding: 0; height: 100%; background: #111; }
+    .controls {
       position: absolute;
-      top: 10px; left: 50%; transform: translateX(-50%);
-      display: flex; gap: 10px;
-      background: rgba(0, 0, 0, 0.7); color: white;
-      border: 1px solid #444; border-radius: 10px;
-      padding: 10px; z-index: 1000;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1000;
+      display: flex;
+      gap: 10px;
     }
-    input, select {
-      background: transparent; color: white; border: none; outline: none;
+    .controls input, .controls select {
+      padding: 6px 12px;
+      border-radius: 8px;
+      border: none;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
     }
   </style>
 </head>
 <body>
-  <div class="search-container">
+  <div class="controls">
     <input type="text" id="plzSearch" placeholder="PLZ eingeben..." />
-    <select id="brandFilter">
+    <select id="markenFilter">
       <option value="">Alle Marken</option>
     </select>
   </div>
@@ -32,86 +37,72 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
     const map = L.map('map').setView([47.0, 8.0], 8);
+
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-      attribution: '&copy; Esri'
+      attribution: '&copy; Esri',
+      maxZoom: 19
     }).addTo(map);
 
-    const blueIcon = L.icon({
-      iconUrl: 'https://maps.google.com/mapfiles/ms/icons/blue-dot.png',
-      iconSize: [32, 32], iconAnchor: [16, 32]
-    });
+    const markerGroup = L.layerGroup().addTo(map);
+    let allData = [];
 
-    const redIcon = L.icon({
-      iconUrl: 'https://maps.google.com/mapfiles/ms/icons/red-dot.png',
-      iconSize: [32, 32], iconAnchor: [16, 32]
-    });
-
-    let garageMarkers = [];
-    let brands = new Set();
-
-    fetch("partnergaragen.json")
+    // Laden und Anzeigen der Garagen
+    fetch('partnergaragen.json')
       .then(res => res.json())
       .then(data => {
-        data.forEach(entry => {
-          if (entry.lat && entry.lng) {
-            const marker = L.marker([entry.lat, entry.lng], { icon: blueIcon })
-              .bindPopup(`<b>${entry.Garage}</b><br>${entry.Strasse}<br>${entry.PLZ} ${entry.Ort}<br>${entry.Marken}`)
-              .addTo(map);
-            marker.meta = entry;
-            garageMarkers.push(marker);
-            brands.add(entry.Marken);
-          }
+        allData = data;
+        const markenSet = new Set();
+
+        data.forEach(g => {
+          if (g.marke) markenSet.add(g.marke);
         });
 
-        // Marken-Dropdown füllen
-        const brandSelect = document.getElementById("brandFilter");
-        Array.from(brands).sort().forEach(marke => {
-          const opt = document.createElement("option");
-          opt.value = marke;
-          opt.textContent = marke;
-          brandSelect.appendChild(opt);
+        [...markenSet].sort().forEach(m => {
+          const opt = document.createElement('option');
+          opt.value = m;
+          opt.textContent = m;
+          document.getElementById('markenFilter').appendChild(opt);
         });
 
-        // Filter
-        brandSelect.addEventListener("change", () => {
-          const selected = brandSelect.value;
-          garageMarkers.forEach(marker => {
-            const visible = !selected || marker.meta.Marken === selected;
-            if (visible) map.addLayer(marker);
-            else map.removeLayer(marker);
-          });
-        });
+        renderMarkers(data);
       });
 
-    // PLZ-Suche
-    document.getElementById("plzSearch").addEventListener("change", e => {
-      const input = e.target.value.trim();
-      let closest = null;
-      let minDist = Infinity;
+    function renderMarkers(data) {
+      markerGroup.clearLayers();
 
-      garageMarkers.forEach(marker => {
-        if (marker.meta.PLZ.startsWith(input)) {
-          const dist = map.getCenter().distanceTo(marker.getLatLng());
-          if (dist < minDist) {
-            minDist = dist;
-            closest = marker;
-          }
+      data.forEach(g => {
+        if (g.lat && g.lng) {
+          const icon = L.icon({
+            iconUrl: g.marke ? `https://logo.clearbit.com/${g.marke.toLowerCase().replace(/[^a-z]/g, '')}.com` : "https://cdn-icons-png.flaticon.com/512/1086/1086741.png",
+            iconSize: [30, 30],
+            iconAnchor: [15, 30],
+            shadowUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-shadow.png",
+            shadowSize: [41, 41],
+            shadowAnchor: [12, 41]
+          });
+
+          const marker = L.marker([g.lat, g.lng], { icon })
+            .bindPopup(`<b>${g.name}</b><br>${g.strasse}<br>${g.PLZ} ${g.Ort}<br><i>${g.marke || 'Marke unbekannt'}</i>`);
+
+          markerGroup.addLayer(marker);
         }
       });
+    }
 
-      if (closest) {
-        map.setView(closest.getLatLng(), 13);
-        closest.openPopup();
+    document.getElementById("plzSearch").addEventListener("input", e => {
+      const val = e.target.value.trim();
+      const filtered = allData.filter(g => g.PLZ.startsWith(val));
+      renderMarkers(filtered);
+    });
 
-        // roten Marker + Kreis
-        if (window.searchMarker) map.removeLayer(window.searchMarker);
-        if (window.searchCircle) map.removeLayer(window.searchCircle);
-
-        window.searchMarker = L.marker(closest.getLatLng(), { icon: redIcon }).addTo(map);
-        window.searchCircle = L.circle(closest.getLatLng(), {
-          radius: 30000, color: "red", fillOpacity: 0.05
-        }).addTo(map);
-      }
+    document.getElementById("markenFilter").addEventListener("change", e => {
+      const selected = e.target.value;
+      const plz = document.getElementById("plzSearch").value.trim();
+      const filtered = allData.filter(g =>
+        (!selected || g.marke === selected) &&
+        (!plz || g.PLZ.startsWith(plz))
+      );
+      renderMarkers(filtered);
     });
   </script>
 </body>

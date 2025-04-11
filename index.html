@@ -3,32 +3,41 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Partnergaragen Karte</title>
+  <title>Partnergaragen</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
-    html, body, #map { margin: 0; padding: 0; height: 100%; background: #111; }
-    .controls {
+    html, body, #map {
+      margin: 0;
+      height: 100%;
+      background: #000;
+    }
+    .searchbox {
       position: absolute;
       top: 10px;
       left: 50%;
       transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      border: 1px solid #444;
+      border-radius: 10px;
+      padding: 10px;
       z-index: 1000;
       display: flex;
       gap: 10px;
     }
-    .controls input, .controls select {
-      padding: 6px 12px;
-      border-radius: 8px;
-      border: none;
-      background: rgba(0, 0, 0, 0.7);
+    .searchbox input, .searchbox select {
+      background: transparent;
       color: white;
+      border: none;
+      outline: none;
+      padding: 5px;
     }
   </style>
 </head>
 <body>
-  <div class="controls">
-    <input type="text" id="plzSearch" placeholder="PLZ eingeben..." />
-    <select id="markenFilter">
+  <div class="searchbox">
+    <input type="text" id="plzSearch" placeholder="PLZ eingeben...">
+    <select id="brandDropdown">
       <option value="">Alle Marken</option>
     </select>
   </div>
@@ -38,72 +47,103 @@
   <script>
     const map = L.map('map').setView([47.0, 8.0], 8);
 
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-      attribution: '&copy; Esri',
-      maxZoom: 19
+    L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
-    const markerGroup = L.layerGroup().addTo(map);
-    let allData = [];
+    const redIcon = L.icon({
+      iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
+      iconSize: [32, 32],
+      iconAnchor: [16, 32]
+    });
 
-    // Laden und Anzeigen der Garagen
-    fetch('partnergaragen.json')
-      .then(res => res.json())
-      .then(data => {
-        allData = data;
-        const markenSet = new Set();
+    const blueIcon = L.icon({
+      iconUrl: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+      iconSize: [32, 32],
+      iconAnchor: [16, 32]
+    });
 
-        data.forEach(g => {
-          if (g.marke) markenSet.add(g.marke);
-        });
+    let plzMarker = null;
+    const markers = [];
+    const plzCoords = {};
+    const allBrands = new Set();
 
-        [...markenSet].sort().forEach(m => {
-          const opt = document.createElement('option');
-          opt.value = m;
-          opt.textContent = m;
-          document.getElementById('markenFilter').appendChild(opt);
-        });
-
-        renderMarkers(data);
-      });
-
-    function renderMarkers(data) {
-      markerGroup.clearLayers();
-
-      data.forEach(g => {
-        if (g.lat && g.lng) {
-          const icon = L.icon({
-            iconUrl: g.marke ? `https://logo.clearbit.com/${g.marke.toLowerCase().replace(/[^a-z]/g, '')}.com` : "https://cdn-icons-png.flaticon.com/512/1086/1086741.png",
-            iconSize: [30, 30],
-            iconAnchor: [15, 30],
-            shadowUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-shadow.png",
-            shadowSize: [41, 41],
-            shadowAnchor: [12, 41]
-          });
-
-          const marker = L.marker([g.lat, g.lng], { icon })
-            .bindPopup(`<b>${g.name}</b><br>${g.strasse}<br>${g.PLZ} ${g.Ort}<br><i>${g.marke || 'Marke unbekannt'}</i>`);
-
-          markerGroup.addLayer(marker);
-        }
-      });
+    function getDistance(lat1, lon1, lat2, lon2) {
+      const R = 6371;
+      const dLat = (lat2 - lat1) * Math.PI / 180;
+      const dLon = (lon2 - lon1) * Math.PI / 180;
+      const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                Math.sin(dLon / 2) * Math.sin(dLon / 2);
+      const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+      return R * c;
     }
 
-    document.getElementById("plzSearch").addEventListener("input", e => {
-      const val = e.target.value.trim();
-      const filtered = allData.filter(g => g.PLZ.startsWith(val));
-      renderMarkers(filtered);
-    });
+    fetch("partnergaragen.json")
+      .then(res => res.json())
+      .then(data => {
+        data.forEach(e => {
+          if (e.lat && e.lng) {
+            const marker = L.marker([e.lat, e.lng], { icon: blueIcon })
+              .bindPopup(`<b>${e.garage}</b><br>${e.strasse}<br>${e.plz} ${e.ort}<br>Marke: ${e.marke}`)
+              .addTo(map);
+            marker._data = e;
+            markers.push(marker);
 
-    document.getElementById("markenFilter").addEventListener("change", e => {
-      const selected = e.target.value;
-      const plz = document.getElementById("plzSearch").value.trim();
-      const filtered = allData.filter(g =>
-        (!selected || g.marke === selected) &&
-        (!plz || g.PLZ.startsWith(plz))
-      );
-      renderMarkers(filtered);
-    });
+            if (!plzCoords[e.plz]) {
+              plzCoords[e.plz] = [e.lat, e.lng];
+            }
+            allBrands.add(e.marke);
+          }
+        });
+
+        const dropdown = document.getElementById("brandDropdown");
+        Array.from(allBrands).sort().forEach(brand => {
+          const opt = document.createElement("option");
+          opt.value = brand;
+          opt.textContent = brand;
+          dropdown.appendChild(opt);
+        });
+
+        function updateMarkers() {
+          const plz = document.getElementById("plzSearch").value.trim();
+          const selectedBrand = dropdown.value;
+
+          if (plzCoords[plz]) {
+            const [lat, lng] = plzCoords[plz];
+            map.setView([lat, lng], 12);
+
+            if (plzMarker) map.removeLayer(plzMarker);
+            plzMarker = L.marker([lat, lng], { icon: redIcon }).addTo(map);
+
+            let closest = null;
+            let minDist = Infinity;
+            markers.forEach(marker => {
+              const d = getDistance(lat, lng, marker._data.lat, marker._data.lng);
+              const match = !selectedBrand || marker._data.marke === selectedBrand;
+              if (match && d < minDist) {
+                closest = marker;
+                minDist = d;
+              }
+              marker.setOpacity(0);
+            });
+
+            if (closest) {
+              closest.setOpacity(1);
+              closest.openPopup();
+            }
+          } else {
+            markers.forEach(marker => {
+              const match = !selectedBrand || marker._data.marke === selectedBrand;
+              marker.setOpacity(match ? 1 : 0);
+            });
+            if (plzMarker) map.removeLayer(plzMarker);
+          }
+        }
+
+        document.getElementById("plzSearch").addEventListener("input", updateMarkers);
+        dropdown.addEventListener("change", updateMarkers);
+      });
   </script>
 </body>
 </html>

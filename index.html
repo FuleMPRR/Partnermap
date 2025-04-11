@@ -47,23 +47,14 @@
   <script>
     const map = L.map('map').setView([47.0, 8.0], 8);
 
+    // Satellitenkarte + Landesgrenzen
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-      attribution: 'Tiles © Esri'
+      attribution: '© Esri World Imagery'
     }).addTo(map);
-
-    L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap contributors',
-      opacity: 0.4
+    L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap',
+      opacity: 0.5
     }).addTo(map);
-
-    const blueIcon = L.icon({
-      iconUrl: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png",
-      iconSize: [32, 32],
-      iconAnchor: [16, 32],
-      shadowUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-shadow.png",
-      shadowSize: [41, 41],
-      shadowAnchor: [12, 41]
-    });
 
     const redIcon = L.icon({
       iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
@@ -74,18 +65,34 @@
       shadowAnchor: [12, 41]
     });
 
-    let plzMarker = null;
-    const markers = [];
+    const markenLogos = {
+      "Volkswagen": "https://cdn.worldvectorlogo.com/logos/volkswagen-9.svg",
+      "Peugeot": "https://cdn.worldvectorlogo.com/logos/peugeot-5.svg",
+      "Toyota": "https://cdn.worldvectorlogo.com/logos/toyota.svg"
+      // weitere Marken nach Bedarf ergänzen
+    };
+
+    const defaultIcon = L.icon({
+      iconUrl: "https://cdn-icons-png.flaticon.com/512/1086/1086741.png",
+      iconSize: [30, 30],
+      iconAnchor: [15, 30],
+      shadowUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-shadow.png",
+      shadowSize: [41, 41],
+      shadowAnchor: [12, 41]
+    });
+
     const plzCoords = {};
     const allBrands = new Set();
+    let plzMarker = null;
+    const markers = [];
 
     function getDistance(lat1, lon1, lat2, lon2) {
       const R = 6371;
       const dLat = (lat2 - lat1) * Math.PI / 180;
       const dLon = (lon2 - lon1) * Math.PI / 180;
       const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
-                Math.sin(dLon / 2) * Math.sin(dLon / 2);
+        Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+        Math.sin(dLon / 2) * Math.sin(dLon / 2);
       const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
       return R * c;
     }
@@ -94,22 +101,31 @@
       .then(res => res.json())
       .then(data => {
         data.forEach(e => {
-          if (e.lat && e.lng) {
-            const marker = L.marker([e.lat, e.lng], { icon: blueIcon })
-              .bindPopup(`<b>${e.Name}</b><br>${e.Strasse}<br>${e.PLZ} ${e.Ort}<br>Marke: ${e.Marke}`)
-              .addTo(map);
-            marker._data = e;
-            markers.push(marker);
+          if (!e.lat || !e.lng) return;
 
-            allBrands.add(e.Marke);
+          const icon = markenLogos[e.Marke] ? L.icon({
+            iconUrl: markenLogos[e.Marke],
+            iconSize: [32, 32],
+            iconAnchor: [16, 32],
+            shadowUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-shadow.png",
+            shadowSize: [41, 41],
+            shadowAnchor: [12, 41]
+          }) : defaultIcon;
 
-            if (!plzCoords[e.PLZ]) {
-              plzCoords[e.PLZ] = [e.lat, e.lng];
-            }
+          const marker = L.marker([e.lat, e.lng], { icon })
+            .bindPopup(`<b>${e.Name}</b><br>${e.Strasse}<br>${e.PLZ} ${e.Ort}<br>Marke: ${e.Marke}`)
+            .addTo(map);
+
+          marker._data = e;
+          markers.push(marker);
+
+          if (!plzCoords[e.PLZ]) {
+            plzCoords[e.PLZ] = [e.lat, e.lng];
           }
+
+          allBrands.add(e.Marke);
         });
 
-        // Dropdown mit Marken füllen
         const brandDropdown = document.getElementById("brandDropdown");
         Array.from(allBrands).sort().forEach(brand => {
           const opt = document.createElement("option");
@@ -124,40 +140,38 @@
 
           if (plzCoords[plz]) {
             const [lat, lng] = plzCoords[plz];
-            map.setView([lat, lng], 11);
+            map.setView([lat, lng], 12);
 
             if (plzMarker) map.removeLayer(plzMarker);
             plzMarker = L.marker([lat, lng], { icon: redIcon }).addTo(map);
 
-            // nächstgelegene passende Garage suchen
             let closest = null;
             let minDist = Infinity;
             markers.forEach(marker => {
-              const dist = getDistance(lat, lng, marker._data.lat, marker._data.lng);
-              const matchesBrand = !selectedBrand || marker._data.Marke === selectedBrand;
-              if (matchesBrand && dist < minDist) {
+              const d = getDistance(lat, lng, marker._data.lat, marker._data.lng);
+              const brandMatch = !selectedBrand || marker._data.Marke === selectedBrand;
+              if (brandMatch && d < minDist) {
                 closest = marker;
-                minDist = dist;
+                minDist = d;
               }
               marker.setOpacity(0);
             });
 
             if (closest) {
               closest.setOpacity(1);
-              map.setView(closest.getLatLng(), 13);
               closest.openPopup();
             }
           } else {
             markers.forEach(marker => {
-              const matchesBrand = !selectedBrand || marker._data.Marke === selectedBrand;
-              marker.setOpacity(matchesBrand ? 1 : 0);
+              const brandMatch = !selectedBrand || marker._data.Marke === selectedBrand;
+              marker.setOpacity(brandMatch ? 1 : 0);
             });
             if (plzMarker) map.removeLayer(plzMarker);
           }
         }
 
         document.getElementById("plzSearch").addEventListener("input", updateMarkers);
-        document.getElementById("brandDropdown").addEventListener("change", updateMarkers);
+        brandDropdown.addEventListener("change", updateMarkers);
       });
   </script>
 </body>

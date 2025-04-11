@@ -20,20 +20,24 @@
       color: white;
       border: 1px solid #444;
       border-radius: 10px;
-      padding: 8px 15px;
+      padding: 10px;
       z-index: 1000;
+      display: flex;
+      gap: 10px;
     }
     .searchbox input {
       background: transparent;
       color: white;
       border: none;
       outline: none;
+      padding: 5px;
     }
   </style>
 </head>
 <body>
   <div class="searchbox">
     <input type="text" id="plzSearch" placeholder="PLZ eingeben...">
+    <input type="text" id="brandSearch" placeholder="Marke (z.B. VW)...">
   </div>
   <div id="map"></div>
 
@@ -59,24 +63,22 @@
       shadowAnchor: [12, 41]
     });
 
-    const plzKoordinaten = {};
-    const markers = [];
-
-    navigator.geolocation.getCurrentPosition(pos => {
-      L.marker([pos.coords.latitude, pos.coords.longitude], {
-        icon: L.icon({
-          iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
-          iconSize: [32, 32],
-          iconAnchor: [16, 32],
-          shadowUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-shadow.png",
-          shadowSize: [41, 41],
-          shadowAnchor: [12, 41]
-        })
-      }).addTo(map).bindPopup("Mein Standort").openPopup();
+    const redIcon = L.icon({
+      iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
+      iconSize: [32, 32],
+      iconAnchor: [16, 32],
+      shadowUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-shadow.png",
+      shadowSize: [41, 41],
+      shadowAnchor: [12, 41]
     });
 
+    let plzMarker = null;
+    let radiusCircle = null;
+    const markers = [];
+    const plzCoords = {};
+
     function getDistance(lat1, lon1, lat2, lon2) {
-      const R = 6371; // km
+      const R = 6371;
       const dLat = (lat2 - lat1) * Math.PI / 180;
       const dLon = (lon2 - lon1) * Math.PI / 180;
       const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
@@ -92,32 +94,48 @@
         data.forEach(e => {
           if (e.lat && e.lng) {
             const marker = L.marker([e.lat, e.lng], { icon: blueIcon })
-              .bindPopup(`<b>${e.Name}</b><br>${e.Strasse}<br>${e.PLZ} ${e.Ort}`)
+              .bindPopup(`<b>${e.Name}</b><br>${e.Strasse}<br>${e.PLZ} ${e.Ort}<br>Marke: ${e.Marke}`)
               .addTo(map);
             marker._data = e;
             markers.push(marker);
 
-            // Merke PLZ-Koordinaten (ein Beispiel wird verwendet)
-            if (!plzKoordinaten[e.PLZ]) {
-              plzKoordinaten[e.PLZ] = [e.lat, e.lng];
+            if (!plzCoords[e.PLZ]) {
+              plzCoords[e.PLZ] = [e.lat, e.lng];
             }
           }
         });
 
-        document.getElementById("plzSearch").addEventListener("input", e => {
-          const input = e.target.value.trim();
-          if (input.length >= 3 && plzKoordinaten[input]) {
-            const [lat, lng] = plzKoordinaten[input];
+        function updateMarkers() {
+          const plz = document.getElementById("plzSearch").value.trim();
+          const brand = document.getElementById("brandSearch").value.trim().toLowerCase();
+
+          if (plzCoords[plz]) {
+            const [lat, lng] = plzCoords[plz];
             map.setView([lat, lng], 11);
+
+            if (plzMarker) map.removeLayer(plzMarker);
+            if (radiusCircle) map.removeLayer(radiusCircle);
+
+            plzMarker = L.marker([lat, lng], { icon: redIcon }).addTo(map);
+            radiusCircle = L.circle([lat, lng], { radius: 30000, color: 'red', fillOpacity: 0.1 }).addTo(map);
 
             markers.forEach(marker => {
               const d = getDistance(lat, lng, marker._data.lat, marker._data.lng);
-              marker.setOpacity(d <= 30 ? 1 : 0);
+              const matchBrand = !brand || marker._data.Marke.toLowerCase().includes(brand);
+              marker.setOpacity(d <= 30 && matchBrand ? 1 : 0);
             });
           } else {
-            markers.forEach(marker => marker.setOpacity(1));
+            markers.forEach(marker => {
+              const matchBrand = !brand || marker._data.Marke.toLowerCase().includes(brand);
+              marker.setOpacity(matchBrand ? 1 : 0);
+            });
+            if (plzMarker) map.removeLayer(plzMarker);
+            if (radiusCircle) map.removeLayer(radiusCircle);
           }
-        });
+        }
+
+        document.getElementById("plzSearch").addEventListener("input", updateMarkers);
+        document.getElementById("brandSearch").addEventListener("input", updateMarkers);
       });
   </script>
 </body>

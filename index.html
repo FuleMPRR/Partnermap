@@ -87,3 +87,32 @@
     document.getElementById("plzSearch").addEventListener("change", e => {
       const input = e.target.value.trim();
       let closest = null;
+      let minDist = Infinity;
+
+      garageMarkers.forEach(marker => {
+        if (marker.meta.PLZ.startsWith(input)) {
+          const dist = map.getCenter().distanceTo(marker.getLatLng());
+          if (dist < minDist) {
+            minDist = dist;
+            closest = marker;
+          }
+        }
+      });
+
+      if (closest) {
+        map.setView(closest.getLatLng(), 13);
+        closest.openPopup();
+
+        // roten Marker + Kreis
+        if (window.searchMarker) map.removeLayer(window.searchMarker);
+        if (window.searchCircle) map.removeLayer(window.searchCircle);
+
+        window.searchMarker = L.marker(closest.getLatLng(), { icon: redIcon }).addTo(map);
+        window.searchCircle = L.circle(closest.getLatLng(), {
+          radius: 30000, color: "red", fillOpacity: 0.05
+        }).addTo(map);
+      }
+    });
+  </script>
+</body>
+</html>

@@ -59,6 +59,9 @@
       shadowAnchor: [12, 41]
     });
 
+    const plzKoordinaten = {};
+    const markers = [];
+
     navigator.geolocation.getCurrentPosition(pos => {
       L.marker([pos.coords.latitude, pos.coords.longitude], {
         icon: L.icon({
@@ -72,26 +75,48 @@
       }).addTo(map).bindPopup("Mein Standort").openPopup();
     });
 
+    function getDistance(lat1, lon1, lat2, lon2) {
+      const R = 6371; // km
+      const dLat = (lat2 - lat1) * Math.PI / 180;
+      const dLon = (lon2 - lon1) * Math.PI / 180;
+      const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                Math.sin(dLon / 2) * Math.sin(dLon / 2);
+      const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+      return R * c;
+    }
+
     fetch("partnergaragen.json")
       .then(res => res.json())
       .then(data => {
-        const markers = [];
         data.forEach(e => {
           if (e.lat && e.lng) {
             const marker = L.marker([e.lat, e.lng], { icon: blueIcon })
-              .addTo(map)
-              .bindPopup(`<b>${e.Name}</b><br>${e.Strasse}<br>${e.PLZ} ${e.Ort}`);
+              .bindPopup(`<b>${e.Name}</b><br>${e.Strasse}<br>${e.PLZ} ${e.Ort}`)
+              .addTo(map);
             marker._data = e;
             markers.push(marker);
+
+            // Merke PLZ-Koordinaten (ein Beispiel wird verwendet)
+            if (!plzKoordinaten[e.PLZ]) {
+              plzKoordinaten[e.PLZ] = [e.lat, e.lng];
+            }
           }
         });
 
         document.getElementById("plzSearch").addEventListener("input", e => {
           const input = e.target.value.trim();
-          markers.forEach(marker => {
-            const match = marker._data.PLZ.startsWith(input);
-            marker.setOpacity(match ? 1 : 0);
-          });
+          if (input.length >= 3 && plzKoordinaten[input]) {
+            const [lat, lng] = plzKoordinaten[input];
+            map.setView([lat, lng], 11);
+
+            markers.forEach(marker => {
+              const d = getDistance(lat, lng, marker._data.lat, marker._data.lng);
+              marker.setOpacity(d <= 30 ? 1 : 0);
+            });
+          } else {
+            markers.forEach(marker => marker.setOpacity(1));
+          }
         });
       });
   </script>

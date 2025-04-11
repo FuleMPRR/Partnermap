@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Partnergaragen</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    html, body, #map { margin: 0; height: 100%; background: #111; }
+    .searchbox {
+      position: absolute; top: 10px; left: 50%; transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.7); color: white;
+      border: 1px solid #444; border-radius: 10px;
+      padding: 8px 15px; z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+  <div class="searchbox">
+    <input type="text" id="plzSearch" placeholder="PLZ eingeben..." style="background: transparent; color: white; border: none; outline: none;">
+  </div>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([47.0, 8.0], 8);
+    L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; Stadia Maps'
+    }).addTo(map);
+
+    // Werkstattschlüssel-Icon
+    const schluesselIcon = L.icon({
+      iconUrl: "https://cdn-icons-png.flaticon.com/512/1086/1086741.png",
+      iconSize: [30, 30],
+      iconAnchor: [15, 30],
+      shadowUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-shadow.png",
+      shadowSize: [41, 41],
+      shadowAnchor: [12, 41]
+    });
+
+    // Standortmarker
+    navigator.geolocation.getCurrentPosition(pos => {
+      const marker = L.marker([pos.coords.latitude, pos.coords.longitude], {
+        title: "Mein Standort",
+        icon: L.icon({
+          iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
+          iconSize: [32, 32],
+          iconAnchor: [16, 32],
+          shadowUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-shadow.png",
+          shadowSize: [41, 41],
+          shadowAnchor: [12, 41]
+        })
+      }).addTo(map).bindPopup("Mein Standort");
+    });
+
+    // Garagen-Daten laden
+    fetch("partnergaragen.json")
+      .then(res => res.json())
+      .then(data => {
+        data.forEach(e => {
+          if (e.lat && e.lng) {
+            const marker = L.marker([e.lat, e.lng], { icon: schluesselIcon })
+              .addTo(map)
+              .bindPopup(`<b>${e.Strasse}</b><br>${e.PLZ} ${e.Ort}`);
+            marker._data = e;
+          }
+        });
+
+        // Suche
+        document.getElementById("plzSearch").addEventListener("input", e => {
+          const input = e.target.value.trim();
+          map.eachLayer(layer => {
+            if (layer._data) {
+              const match = layer._data.PLZ.startsWith(input);
+              if (match) layer.setOpacity(1);
+              else layer.setOpacity(0);
+            }
+          });
+        });
+      });
+  </script>
+</body>
+</html>

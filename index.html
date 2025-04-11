@@ -33,12 +33,18 @@
   <script>
     const map = L.map('map').setView([47.0, 8.0], 8);
 
-    // Satelliten-Ansicht
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-      attribution: 'Tiles &copy; Esri'
+    // Esri Satellitenkarte mit Grenzen + Ortsnamen
+    L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Tiles &copy; Esri — Imagery'
     }).addTo(map);
 
-    // Werkstattschlüssel-Icon
+    // Grenzen-Overlay
+    L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
+      attribution: 'Borders & labels © Esri',
+      pane: 'overlayPane'
+    }).addTo(map);
+
+    // Icon für Garagen (Schlüssel)
     const schluesselIcon = L.icon({
       iconUrl: "https://cdn-icons-png.flaticon.com/512/1086/1086741.png",
       iconSize: [30, 30],
@@ -48,9 +54,9 @@
       shadowAnchor: [12, 41]
     });
 
-    // Mein Standort
+    // Standortmarker
     navigator.geolocation.getCurrentPosition(pos => {
-      const marker = L.marker([pos.coords.latitude, pos.coords.longitude], {
+      L.marker([pos.coords.latitude, pos.coords.longitude], {
         title: "Mein Standort",
         icon: L.icon({
           iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
@@ -69,14 +75,17 @@
       .then(data => {
         data.forEach(e => {
           if (e.lat && e.lng) {
-            const marker = L.marker([e.lat, e.lng], { icon: schluesselIcon })
+            const marker = L.marker([e.lat, e.lng], {
+              icon: schluesselIcon,
+              opacity: 1
+            })
               .addTo(map)
               .bindPopup(`<b>${e.Strasse}</b><br>${e.PLZ} ${e.Ort}`);
             marker._data = e;
           }
         });
 
-        // Suche nach PLZ
+        // PLZ Suche
         document.getElementById("plzSearch").addEventListener("input", e => {
           const input = e.target.value.trim();
           map.eachLayer(layer => {

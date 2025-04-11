@@ -2,101 +2,103 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Partnergaragen Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Partnergaragen</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     html, body, #map {
-      height: 100%; margin: 0; background: #111;
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 0;
+      height: 100%;
+      background: #111;
+      font-family: sans-serif;
     }
-
     .searchbox {
       position: absolute;
       top: 10px;
       left: 50%;
       transform: translateX(-50%);
-      z-index: 1000;
       background: rgba(0, 0, 0, 0.7);
-      padding: 8px 15px;
+      color: white;
+      border: 1px solid #444;
       border-radius: 10px;
-      box-shadow: 0 2px 5px #000;
+      padding: 8px 15px;
+      z-index: 1000;
     }
-
     .searchbox input {
       background: transparent;
-      color: #fff;
+      color: white;
       border: none;
       outline: none;
-      font-size: 16px;
+      width: 180px;
     }
   </style>
 </head>
 <body>
   <div class="searchbox">
-    <input type="text" id="plzSearch" placeholder="PLZ eingeben..." />
+    <input type="text" id="plzSearch" placeholder="PLZ eingeben...">
   </div>
   <div id="map"></div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
-    const map = L.map('map').setView([47.0, 8.0], 8);
+    const map = L.map('map').setView([46.8, 8.3], 8);
 
+    // Satellitenkarte mit Grenzen und Labels (Esri)
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-      attribution: '&copy; Esri &mdash; Source: Esri, Earthstar Geographics'
+      attribution: '&copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
     }).addTo(map);
 
-    const borders = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      opacity: 0.3
+    L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
+      attribution: '&copy; Esri Boundaries'
     }).addTo(map);
 
-    const schluesselIcon = L.icon({
-      iconUrl: "https://cdn-icons-png.flaticon.com/512/1086/1086741.png",
-      iconSize: [30, 30],
-      iconAnchor: [15, 30],
-      shadowUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-shadow.png",
-      shadowSize: [41, 41],
-      shadowAnchor: [12, 41]
-    });
-
-    const standortIcon = L.icon({
-      iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
+    // Blauer Marker
+    const blueIcon = L.icon({
+      iconUrl: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png",
       iconSize: [32, 32],
       iconAnchor: [16, 32],
+      popupAnchor: [0, -32],
       shadowUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-shadow.png",
       shadowSize: [41, 41],
       shadowAnchor: [12, 41]
     });
 
+    // Standortmarker
     navigator.geolocation.getCurrentPosition(pos => {
-      L.marker([pos.coords.latitude, pos.coords.longitude], {
-        icon: standortIcon
+      const marker = L.marker([pos.coords.latitude, pos.coords.longitude], {
+        title: "Mein Standort",
+        icon: L.icon({
+          iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
+          iconSize: [32, 32],
+          iconAnchor: [16, 32],
+          shadowUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-shadow.png",
+          shadowSize: [41, 41],
+          shadowAnchor: [12, 41]
+        })
       }).addTo(map).bindPopup("Mein Standort");
     });
 
+    // JSON laden
     fetch("partnergaragen.json")
       .then(res => res.json())
       .then(data => {
         const markers = [];
-
         data.forEach(e => {
           if (e.lat && e.lng) {
-            const marker = L.marker([e.lat, e.lng], { icon: schluesselIcon })
+            const marker = L.marker([e.lat, e.lng], { icon: blueIcon })
               .addTo(map)
-              .bindPopup(`<b>${e.Strasse}</b><br>${e.PLZ} ${e.Ort}`);
+              .bindPopup(`<b>${e.Name}</b><br>${e.Strasse}<br>${e.PLZ} ${e.Ort}`);
             marker._data = e;
             markers.push(marker);
           }
         });
 
+        // Suche
         document.getElementById("plzSearch").addEventListener("input", e => {
           const input = e.target.value.trim();
           markers.forEach(marker => {
-            if (marker._data && marker._data.PLZ.startsWith(input)) {
-              marker.setOpacity(1);
-            } else {
-              marker.setOpacity(0);
-            }
+            const match = marker._data.PLZ.startsWith(input);
+            marker.setOpacity(match ? 1 : 0);
           });
         });
       });

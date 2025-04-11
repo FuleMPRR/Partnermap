@@ -1,0 +1,6330 @@
+[
+  {
+    "Name": "2-Rad-Fachhandel Benker",
+    "Strasse": "Bahnhofstrasse 57",
+    "PLZ": "7302",
+    "Ort": "Landquart",
+    "lat": 46.96860150000001,
+    "lng": 9.5622841185405
+  },
+  {
+    "Name": "Aare Touring Garage AG",
+    "Strasse": "Steinachermattweg 1",
+    "PLZ": "5033",
+    "Ort": "Buchs AG",
+    "lat": 47.3963502,
+    "lng": 8.0726927
+  },
+  {
+    "Name": "Aaretal Garage AG Münsingen",
+    "Strasse": "Bernstrasse 91-93",
+    "PLZ": "3110",
+    "Ort": "Münsingen",
+    "lat": 46.8869099,
+    "lng": 7.5548977
+  },
+  {
+    "Name": "ABAG Nutzfahrzeuge AG",
+    "Strasse": "Hühnerhubelstrasse 87",
+    "PLZ": "3123",
+    "Ort": "Belp",
+    "lat": 46.90589505,
+    "lng": 7.492974815973506
+  },
+  {
+    "Name": "ABAG Nutzfahrzeuge AG",
+    "Strasse": "Zelgstrasse 87",
+    "PLZ": "3661",
+    "Ort": "Uetendorf",
+    "lat": 46.78032505,
+    "lng": 7.594042597413775
+  },
+  {
+    "Name": "ABATRAG AG",
+    "Strasse": "Längfeldweg 111",
+    "PLZ": "2504",
+    "Ort": "Biel/Bienne",
+    "lat": 47.15599595,
+    "lng": 7.289546549999996
+  },
+  {
+    "Name": "Abt Automobile AG Zweigniederlassung Muttenz",
+    "Strasse": "St. Jakob-Strasse 72",
+    "PLZ": "4132",
+    "Ort": "Muttenz",
+    "lat": 47.53104709999999,
+    "lng": 7.638529104416563
+  },
+  {
+    "Name": "Abt Automobile AG",
+    "Strasse": "Lausenerstrasse 11",
+    "PLZ": "4410",
+    "Ort": "Liestal",
+    "lat": 47.4768148,
+    "lng": 7.747570631950195
+  },
+  {
+    "Name": "Abt Automobile AG",
+    "Strasse": "Aumattstrasse 144",
+    "PLZ": "4153",
+    "Ort": "Reinach BL",
+    "lat": 47.4901785,
+    "lng": 7.5974339
+  },
+  {
+    "Name": "AC Alu-Car Garagen AG",
+    "Strasse": "Faden 1",
+    "PLZ": "6374",
+    "Ort": "Buochs",
+    "lat": 46.96846095,
+    "lng": 8.404172599999999
+  },
+  {
+    "Name": "ACM Autocentre Moutier SA",
+    "Strasse": "rue des Gorges 18",
+    "PLZ": "2740",
+    "Ort": "Moutier",
+    "lat": 47.28210905,
+    "lng": 7.380748836676714
+  },
+  {
+    "Name": "ACW Auto-Center Visp AG",
+    "Strasse": "Kantonsstrasse 6",
+    "PLZ": "3930",
+    "Ort": "Eyholz",
+    "lat": 46.2938963,
+    "lng": 7.905186642470602
+  },
+  {
+    "Name": "Garage Adank Chur AG",
+    "Strasse": "Emserstrasse 2",
+    "PLZ": "7000",
+    "Ort": "Chur",
+    "lat": 46.84616685,
+    "lng": 9.506588085984326
+  },
+  {
+    "Name": "Aebi Auto AG",
+    "Strasse": "Bernstrasse 38",
+    "PLZ": "3250",
+    "Ort": "Lyss",
+    "lat": 47.0679388,
+    "lng": 7.315775290125329
+  },
+  {
+    "Name": "Sport-Garage Affentranger AG Affentranger Marcel",
+    "Strasse": "Langenthalstrasse 57",
+    "PLZ": "4932",
+    "Ort": "Lotzwil",
+    "lat": 47.19560180000001,
+    "lng": 7.788608532821242
+  },
+  {
+    "Name": "AHG-Cars Avenches SA",
+    "Strasse": "Route de Berne 6",
+    "PLZ": "1580",
+    "Ort": "Avenches",
+    "lat": 46.88307445,
+    "lng": 7.045705118263619
+  },
+  {
+    "Name": "AHG-Cars Biel",
+    "Strasse": "Bözingenstrasse 100",
+    "PLZ": "2502",
+    "Ort": "Biel/Bienne",
+    "lat": 47.150132,
+    "lng": 7.2626213
+  },
+  {
+    "Name": "AHG-Cars Bulle SA",
+    "Strasse": "Rue de Vevey 82",
+    "PLZ": "1630",
+    "Ort": "Bulle",
+    "lat": 46.6156162,
+    "lng": 7.0520392
+  },
+  {
+    "Name": "AHG-Cars Fribourg SA",
+    "Strasse": "route de Villars-Vert 9",
+    "PLZ": "1752",
+    "Ort": "Villars-sur-Glâne",
+    "lat": 46.798612,
+    "lng": 7.128785699496746
+  },
+  {
+    "Name": "AHG-Cars Kerzers AG",
+    "Strasse": "Murtenstrasse 38",
+    "PLZ": "3210",
+    "Ort": "Kerzers",
+    "lat": 46.9683171,
+    "lng": 7.189982097117811
+  },
+  {
+    "Name": "AHG-Cars Murten AG Zweigniederlassung Laupen AHG-Cars Laupen",
+    "Strasse": "Neueneggstrasse 10",
+    "PLZ": "3177",
+    "Ort": "Laupen BE",
+    "lat": 46.9008765,
+    "lng": 7.24493863918609
+  },
+  {
+    "Name": "AHG-Cars Port AG",
+    "Strasse": "Moosgasse 16",
+    "PLZ": "2562",
+    "Ort": "Port",
+    "lat": 47.11826045,
+    "lng": 7.252769963038461
+  },
+  {
+    "Name": "AHG-Cars Tafers SA",
+    "Strasse": "Mariahilfstrasse 1",
+    "PLZ": "1712",
+    "Ort": "Tafers",
+    "lat": 46.8154632,
+    "lng": 7.215495567269775
+  },
+  {
+    "Name": "AHG-Cars Wünnewil AG",
+    "Strasse": "Dorfstrasse 2",
+    "PLZ": "3184",
+    "Ort": "Wünnewil",
+    "lat": 46.875166,
+    "lng": 7.279555157150972
+  },
+  {
+    "Name": "Airport-Garage Geronimi SA",
+    "Strasse": "Cho d'Punt Dadour 83",
+    "PLZ": "7503",
+    "Ort": "Samedan",
+    "lat": 46.5301418,
+    "lng": 9.874005937117904
+  },
+  {
+    "Name": "Albis-Garage Schaub Schaub Daniel",
+    "Strasse": "Industriestrasse 20",
+    "PLZ": "8910",
+    "Ort": "Affoltern am Albis",
+    "lat": 47.27123255,
+    "lng": 8.444241264316972
+  },
+  {
+    "Name": "Alcardis Automobile AG",
+    "Strasse": "Worblaufenstrasse 4",
+    "PLZ": "3048",
+    "Ort": "Worblaufen",
+    "lat": 46.9770496659575,
+    "lng": 7.465874481379275
+  },
+  {
+    "Name": "Garage Allemann AG",
+    "Strasse": "Schichtstrasse 1",
+    "PLZ": "4528",
+    "Ort": "Zuchwil",
+    "lat": 47.2102573,
+    "lng": 7.5572691
+  },
+  {
+    "Name": "Allmend Automobile AG",
+    "Strasse": "Zwirnerstrasse 316",
+    "PLZ": "8041",
+    "Ort": "Zürich",
+    "lat": 47.33605985,
+    "lng": 8.517557102156026
+  },
+  {
+    "Name": "Alternative Cars S.A.",
+    "Strasse": "Avenue de Grandson 72",
+    "PLZ": "1400",
+    "Ort": "Yverdon-les-Bains",
+    "lat": 46.79055505,
+    "lng": 6.629134092499068
+  },
+  {
+    "Name": "AMAG First AG Porsche Zentrum Zürich",
+    "Strasse": "Bernstrasse 59",
+    "PLZ": "8952",
+    "Ort": "Schlieren",
+    "lat": 47.40023235,
+    "lng": 8.4657925
+  },
+  {
+    "Name": "AMAG Automobiles et Moteurs SA Succursale Retail Prangins Centre Audi",
+    "Strasse": "Route de Lausanne 114",
+    "PLZ": "1197",
+    "Ort": "Prangins",
+    "lat": 46.3909986,
+    "lng": 6.251122995342548
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Aarau",
+    "Strasse": "Rohrerstrasse 29",
+    "PLZ": "5000",
+    "Ort": "Aarau",
+    "lat": 47.39515925000001,
+    "lng": 8.057839525991394
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Altstetten",
+    "Strasse": "Vulkanstrasse 120",
+    "PLZ": "8048",
+    "Ort": "Zürich",
+    "lat": 47.3940505,
+    "lng": 8.4820011
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Autowelt Zürich",
+    "Strasse": "Giessenstrasse 4",
+    "PLZ": "8600",
+    "Ort": "Dübendorf",
+    "lat": 47.40209919999999,
+    "lng": 8.609658910468216
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Badenerstrasse",
+    "Strasse": "Badenerstrasse 329",
+    "PLZ": "8003",
+    "Ort": "Zürich",
+    "lat": 47.3775378,
+    "lng": 8.511578
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Basel",
+    "Strasse": "Reinacherstrasse 149/151",
+    "PLZ": "4053",
+    "Ort": "Basel",
+    "lat": 47.53970042126476,
+    "lng": 7.603035602538693
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Basel Audi Center",
+    "Strasse": "Reinacherstrasse 149",
+    "PLZ": "4053",
+    "Ort": "Basel",
+    "lat": 47.5348729,
+    "lng": 7.6048675
+  },
+  {
+    "Name": "AMAG Automobili e Motori SA Succursale Retail di Bellinzona",
+    "Strasse": "Via San Gottardo 71",
+    "PLZ": "6500",
+    "Ort": "Bellinzona",
+    "lat": 46.2054012,
+    "lng": 9.035848888849998
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Bern Wankdorf",
+    "Strasse": "Wankdorffeldstrasse 60",
+    "PLZ": "3014",
+    "Ort": "Bern",
+    "lat": 46.9656943,
+    "lng": 7.4670871
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Beromünster",
+    "Strasse": "Aargauerstrasse 13",
+    "PLZ": "6215",
+    "Ort": "Beromünster",
+    "lat": 47.20894695,
+    "lng": 8.190991238442464
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Biel Längfeldweg",
+    "Strasse": "Längfeldweg 118",
+    "PLZ": "2504",
+    "Ort": "Biel/Bienne",
+    "lat": 47.15334704999999,
+    "lng": 7.285130500000006
+  },
+  {
+    "Name": "AMAG Automobili e Motori SA Succursale Retail di Breganzona Centro Audi",
+    "Strasse": "via San Carlo 6",
+    "PLZ": "6932",
+    "Ort": "Breganzona",
+    "lat": 46.0131551,
+    "lng": 8.931315999999999
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Biel",
+    "Strasse": "Römerstrasse 16",
+    "PLZ": "2555",
+    "Ort": "Brügg BE",
+    "lat": 47.121744,
+    "lng": 7.261137840721355
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Buchrain",
+    "Strasse": "Elsihof 1",
+    "PLZ": "6035",
+    "Ort": "Perlen",
+    "lat": 47.10697589999999,
+    "lng": 8.353707569162388
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Bülach",
+    "Strasse": "Bächliwis 29",
+    "PLZ": "8184",
+    "Ort": "Bachenbülach",
+    "lat": 47.5078468,
+    "lng": 8.543466174782292
+  },
+  {
+    "Name": "AMAG Automobiles et Moteurs SA Succursale Retail Bulle",
+    "Strasse": "rue de Vuippens 55",
+    "PLZ": "1630",
+    "Ort": "Bulle",
+    "lat": 46.62789495,
+    "lng": 7.060406748815647
+  },
+  {
+    "Name": "AMAG Automobiles et Moteurs SA Succursale Retail Carouge",
+    "Strasse": "chemin de la Marbrerie 8",
+    "PLZ": "1227",
+    "Ort": "Carouge",
+    "lat": 46.179108,
+    "lng": 6.135440575813399
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Zug",
+    "Strasse": "Alte Steinhauserstrasse 1",
+    "PLZ": "6330",
+    "Ort": "Cham",
+    "lat": 47.1865003,
+    "lng": 8.4739032
+  },
+  {
+    "Name": "AMAG Automobiles et Moteurs SA Succursale Retail Châtelaine",
+    "Strasse": "Chemin J.-Ph. De-Sauvage 44-46",
+    "PLZ": "1219",
+    "Ort": "Châtelaine",
+    "lat": 46.21367318171051,
+    "lng": 6.10321150736455
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Chur",
+    "Strasse": "Rossbodenstrasse 14-19",
+    "PLZ": "7000",
+    "Ort": "Chur",
+    "lat": 46.85108238114653,
+    "lng": 9.504796984470692
+  },
+  {
+    "Name": "AMAG Automobili e Motori SA Succursale Retail di Coldrerio",
+    "Strasse": "Via San Gottardo 52",
+    "PLZ": "6877",
+    "Ort": "Coldrerio",
+    "lat": 45.8577362,
+    "lng": 8.9861793
+  },
+  {
+    "Name": "AMAG Automobiles et Moteurs SA Succursale Retail Crissier",
+    "Strasse": "Rue de la Vernie 2",
+    "PLZ": "1023",
+    "Ort": "Crissier",
+    "lat": 46.54362145,
+    "lng": 6.571714096701429
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Davos",
+    "Strasse": "Talstrasse 22",
+    "PLZ": "7270",
+    "Ort": "Davos Platz",
+    "lat": 46.7953859,
+    "lng": 9.824810297271615
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Dulliken",
+    "Strasse": "Bodenackerstrasse 61",
+    "PLZ": "4657",
+    "Ort": "Dulliken",
+    "lat": 47.35082420000001,
+    "lng": 7.953822077604169
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Emmen",
+    "Strasse": "Mooshüslistrasse 32",
+    "PLZ": "6032",
+    "Ort": "Emmen",
+    "lat": 47.07842385,
+    "lng": 8.290448318710064
+  },
+  {
+    "Name": "AMAG Automobiles et Moteurs SA Succursale Retail Etoy",
+    "Strasse": "Route de Buchillon 1",
+    "PLZ": "1163",
+    "Ort": "Etoy",
+    "lat": 46.47353505,
+    "lng": 6.414028934925258
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Fislisbach",
+    "Strasse": "Winkelstrasse 2",
+    "PLZ": "5442",
+    "Ort": "Fislisbach",
+    "lat": 47.4416483,
+    "lng": 8.2956752
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Frauenfeld",
+    "Strasse": "Zürcherstrasse 331",
+    "PLZ": "8500",
+    "Ort": "Frauenfeld",
+    "lat": 47.5666715,
+    "lng": 8.912403271483804
+  },
+  {
+    "Name": "AMAG Automobiles et Moteurs SA Succursale Retail Fribourg",
+    "Strasse": "Route de Villars 103-106",
+    "PLZ": "1701",
+    "Ort": "Fribourg",
+    "lat": 46.80089195135172,
+    "lng": 7.142988215561818
+  },
+  {
+    "Name": "AMAG Automobili e Motori SA Succursale Retail di Giubiasco Centro Audi",
+    "Strasse": "Via Bellinzona 37",
+    "PLZ": "6512",
+    "Ort": "Giubiasco",
+    "lat": 46.17388854119393,
+    "lng": 9.010764299096444
+  },
+  {
+    "Name": "AMAG Automobili e Motori SA Succursale Retail di Giubiasco Centro Skoda",
+    "Strasse": "Via Bellinzona 20",
+    "PLZ": "6512",
+    "Ort": "Giubiasco",
+    "lat": 46.17388854119393,
+    "lng": 9.010764299096444
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Gümligen",
+    "Strasse": "Worbstrasse 226",
+    "PLZ": "3073",
+    "Ort": "Gümligen",
+    "lat": 46.93290845,
+    "lng": 7.506158179209031
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Heerbrugg",
+    "Strasse": "Auerstrasse 20",
+    "PLZ": "9435",
+    "Ort": "Heerbrugg",
+    "lat": 47.41357515,
+    "lng": 9.630651584397086
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Horgen",
+    "Strasse": "Im Schnegg 1",
+    "PLZ": "8810",
+    "Ort": "Horgen",
+    "lat": 47.2481368,
+    "lng": 8.6048958
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Jona",
+    "Strasse": "St. Gallerstrasse 101",
+    "PLZ": "8645",
+    "Ort": "Jona",
+    "lat": 47.2304044,
+    "lng": 8.84733385354506
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Kleinbasel",
+    "Strasse": "Schönaustrasse 25",
+    "PLZ": "4058",
+    "Ort": "Basel",
+    "lat": 47.5677783,
+    "lng": 7.5991173
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Kloten",
+    "Strasse": "Steinackerstrasse 20",
+    "PLZ": "8302",
+    "Ort": "Kloten",
+    "lat": 47.4489878,
+    "lng": 8.596771043788248
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Kriens",
+    "Strasse": "Grabenhofstrasse 10",
+    "PLZ": "6010",
+    "Ort": "Kriens",
+    "lat": 47.02375155,
+    "lng": 8.295981788254364
+  },
+  {
+    "Name": "AMAG Automobiles et Moteurs SA Succursale Retail Lausanne",
+    "Strasse": "Avenue de Provence 2",
+    "PLZ": "1007",
+    "Ort": "Lausanne",
+    "lat": 46.52241825,
+    "lng": 6.612710338643375
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Letzigrund Audi Center",
+    "Strasse": "Rautistrasse 23",
+    "PLZ": "8048",
+    "Ort": "Zürich",
+    "lat": 47.38040214999999,
+    "lng": 8.492757820238086
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Liestal",
+    "Strasse": "Rheinstrasse 107",
+    "PLZ": "4410",
+    "Ort": "Liestal",
+    "lat": 47.49675285,
+    "lng": 7.723208475446683
+  },
+  {
+    "Name": "AMAG Automobili e Motori SA Succursale Retail di Mendrisio Garage Cassarate",
+    "Strasse": "Via Rinaldi 3",
+    "PLZ": "6850",
+    "Ort": "Mendrisio",
+    "lat": 45.8804544,
+    "lng": 8.958604060839129
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Murten",
+    "Strasse": "Bernstrasse 11",
+    "PLZ": "3280",
+    "Ort": "Murten",
+    "lat": 46.93031037299124,
+    "lng": 7.122521113213559
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Muttenz",
+    "Strasse": "Birsfelderstrasse 50",
+    "PLZ": "4132",
+    "Ort": "Muttenz",
+    "lat": 47.53697035,
+    "lng": 7.6341464547153
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Schlieren",
+    "Strasse": "Lättenstrasse 37",
+    "PLZ": "8952",
+    "Ort": "Schlieren",
+    "lat": 47.4028543,
+    "lng": 8.4410925
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail NF Uster VW Nutzfahrzeugcenter",
+    "Strasse": "Pfäffikerstrasse 32",
+    "PLZ": "8610",
+    "Ort": "Uster",
+    "lat": 47.3575687,
+    "lng": 8.728557949999999
+  },
+  {
+    "Name": "AMAG Automobiles et Moteurs SA Succursale Retail Nyon Champ-Colin Centre VW et Skoda",
+    "Strasse": "Route de Champ-Colin 9",
+    "PLZ": "1260",
+    "Ort": "Nyon",
+    "lat": 46.3836539,
+    "lng": 6.2166932
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Oftringen",
+    "Strasse": "Bernstrasse 23",
+    "PLZ": "4665",
+    "Ort": "Oftringen",
+    "lat": 47.3098145,
+    "lng": 7.9125348
+  },
+  {
+    "Name": "AMAG Automobili e Motori SA Succursale Retail di Pambio-Noranco",
+    "Strasse": "Via Pian Scairolo 36",
+    "PLZ": "6915",
+    "Ort": "Pambio-Noranco",
+    "lat": 45.98188279999999,
+    "lng": 8.929204642873874
+  },
+  {
+    "Name": "AMAG Automobiles et Moteurs SA Succursale Retail Petit-Lancy",
+    "Strasse": "Chemin du Bac 21",
+    "PLZ": "1213",
+    "Ort": "Petit-Lancy",
+    "lat": 46.1958738,
+    "lng": 6.1129194
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Pratteln",
+    "Strasse": "Muttenzerstrasse 143",
+    "PLZ": "4133",
+    "Ort": "Pratteln",
+    "lat": 47.5208124,
+    "lng": 7.6742785
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail PW Uster",
+    "Strasse": "Ackerstrasse 47",
+    "PLZ": "8610",
+    "Ort": "Uster",
+    "lat": 47.35661545,
+    "lng": 8.706119064034532
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Rheinfelden",
+    "Strasse": "Zürcherstrasse 34",
+    "PLZ": "4310",
+    "Ort": "Rheinfelden",
+    "lat": 47.55154855,
+    "lng": 7.803961785073865
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Schaffhausen",
+    "Strasse": "Spitalstrasse 27",
+    "PLZ": "8201",
+    "Ort": "Schaffhausen",
+    "lat": 47.69980625,
+    "lng": 8.633044470918367
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Schinznach-Bad",
+    "Strasse": "Aarauerstrasse 22",
+    "PLZ": "5116",
+    "Ort": "Schinznach Bad",
+    "lat": 47.44352957556569,
+    "lng": 8.168680202486852
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Solothurn/Zuchwil",
+    "Strasse": "Gewerbestrasse 11",
+    "PLZ": "4528",
+    "Ort": "Zuchwil",
+    "lat": 47.200787,
+    "lng": 7.574528753714089
+  },
+  {
+    "Name": "AMAG Automobiles et Moteurs SA Succursale Retail St. Légier",
+    "Strasse": "route Industrielle 9",
+    "PLZ": "1806",
+    "Ort": "St-Légier-La Chiésaz",
+    "lat": 46.47464425,
+    "lng": 6.863861746805366
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Sursee",
+    "Strasse": "Neuweidstrasse 1",
+    "PLZ": "6208",
+    "Ort": "Oberkirch LU",
+    "lat": 47.1523882,
+    "lng": 8.116179475567687
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Thun",
+    "Strasse": "Gwattstrasse 22-28",
+    "PLZ": "3604",
+    "Ort": "Thun",
+    "lat": 46.73439790324669,
+    "lng": 7.627146169539349
+  },
+  {
+    "Name": "AMAG Automobiles et Moteurs SA Succursale Retail Vernier Centre VW Véhicules Utilitaires",
+    "Strasse": "Route du Nant-d'Avril 34",
+    "PLZ": "1214",
+    "Ort": "Vernier",
+    "lat": 46.2201938,
+    "lng": 6.0855256
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Vevey",
+    "Strasse": "avenue Général-Guisan 78",
+    "PLZ": "1800",
+    "Ort": "Vevey",
+    "lat": 46.46342629212888,
+    "lng": 6.841114149896987
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Villeneuve",
+    "Strasse": "route du Simplon 17",
+    "PLZ": "1845",
+    "Ort": "Noville",
+    "lat": 46.39102305,
+    "lng": 6.922379106051398
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail NF Winterthur",
+    "Strasse": "Zürcherstrasse 312",
+    "PLZ": "8406",
+    "Ort": "Winterthur",
+    "lat": 47.47754664999999,
+    "lng": 8.703925922697753
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail PW Winterthur",
+    "Strasse": "Zürcherstrasse 240",
+    "PLZ": "8406",
+    "Ort": "Winterthur",
+    "lat": 47.4860541,
+    "lng": 8.70188346789959
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Wettswil",
+    "Strasse": "Moosstrasse 33a",
+    "PLZ": "8907",
+    "Ort": "Wettswil",
+    "lat": 47.33461825,
+    "lng": 8.467478253039566
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Utoquai",
+    "Strasse": "Utoquai 47/49",
+    "PLZ": "8008",
+    "Ort": "Zürich",
+    "lat": 47.3623515,
+    "lng": 8.5477223
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Zürich-Wollishofen",
+    "Strasse": "Kalchbühlstrasse 40-44",
+    "PLZ": "8038",
+    "Ort": "Zürich",
+    "lat": 47.33531522071358,
+    "lng": 8.534339943288124
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Zweigniederlassung Retail Zuchwil/Solothurn",
+    "Strasse": "Langfeldstrasse 30",
+    "PLZ": "4528",
+    "Ort": "Zuchwil",
+    "lat": 47.2024646,
+    "lng": 7.571978474533596
+  },
+  {
+    "Name": "AMAG Automobiles et Moteurs SA AMAG Retail La Tour-de-Trême",
+    "Strasse": "Route de Pra-Riond 5",
+    "PLZ": "1635",
+    "Ort": "La Tour-de-Trême",
+    "lat": 46.6016328,
+    "lng": 7.0755693
+  },
+  {
+    "Name": "AMAG Automobil- und Motoren AG",
+    "Strasse": "Oberfeldstrasse 6",
+    "PLZ": "8570",
+    "Ort": "Weinfelden",
+    "lat": 47.5607536,
+    "lng": 9.131500097011688
+  },
+  {
+    "Name": "AMAG Automobil und Motoren AG Wettingen",
+    "Strasse": "Landstrasse 51",
+    "PLZ": "5430",
+    "Ort": "Wettingen",
+    "lat": 47.46435685214266,
+    "lng": 8.32977034867766
+  },
+  {
+    "Name": "Andrea Bricalli SA",
+    "Strasse": "Via San Gottardo 31",
+    "PLZ": "6877",
+    "Ort": "Coldrerio",
+    "lat": 45.85361152912326,
+    "lng": 8.996344041358238
+  },
+  {
+    "Name": "Annerturgi Nutzfahrzeuge AG",
+    "Strasse": "Vogelsangstrasse 13a",
+    "PLZ": "5412",
+    "Ort": "Gebenstorf",
+    "lat": 47.4891503,
+    "lng": 8.2413127
+  },
+  {
+    "Name": "Garage Arena AG",
+    "Strasse": "Weingartenstrasse 70",
+    "PLZ": "3904",
+    "Ort": "Naters",
+    "lat": 46.32850285,
+    "lng": 8.009402901412003
+  },
+  {
+    "Name": "Arenaz Automobiles Crissier SA",
+    "Strasse": "Chemin de l'esparcette 6",
+    "PLZ": "1023",
+    "Ort": "Crissier",
+    "lat": 46.55253235,
+    "lng": 6.572955607987232
+  },
+  {
+    "Name": "Arenaz Automobiles et Service SA",
+    "Strasse": "Route de Bremblens 2",
+    "PLZ": "1122",
+    "Ort": "Romanel-sur-Morges",
+    "lat": 46.5511054,
+    "lng": 6.511973558975354
+  },
+  {
+    "Name": "ASS Auto-Sport-Service SA",
+    "Strasse": "Route des Acacias 39",
+    "PLZ": "1227",
+    "Ort": "Les Acacias",
+    "lat": 46.19080888928608,
+    "lng": 6.134790555499706
+  },
+  {
+    "Name": "Asticher SA Garage & Carrosserie",
+    "Strasse": "Rue du Jura-Industriel 32",
+    "PLZ": "2304",
+    "Ort": "La Chaux-de-Fonds",
+    "lat": 47.08534585,
+    "lng": 6.800974452047583
+  },
+  {
+    "Name": "Garage Atlantic Eyer Paul AG",
+    "Strasse": "Industriestrasse 32",
+    "PLZ": "3900",
+    "Ort": "Gamsen",
+    "lat": 46.30708793809617,
+    "lng": 7.962717067237158
+  },
+  {
+    "Name": "Atlas Automobiles SA",
+    "Strasse": "Avenue du Grand-St-Bernard 42",
+    "PLZ": "1920",
+    "Ort": "Martigny",
+    "lat": 46.0962759,
+    "lng": 7.0679888
+  },
+  {
+    "Name": "Atlas Automobiles Sierre SA",
+    "Strasse": "route du Simplon 75",
+    "PLZ": "3960",
+    "Ort": "Sierre",
+    "lat": 46.2985274,
+    "lng": 7.5466482
+  },
+  {
+    "Name": "Auto AG Truck Gossau",
+    "Strasse": "Lagerstrasse 4",
+    "PLZ": "9200",
+    "Ort": "Gossau SG",
+    "lat": 47.4113807,
+    "lng": 9.275177907194573
+  },
+  {
+    "Name": "Auto AG Truck Limmattal",
+    "Strasse": "Im Gewerbepark 1",
+    "PLZ": "8104",
+    "Ort": "Weiningen ZH",
+    "lat": 47.4171457,
+    "lng": 8.4182211
+  },
+  {
+    "Name": "Auto AG Truck Müllheim",
+    "Strasse": "Grüneck",
+    "PLZ": "8555",
+    "Ort": "Müllheim Dorf",
+    "lat": 47.5943176,
+    "lng": 8.9938568
+  },
+  {
+    "Name": "Auto AG Truck Oberland",
+    "Strasse": "Glütschbachstrasse 5",
+    "PLZ": "3661",
+    "Ort": "Uetendorf",
+    "lat": 46.77759235,
+    "lng": 7.582211405262871
+  },
+  {
+    "Name": "Auto AG Truck Rothenburg",
+    "Strasse": "Stationsstrasse 88",
+    "PLZ": "6023",
+    "Ort": "Rothenburg",
+    "lat": 47.09138995,
+    "lng": 8.251067754023302
+  },
+  {
+    "Name": "Auto AG Truck Schönbühl",
+    "Strasse": "Gewerbestrasse 12",
+    "PLZ": "3322",
+    "Ort": "Urtenen-Schönbühl",
+    "lat": 47.01756005,
+    "lng": 7.499094063617839
+  },
+  {
+    "Name": "Auto AG Truck Staad",
+    "Strasse": "Hauptstrasse 104",
+    "PLZ": "9422",
+    "Ort": "Staad SG",
+    "lat": 47.4840182,
+    "lng": 9.551733147545757
+  },
+  {
+    "Name": "Auto Bolli AG, Benken ZH",
+    "Strasse": "Marthalerstrasse 9",
+    "PLZ": "8463",
+    "Ort": "Benken ZH",
+    "lat": 47.6510295,
+    "lng": 8.652920873115578
+  },
+  {
+    "Name": "Auto Center AG Worben",
+    "Strasse": "Hauptstrasse 64",
+    "PLZ": "3252",
+    "Ort": "Worben",
+    "lat": 47.0943323,
+    "lng": 7.290261758987156
+  },
+  {
+    "Name": "Auto-Center H.R. Flückiger AG",
+    "Strasse": "Langenthalstrasse 61",
+    "PLZ": "4912",
+    "Ort": "Aarwangen",
+    "lat": 47.2344018,
+    "lng": 7.774837220282264
+  },
+  {
+    "Name": "Auto-Center Küng AG",
+    "Strasse": "Landstrasse 73",
+    "PLZ": "5412",
+    "Ort": "Gebenstorf",
+    "lat": 47.4815048,
+    "lng": 8.240272497839442
+  },
+  {
+    "Name": "Auto Dünki AG",
+    "Strasse": "Weiachstrasse 2",
+    "PLZ": "8413",
+    "Ort": "Neftenbach",
+    "lat": 47.5189125,
+    "lng": 8.655496953002388
+  },
+  {
+    "Name": "Auto-Graf AG",
+    "Strasse": "Seestrasse 941",
+    "PLZ": "8706",
+    "Ort": "Meilen",
+    "lat": 47.26429965,
+    "lng": 8.66159492491834
+  },
+  {
+    "Name": "Auto Kämpf AG",
+    "Strasse": "Winterhaldenstrasse 5",
+    "PLZ": "3627",
+    "Ort": "Heimberg",
+    "lat": 46.79769005,
+    "lng": 7.602549051875717
+  },
+  {
+    "Name": "Auto Kurve AG",
+    "Strasse": "Hauptstrasse 7",
+    "PLZ": "4416",
+    "Ort": "Bubendorf",
+    "lat": 47.4562793,
+    "lng": 7.7410472
+  },
+  {
+    "Name": "Auto-La Côte SA",
+    "Strasse": "Rue de l’Etraz 2",
+    "PLZ": "1196",
+    "Ort": "Gland",
+    "lat": 46.4222795,
+    "lng": 6.26086420885887
+  },
+  {
+    "Name": "Auto Lang AG",
+    "Strasse": "Langfeldstrasse 76",
+    "PLZ": "8500",
+    "Ort": "Frauenfeld",
+    "lat": 47.56651945,
+    "lng": 8.908863601385463
+  },
+  {
+    "Name": "Auto Lang AG",
+    "Strasse": "Sonnenwiesenstrasse 17",
+    "PLZ": "8280",
+    "Ort": "Kreuzlingen",
+    "lat": 47.6443316,
+    "lng": 9.194361994745986
+  },
+  {
+    "Name": "Auto Lüthi GmbH",
+    "Strasse": "Hauptstrasse 74",
+    "PLZ": "8572",
+    "Ort": "Berg TG",
+    "lat": 47.58408585,
+    "lng": 9.169192205155838
+  },
+  {
+    "Name": "Auto Margarethen AG",
+    "Strasse": "Margarethenstrasse 79",
+    "PLZ": "4053",
+    "Ort": "Basel",
+    "lat": 47.5450183,
+    "lng": 7.5827339
+  },
+  {
+    "Name": "Auto Mathis AG",
+    "Strasse": "Via Somplaz 33",
+    "PLZ": "7500",
+    "Ort": "St. Moritz",
+    "lat": 46.49644450809571,
+    "lng": 9.83658222457698
+  },
+  {
+    "Name": "Auto-Mathis AG",
+    "Strasse": "Cho d'Punt 33",
+    "PLZ": "7503",
+    "Ort": "Samedan",
+    "lat": 46.5299559,
+    "lng": 9.8753271
+  },
+  {
+    "Name": "Auto Moto Marine Brienz AG",
+    "Strasse": "Lauimattenweg 11",
+    "PLZ": "3855",
+    "Ort": "Brienz BE",
+    "lat": 46.7439625,
+    "lng": 8.056633999999999
+  },
+  {
+    "Name": "Auto Neubrück AG",
+    "Strasse": "Talstrasse 18",
+    "PLZ": "3922",
+    "Ort": "Stalden VS",
+    "lat": 46.22740190095946,
+    "lng": 7.871675535184789
+  },
+  {
+    "Name": "Auto Nüssle AG",
+    "Strasse": "Industriestrasse 11",
+    "PLZ": "7220",
+    "Ort": "Schiers",
+    "lat": 46.9667328,
+    "lng": 9.690793789459974
+  },
+  {
+    "Name": "Auto-Rives, succursale de Groupe Leuba SA",
+    "Strasse": "Rue de Lausanne 45",
+    "PLZ": "1110",
+    "Ort": "Morges",
+    "lat": 46.5158866,
+    "lng": 6.5046429
+  },
+  {
+    "Name": "Auto Rüger AG Grosshöchstetten",
+    "Strasse": "Thunstrasse 6",
+    "PLZ": "3506",
+    "Ort": "Grosshöchstetten",
+    "lat": 46.90041189999999,
+    "lng": 7.633050385048801
+  },
+  {
+    "Name": "Auto Rüger AG",
+    "Strasse": "Hauptstrasse 7",
+    "PLZ": "3860",
+    "Ort": "Meiringen",
+    "lat": 46.72817475,
+    "lng": 8.183144979280623
+  },
+  {
+    "Name": "Auto Rüger AG Langnau",
+    "Strasse": "Schärischachen 808",
+    "PLZ": "3550",
+    "Ort": "Langnau im Emmental",
+    "lat": 46.9241349,
+    "lng": 7.820984625014196
+  },
+  {
+    "Name": "Auto Rüger AG Wilderswil",
+    "Strasse": "Industriestrasse 12",
+    "PLZ": "3812",
+    "Ort": "Wilderswil",
+    "lat": 46.67166265,
+    "lng": 7.877599604691065
+  },
+  {
+    "Name": "Auto SA Truck Ticino",
+    "Strasse": "via San Mamete 98",
+    "PLZ": "6805",
+    "Ort": "Mezzovico",
+    "lat": 46.09238475,
+    "lng": 8.9217374
+  },
+  {
+    "Name": "Auto Sauter AG",
+    "Strasse": "Landstrasse 6",
+    "PLZ": "8754",
+    "Ort": "Netstal",
+    "lat": 47.06598055,
+    "lng": 9.057388446833155
+  },
+  {
+    "Name": "Auto Suter AG",
+    "Strasse": "Chamerstrasse 50",
+    "PLZ": "6331",
+    "Ort": "Hünenberg",
+    "lat": 47.18045243594741,
+    "lng": 8.437909745764358
+  },
+  {
+    "Name": "Auto Suter AG Filiale Sins",
+    "Strasse": "Luzernerstrasse 27",
+    "PLZ": "5643",
+    "Ort": "Sins",
+    "lat": 47.1883609,
+    "lng": 8.3963494
+  },
+  {
+    "Name": "Auto Suter Küssnacht GmbH",
+    "Strasse": "Bodenweid 2",
+    "PLZ": "6403",
+    "Ort": "Küssnacht am Rigi",
+    "lat": 47.08704145,
+    "lng": 8.440130723005783
+  },
+  {
+    "Name": "Auto Walser AG",
+    "Strasse": "Bahnhofstrasse 56",
+    "PLZ": "7323",
+    "Ort": "Wangs",
+    "lat": 47.03876695,
+    "lng": 9.436745759814855
+  },
+  {
+    "Name": "Auto Werthmüller AG",
+    "Strasse": "Tempelstrasse 8A",
+    "PLZ": "3608",
+    "Ort": "Thun",
+    "lat": 46.74540372064296,
+    "lng": 7.597197499147576
+  },
+  {
+    "Name": "Auto Wild AG",
+    "Strasse": "Untermüli 6",
+    "PLZ": "6300",
+    "Ort": "Zug",
+    "lat": 47.1805506,
+    "lng": 8.5181305
+  },
+  {
+    "Name": "Auto Wydematt AG",
+    "Strasse": "Laufenstrasse 6",
+    "PLZ": "4226",
+    "Ort": "Breitenbach",
+    "lat": 47.40784425,
+    "lng": 7.542414237278575
+  },
+  {
+    "Name": "Auto Zentrum West AG",
+    "Strasse": "Piccardstrasse 1",
+    "PLZ": "9015",
+    "Ort": "St. Gallen",
+    "lat": 47.4091981,
+    "lng": 9.312851242614219
+  },
+  {
+    "Name": "Auto Zollikofer AG",
+    "Strasse": "Sonnmattstrasse 10",
+    "PLZ": "9532",
+    "Ort": "Rickenbach b. Wil",
+    "lat": 47.4532731,
+    "lng": 9.045396303846136
+  },
+  {
+    "Name": "AUTOBRITT AUTOMOBILE SA",
+    "Strasse": "Rue Viguet 1",
+    "PLZ": "1227",
+    "Ort": "Les Acacias",
+    "lat": 46.1921368,
+    "lng": 6.1293435
+  },
+  {
+    "Name": "Autocenter Aebi AG",
+    "Strasse": "Bernstrasse",
+    "PLZ": "3250",
+    "Ort": "Lyss",
+    "lat": 47.07011808088454,
+    "lng": 7.310644634933912
+  },
+  {
+    "Name": "Autocenter Bülach-Süd AG",
+    "Strasse": "Länggenstrasse 36",
+    "PLZ": "8184",
+    "Ort": "Bachenbülach",
+    "lat": 47.5023178,
+    "lng": 8.53810949769555
+  },
+  {
+    "Name": "AutoCenter Effretikon Inglin & Roci AG",
+    "Strasse": "Industriestrasse 2",
+    "PLZ": "8307",
+    "Ort": "Effretikon",
+    "lat": 47.41846005,
+    "lng": 8.684516516074186
+  },
+  {
+    "Name": "Autocenter Meier AG",
+    "Strasse": "Hauptstrasse 158",
+    "PLZ": "5742",
+    "Ort": "Kölliken",
+    "lat": 47.3280213,
+    "lng": 8.02130143176625
+  },
+  {
+    "Name": "Autocenter Säntis AG",
+    "Strasse": "Bildstrasse 3",
+    "PLZ": "9030",
+    "Ort": "Abtwil SG",
+    "lat": 47.4171367,
+    "lng": 9.3123782
+  },
+  {
+    "Name": "Autocenter Zimmerli GmbH",
+    "Strasse": "Bruggerstrasse 47",
+    "PLZ": "5102",
+    "Ort": "Rupperswil",
+    "lat": 47.40757605,
+    "lng": 8.137019504068952
+  },
+  {
+    "Name": "Autocorner Valais SA",
+    "Strasse": "Rue Traversière 10",
+    "PLZ": "1950",
+    "Ort": "Sion",
+    "lat": 46.2184068,
+    "lng": 7.3500338
+  },
+  {
+    "Name": "Autofrank AG",
+    "Strasse": "Trockenloostrasse 65",
+    "PLZ": "8105",
+    "Ort": "Regensdorf",
+    "lat": 47.44084135,
+    "lng": 8.472187133265827
+  },
+  {
+    "Name": "Autohaus Imholz AG Ebikon",
+    "Strasse": "Luzernerstrasse 49",
+    "PLZ": "6030",
+    "Ort": "Ebikon",
+    "lat": 47.0719577,
+    "lng": 8.324985486808373
+  },
+  {
+    "Name": "Autohaus Schneider AG",
+    "Strasse": "Zeughausstrasse 74",
+    "PLZ": "8400",
+    "Ort": "Winterthur",
+    "lat": 47.4966682,
+    "lng": 8.7317987
+  },
+  {
+    "Name": "Autohaus Thun-Nord AG Steffisburg",
+    "Strasse": "Bernstrasse 119",
+    "PLZ": "3613",
+    "Ort": "Steffisburg",
+    "lat": 46.77599145,
+    "lng": 7.614671479182494
+  },
+  {
+    "Name": "Autohaus von Känel AG",
+    "Strasse": "Spiezstrasse 22",
+    "PLZ": "3714",
+    "Ort": "Frutigen",
+    "lat": 46.59504895,
+    "lng": 7.652089007775885
+  },
+  {
+    "Name": "Autohaus Wederich, Donà AG",
+    "Strasse": "Grienweg 7",
+    "PLZ": "4222",
+    "Ort": "Zwingen",
+    "lat": 47.4392211,
+    "lng": 7.53759005
+  },
+  {
+    "Name": "Autohaus Willi AG",
+    "Strasse": "Kasernenstrasse 30",
+    "PLZ": "7000",
+    "Ort": "Chur",
+    "lat": 46.84769485,
+    "lng": 9.524203272830757
+  },
+  {
+    "Name": "Automaxx AG",
+    "Strasse": "Mühlenstrasse 96",
+    "PLZ": "8207",
+    "Ort": "Schaffhausen",
+    "lat": 47.6928425,
+    "lng": 8.6232822
+  },
+  {
+    "Name": "Automobile Franzen AG",
+    "Strasse": "Kantonsstrasse 75",
+    "PLZ": "3930",
+    "Ort": "Visp",
+    "lat": 46.2939665,
+    "lng": 7.9020885
+  },
+  {
+    "Name": "Automobiles Senn SA",
+    "Strasse": "Le Bey",
+    "PLZ": "1442",
+    "Ort": "Montagny-Yverdon",
+    "lat": 46.79097285,
+    "lng": 6.62558935
+  },
+  {
+    "Name": "Automobiles Zimmermann SA",
+    "Strasse": "Route de Chésalles 56",
+    "PLZ": "1723",
+    "Ort": "Marly",
+    "lat": 46.77318652777173,
+    "lng": 7.153812890072301
+  },
+  {
+    "Name": "AutoNova Payerne SA",
+    "Strasse": "Route de la Grosse Pierre 24",
+    "PLZ": "1530",
+    "Ort": "Payerne",
+    "lat": 46.82613674558433,
+    "lng": 6.94572979110506
+  },
+  {
+    "Name": "Autorama, Fritz Schläpfer AG",
+    "Strasse": "Langäulistrasse 70",
+    "PLZ": "9470",
+    "Ort": "Buchs SG",
+    "lat": 47.17442955,
+    "lng": 9.466837427343398
+  },
+  {
+    "Name": "Autorep AG",
+    "Strasse": "Kantonsstrasse 111",
+    "PLZ": "6234",
+    "Ort": "Triengen",
+    "lat": 47.2458127,
+    "lng": 8.06968535
+  },
+  {
+    "Name": "Autorimessa Nepple SA Bellinzona",
+    "Strasse": "viale Stefano Franscini 30",
+    "PLZ": "6500",
+    "Ort": "Bellinzona",
+    "lat": 46.193247,
+    "lng": 9.0120996
+  },
+  {
+    "Name": "Autors SA Ford",
+    "Strasse": "Via Monte Ceneri 20a",
+    "PLZ": "6512",
+    "Ort": "Giubiasco",
+    "lat": 46.17183515023637,
+    "lng": 9.009721332800451
+  },
+  {
+    "Name": "AUTORS SA Renault",
+    "Strasse": "via Monte Ceneri 20",
+    "PLZ": "6512",
+    "Ort": "Giubiasco",
+    "lat": 46.17183515023637,
+    "lng": 9.009721332800451
+  },
+  {
+    "Name": "AUTORS SA",
+    "Strasse": "via Industria 21",
+    "PLZ": "6934",
+    "Ort": "Bioggio",
+    "lat": 46.0179134,
+    "lng": 8.917877449999999
+  },
+  {
+    "Name": "Autos Carouge, André Chevalley SA",
+    "Strasse": "route de Saint-Julien 46",
+    "PLZ": "1227",
+    "Ort": "Carouge",
+    "lat": 46.1762991,
+    "lng": 6.1322565
+  },
+  {
+    "Name": "Autos Carrefour Dorigny, succursale de Groupe Leuba SA",
+    "Strasse": "Route Cantonale 1",
+    "PLZ": "1022",
+    "Ort": "Chavannes-Renens",
+    "lat": 46.5212537,
+    "lng": 6.586269372859019
+  },
+  {
+    "Name": "Autoverkehr AG Langenthal",
+    "Strasse": "Gaswerkstrasse 41",
+    "PLZ": "4900",
+    "Ort": "Langenthal",
+    "lat": 47.228383,
+    "lng": 7.78727295937862
+  },
+  {
+    "Name": "Autoverkehr AG Zuchwil",
+    "Strasse": "Gewerbestrasse 1",
+    "PLZ": "4528",
+    "Ort": "Zuchwil",
+    "lat": 47.201537,
+    "lng": 7.5722696
+  },
+  {
+    "Name": "Autoverkehr Region Bern AG",
+    "Strasse": "Hubelgutstrasse 2",
+    "PLZ": "3048",
+    "Ort": "Worblaufen",
+    "lat": 46.98072155,
+    "lng": 7.455792991305943
+  },
+  {
+    "Name": "Autoviva AG",
+    "Strasse": "Kreuzlingerstrasse 30",
+    "PLZ": "8580",
+    "Ort": "Amriswil",
+    "lat": 47.54738815,
+    "lng": 9.279887521719242
+  },
+  {
+    "Name": "Autoweibel AG",
+    "Strasse": "Murtenstrasse 4",
+    "PLZ": "3270",
+    "Ort": "Aarberg",
+    "lat": 47.0438206,
+    "lng": 7.273390839861923
+  },
+  {
+    "Name": "Baldegger Automobile AG",
+    "Strasse": "Erlachstrasse 3",
+    "PLZ": "9014",
+    "Ort": "St. Gallen",
+    "lat": 47.4108013,
+    "lng": 9.3366448
+  },
+  {
+    "Name": "Baldegger Automobile AG ZN Oberuzwil",
+    "Strasse": "Flawilerstrasse 36",
+    "PLZ": "9242",
+    "Ort": "Oberuzwil",
+    "lat": 47.4278255,
+    "lng": 9.1286567
+  },
+  {
+    "Name": "Baldegger Automobile AG ZN WIl",
+    "Strasse": "Flawilerstrasse 31",
+    "PLZ": "9500",
+    "Ort": "Wil SG",
+    "lat": 47.4505472,
+    "lng": 9.055156393904593
+  },
+  {
+    "Name": "Gerald Barcal Automobile AG",
+    "Strasse": "Farbhofstrasse 21",
+    "PLZ": "8048",
+    "Ort": "Zürich",
+    "lat": 47.3912337,
+    "lng": 8.476914665186854
+  },
+  {
+    "Name": "Bärfuss AG",
+    "Strasse": "Gwattstrasse 54",
+    "PLZ": "3604",
+    "Ort": "Thun",
+    "lat": 46.73466265,
+    "lng": 7.626912721133904
+  },
+  {
+    "Name": "Centralgarage Barth AG",
+    "Strasse": "Freiburgstrasse 396",
+    "PLZ": "3018",
+    "Ort": "Bern",
+    "lat": 46.9346947,
+    "lng": 7.391514164670509
+  },
+  {
+    "Name": "Emil Baschnagel AG",
+    "Strasse": "Kestenbergstrasse 32",
+    "PLZ": "5210",
+    "Ort": "Windisch",
+    "lat": 47.4699852,
+    "lng": 8.210697240055897
+  },
+  {
+    "Name": "Garage Battaglia SA",
+    "Strasse": "Spinadascio 698A",
+    "PLZ": "7746",
+    "Ort": "Le Prese",
+    "lat": 46.297386,
+    "lng": 10.0740742
+  },
+  {
+    "Name": "Moto Bättig AG",
+    "Strasse": "Hauptstrasse 16",
+    "PLZ": "5737",
+    "Ort": "Menziken",
+    "lat": 47.24447625000001,
+    "lng": 8.186035200877264
+  },
+  {
+    "Name": "Garage Bel-Air SA",
+    "Strasse": "Avenue des Sports 13",
+    "PLZ": "1400",
+    "Ort": "Yverdon-les-Bains",
+    "lat": 46.7805729,
+    "lng": 6.653356496915791
+  },
+  {
+    "Name": "Belwag Belp",
+    "Strasse": "Viehweidstrasse 12",
+    "PLZ": "3123",
+    "Ort": "Belp",
+    "lat": 46.89122115,
+    "lng": 7.50953848485342
+  },
+  {
+    "Name": "BELWAG AG Bern",
+    "Strasse": "Schermenweg 5",
+    "PLZ": "3014",
+    "Ort": "Bern",
+    "lat": 46.9649315,
+    "lng": 7.4692992
+  },
+  {
+    "Name": "Garage Berset Sàrl",
+    "Strasse": "Route de la Gruyère 4",
+    "PLZ": "1723",
+    "Ort": "Marly",
+    "lat": 46.76997643048279,
+    "lng": 7.160389640979642
+  },
+  {
+    "Name": "Bertoni Automobili SA",
+    "Strasse": "via Delta 11",
+    "PLZ": "6612",
+    "Ort": "Ascona",
+    "lat": 46.16494954638386,
+    "lng": 8.777007124003108
+  },
+  {
+    "Name": "Bertschy Automobiles SA",
+    "Strasse": "Route du Madelain 1",
+    "PLZ": "1753",
+    "Ort": "Matran",
+    "lat": 46.7814874,
+    "lng": 7.087832524729
+  },
+  {
+    "Name": "Auto Bettschen AG",
+    "Strasse": "Bernstrasse 40",
+    "PLZ": "3612",
+    "Ort": "Steffisburg",
+    "lat": 46.76557889999999,
+    "lng": 7.625840856612645
+  },
+  {
+    "Name": "Auto Bettschen AG",
+    "Strasse": "Bernstrasse 210",
+    "PLZ": "3613",
+    "Ort": "Steffisburg",
+    "lat": 46.7808289,
+    "lng": 7.611327560931198
+  },
+  {
+    "Name": "Garage Daniel Bieli",
+    "Strasse": "Brislachstrasse 3",
+    "PLZ": "4226",
+    "Ort": "Breitenbach",
+    "lat": 47.40952645,
+    "lng": 7.543799386277625
+  },
+  {
+    "Name": "Garage Bifang Trachsel AG",
+    "Strasse": "Bifang 5",
+    "PLZ": "1716",
+    "Ort": "Plaffeien",
+    "lat": 46.74794855,
+    "lng": 7.288686867337377
+  },
+  {
+    "Name": "Bike-Atelier GmbH",
+    "Strasse": "Brünigstrasse 34",
+    "PLZ": "6074",
+    "Ort": "Giswil",
+    "lat": 46.83817854999999,
+    "lng": 8.186943822407446
+  },
+  {
+    "Name": "Binelli Automobile AG Filiale Baar",
+    "Strasse": "Neuhofstrasse 1",
+    "PLZ": "6341",
+    "Ort": "Baar",
+    "lat": 47.1918324,
+    "lng": 8.5131378
+  },
+  {
+    "Name": "Binelli Automobile AG Filiale Sihlbrugg",
+    "Strasse": "Sihlbruggstrasse 138",
+    "PLZ": "6340",
+    "Ort": "Baar",
+    "lat": 47.215162,
+    "lng": 8.570313
+  },
+  {
+    "Name": "Binelli Automobile AG Filiale Zürich",
+    "Strasse": "Badenerstrasse 527",
+    "PLZ": "8048",
+    "Ort": "Zürich",
+    "lat": 47.3815879,
+    "lng": 8.500982942076892
+  },
+  {
+    "Name": "A. & M. Bizzozero",
+    "Strasse": "Länggassstrasse 103",
+    "PLZ": "3000",
+    "Ort": "Bern",
+    "lat": 46.9563944,
+    "lng": 7.4243029
+  },
+  {
+    "Name": "Garage Bolero Bumann Gert",
+    "Strasse": "Grosses Moos 8",
+    "PLZ": "3906",
+    "Ort": "Saas-Fee",
+    "lat": 46.1125832,
+    "lng": 7.931958811245937
+  },
+  {
+    "Name": "Garage-Carrosserie Maurice Bonny SA",
+    "Strasse": "Rue du Collège 22",
+    "PLZ": "2300",
+    "Ort": "La Chaux-de-Fonds",
+    "lat": 47.1057917,
+    "lng": 6.834230891136059
+  },
+  {
+    "Name": "Boost Garage GmbH",
+    "Strasse": "Thurgauerstr 27",
+    "PLZ": "9400",
+    "Ort": "Rorschach",
+    "lat": 47.4794746,
+    "lng": 9.486444831364572
+  },
+  {
+    "Name": "Bossard & Humm GmbH",
+    "Strasse": "Untere Brühlstrasse 48",
+    "PLZ": "4800",
+    "Ort": "Zofingen",
+    "lat": 47.29639725,
+    "lng": 7.931901047650518
+  },
+  {
+    "Name": "Garage Bosshardt AG",
+    "Strasse": "Schwerzenbachstrasse 41",
+    "PLZ": "8117",
+    "Ort": "Fällanden",
+    "lat": 47.3752232,
+    "lng": 8.642788023093546
+  },
+  {
+    "Name": "Garage Bouby-Rolls SA",
+    "Strasse": "quai de la Thièle 30",
+    "PLZ": "1400",
+    "Ort": "Yverdon-les-Bains",
+    "lat": 46.78147107638455,
+    "lng": 6.637167128606569
+  },
+  {
+    "Name": "Garage Bove SA",
+    "Strasse": "Avenue Adrien-Lachenal 23a",
+    "PLZ": "1290",
+    "Ort": "Versoix",
+    "lat": 46.2822133,
+    "lng": 6.163676928659954
+  },
+  {
+    "Name": "Bowman Automobile AG",
+    "Strasse": "Ausserdorfstrasse 19",
+    "PLZ": "5107",
+    "Ort": "Schinznach Dorf",
+    "lat": 47.4485975,
+    "lng": 8.1437519
+  },
+  {
+    "Name": "Bräm AG",
+    "Strasse": "Rietlistrasse 1",
+    "PLZ": "9403",
+    "Ort": "Goldach",
+    "lat": 47.48319115,
+    "lng": 9.475147827510327
+  },
+  {
+    "Name": "Auto Brander AG",
+    "Strasse": "Schwerzistrasse 8",
+    "PLZ": "8807",
+    "Ort": "Freienbach",
+    "lat": 47.20065514637756,
+    "lng": 8.752339166467127
+  },
+  {
+    "Name": "Garage Breitschmid AG",
+    "Strasse": "Aargauerstrasse 16",
+    "PLZ": "5610",
+    "Ort": "Wohlen AG",
+    "lat": 47.345284,
+    "lng": 8.274554
+  },
+  {
+    "Name": "Garage Brender SA",
+    "Strasse": "route Aloys-Fauquez 128",
+    "PLZ": "1018",
+    "Ort": "Lausanne",
+    "lat": 46.54166834999999,
+    "lng": 6.633464529128961
+  },
+  {
+    "Name": "Bruttin Frères SA",
+    "Strasse": "Route de Sion 79",
+    "PLZ": "3960",
+    "Ort": "Sierre",
+    "lat": 46.2848926,
+    "lng": 7.5168942
+  },
+  {
+    "Name": "Buchard Atelier-Carrosserie Bus&Cars SA",
+    "Strasse": "Route de Saillon 69",
+    "PLZ": "1912",
+    "Ort": "Leytron",
+    "lat": 46.1809327,
+    "lng": 7.2020806
+  },
+  {
+    "Name": "R. Bühler AG",
+    "Strasse": "Austrasse 8",
+    "PLZ": "3176",
+    "Ort": "Neuenegg",
+    "lat": 46.89442965,
+    "lng": 7.30528971326151
+  },
+  {
+    "Name": "Busbetrieb Solothurn und Umgebung AG",
+    "Strasse": "Waldeggstrasse 35",
+    "PLZ": "4528",
+    "Ort": "Zuchwil",
+    "lat": 47.19858265000001,
+    "lng": 7.575984527447572
+  },
+  {
+    "Name": "Garage Ernst Buser AG Ormalingen",
+    "Strasse": "Hauptstrasse 175",
+    "PLZ": "4466",
+    "Ort": "Ormalingen",
+    "lat": 47.470104,
+    "lng": 7.8688478
+  },
+  {
+    "Name": "Garage Caflisch AG",
+    "Strasse": "Via Principala 5-7",
+    "PLZ": "7151",
+    "Ort": "Schluein",
+    "lat": 46.77953705429895,
+    "lng": 9.218182354231889
+  },
+  {
+    "Name": "Camionrep. AG Studen",
+    "Strasse": "Sägeweg 8",
+    "PLZ": "2557",
+    "Ort": "Studen BE",
+    "lat": 47.1102736,
+    "lng": 7.310275372615921
+  },
+  {
+    "Name": "Garage du Carrefour Joël Regamey",
+    "Strasse": "Chemin des Cases 2 bis",
+    "PLZ": "1072",
+    "Ort": "Forel (Lavaux)",
+    "lat": 46.5297664,
+    "lng": 6.768473889838079
+  },
+  {
+    "Name": "Cassi et Imhof SA",
+    "Strasse": "Boulevard des Eplatures 1-3",
+    "PLZ": "2304",
+    "Ort": "La Chaux-de-Fonds",
+    "lat": 47.0881081989338,
+    "lng": 6.80481105632581
+  },
+  {
+    "Name": "CC-Nova AG",
+    "Strasse": "Churerstrasse 5",
+    "PLZ": "7013",
+    "Ort": "Domat/Ems",
+    "lat": 46.83737525,
+    "lng": 9.461503772391108
+  },
+  {
+    "Name": "CDS Automobiles SA",
+    "Strasse": "rue Edouard-Dubied 12",
+    "PLZ": "2108",
+    "Ort": "Couvet",
+    "lat": 46.9291509,
+    "lng": 6.636957
+  },
+  {
+    "Name": "Garage Carrosserie Centra AG",
+    "Strasse": "Alte Landstrasse 1",
+    "PLZ": "3900",
+    "Ort": "Gamsen",
+    "lat": 46.30514969906537,
+    "lng": 7.952614355941878
+  },
+  {
+    "Name": "Centra-Garage AG",
+    "Strasse": "Leimgrubenweg 14",
+    "PLZ": "4053",
+    "Ort": "Basel",
+    "lat": 47.53687,
+    "lng": 7.6063373
+  },
+  {
+    "Name": "Central-Garage Denoth AG",
+    "Strasse": "Stradun 270",
+    "PLZ": "7550",
+    "Ort": "Scuol",
+    "lat": 46.7987407,
+    "lng": 10.304334
+  },
+  {
+    "Name": "Central-Garage H.Böckmann AG",
+    "Strasse": "Benknerstrasse 20",
+    "PLZ": "8730",
+    "Ort": "Uznach",
+    "lat": 47.2194596,
+    "lng": 8.986651011027615
+  },
+  {
+    "Name": "Garage Central Hulmann David",
+    "Strasse": "rue Gustave-Amweg 9 a",
+    "PLZ": "2900",
+    "Ort": "Porrentruy",
+    "lat": 47.41751015626799,
+    "lng": 7.076258489217175
+  },
+  {
+    "Name": "Centralgarage AG Steffisburg",
+    "Strasse": "Bernstrasse 47",
+    "PLZ": "3613",
+    "Ort": "Steffisburg",
+    "lat": 46.7664577,
+    "lng": 7.623487897936588
+  },
+  {
+    "Name": "Garage Challandes SA",
+    "Strasse": "Grand-Rue 22",
+    "PLZ": "2046",
+    "Ort": "Fontaines NE",
+    "lat": 47.0459465,
+    "lng": 6.9001519
+  },
+  {
+    "Name": "Garage Chatelanat SA",
+    "Strasse": "rue Eugène Marziano 18",
+    "PLZ": "1227",
+    "Ort": "Les Acacias",
+    "lat": 46.19374115,
+    "lng": 6.129486469104189
+  },
+  {
+    "Name": "Chräbel Garage André Kunz",
+    "Strasse": "Sonneggstrasse 28",
+    "PLZ": "6410",
+    "Ort": "Goldau",
+    "lat": 47.0454661,
+    "lng": 8.548289958104618
+  },
+  {
+    "Name": "Christen Automobile AG",
+    "Strasse": "Umfahrungsstrasse 25",
+    "PLZ": "6467",
+    "Ort": "Schattdorf",
+    "lat": 46.85863285,
+    "lng": 8.639055984601724
+  },
+  {
+    "Name": "Citag AG",
+    "Strasse": "Bildstrasse 3",
+    "PLZ": "9030",
+    "Ort": "Abtwil SG",
+    "lat": 47.4171367,
+    "lng": 9.3123782
+  },
+  {
+    "Name": "City-Garage AG Betrieb Goldach",
+    "Strasse": "St. Gallerstrasse 76",
+    "PLZ": "9403",
+    "Ort": "Goldach",
+    "lat": 47.47881144999999,
+    "lng": 9.468824327536234
+  },
+  {
+    "Name": "City-Garage AG",
+    "Strasse": "Zürcher Strasse 511",
+    "PLZ": "9015",
+    "Ort": "St. Gallen",
+    "lat": 47.4073161,
+    "lng": 9.30897195
+  },
+  {
+    "Name": "Clinic Cars Yverdon Sàrl",
+    "Strasse": "Av. de Grandson 64",
+    "PLZ": "1400",
+    "Ort": "Yverdon-les-Bains",
+    "lat": 46.7896553,
+    "lng": 6.630069395331094
+  },
+  {
+    "Name": "Garage Corbassières Sàrl",
+    "Strasse": "Rue de Savoie 31",
+    "PLZ": "1950",
+    "Ort": "Sion",
+    "lat": 46.2253823,
+    "lng": 7.3322656
+  },
+  {
+    "Name": "Garage Corpataux AG",
+    "Strasse": "Thunstrasse 35",
+    "PLZ": "3150",
+    "Ort": "Schwarzenburg",
+    "lat": 46.81900935,
+    "lng": 7.349314278178888
+  },
+  {
+    "Name": "crazy riders Interlaken GmbH",
+    "Strasse": "Kammistrasse 11",
+    "PLZ": "3800",
+    "Ort": "Interlaken",
+    "lat": 46.6915383,
+    "lng": 7.8753597
+  },
+  {
+    "Name": "Garage Cuenot Sàrl",
+    "Strasse": "rue du Marais 3",
+    "PLZ": "2400",
+    "Ort": "Le Locle",
+    "lat": 47.0613699,
+    "lng": 6.755389428440676
+  },
+  {
+    "Name": "Cycles et Motos Refouss Sàrl",
+    "Strasse": "Rue Achille-Merguin 12",
+    "PLZ": "2900",
+    "Ort": "Porrentruy",
+    "lat": 47.41543055,
+    "lng": 7.07203832328244
+  },
+  {
+    "Name": "Garage d'Hermance SA Michel Piuz",
+    "Strasse": "route d'Hermance 564",
+    "PLZ": "1248",
+    "Ort": "Hermance",
+    "lat": 46.3023697,
+    "lng": 6.24628129302444
+  },
+  {
+    "Name": "De Blasio SA",
+    "Strasse": "route de Berne 2",
+    "PLZ": "1524",
+    "Ort": "Marnand",
+    "lat": 46.75742335,
+    "lng": 6.89969155
+  },
+  {
+    "Name": "Inter Promotion SA Garage Champsec",
+    "Strasse": "avenue du Grand-Champsec 51",
+    "PLZ": "1950",
+    "Ort": "Sion",
+    "lat": 46.2331624,
+    "lng": 7.3826504
+  },
+  {
+    "Name": "Garage de L`Etoile, Rox`Otz SA",
+    "Strasse": "rue Fritz-Courvoisier 54",
+    "PLZ": "2300",
+    "Ort": "La Chaux-de-Fonds",
+    "lat": 47.10642385,
+    "lng": 6.838471356374633
+  },
+  {
+    "Name": "Garage de la Cour SA",
+    "Strasse": "Rue des Uttins 43",
+    "PLZ": "2034",
+    "Ort": "Peseux",
+    "lat": 46.9885709750402,
+    "lng": 6.892389686016815
+  },
+  {
+    "Name": "Garage de la Marbrerie André Chevalley SA",
+    "Strasse": "Chemin de la Marbrerie 1",
+    "PLZ": "1227",
+    "Ort": "Carouge",
+    "lat": 46.1802652,
+    "lng": 6.1346887
+  },
+  {
+    "Name": "Garage de Monthey SA",
+    "Strasse": "route de Collombey 55",
+    "PLZ": "1870",
+    "Ort": "Monthey",
+    "lat": 46.26194755,
+    "lng": 6.945500392444039
+  },
+  {
+    "Name": "Garage de Nyon A&S Chevalley SA",
+    "Strasse": "route de Saint-Cergue 293",
+    "PLZ": "1260",
+    "Ort": "Nyon",
+    "lat": 46.4008832,
+    "lng": 6.218557413847071
+  },
+  {
+    "Name": "Garage de Palud Jean-Marc Kolly",
+    "Strasse": "Rte de Morlon 47",
+    "PLZ": "1630",
+    "Ort": "Bulle",
+    "lat": 46.62267805,
+    "lng": 7.0679631
+  },
+  {
+    "Name": "Garage dell'Aria GmbH",
+    "Strasse": "Tannenstrasse 112",
+    "PLZ": "8424",
+    "Ort": "Embrach",
+    "lat": 47.51058255,
+    "lng": 8.589398465676158
+  },
+  {
+    "Name": "Garage des Parcs S.à.r.l.",
+    "Strasse": "Rue de la Rosière 2",
+    "PLZ": "2000",
+    "Ort": "Neuchâtel",
+    "lat": 46.9917944,
+    "lng": 6.917286237473352
+  },
+  {
+    "Name": "Garage des Sports SA",
+    "Strasse": "Avenue du Simplon 34",
+    "PLZ": "1870",
+    "Ort": "Monthey",
+    "lat": 46.2481067,
+    "lng": 6.9559891
+  },
+  {
+    "Name": "Garage Carrosserie des Trois Chênes S.A",
+    "Strasse": "Route d'Yverdon 19",
+    "PLZ": "1040",
+    "Ort": "Echallens",
+    "lat": 46.6456099,
+    "lng": 6.63698274812416
+  },
+  {
+    "Name": "Destimoto De Simone + Stierli",
+    "Strasse": "Loretostrasse 18",
+    "PLZ": "9620",
+    "Ort": "Lichtensteig",
+    "lat": 47.3250492,
+    "lng": 9.086242661297378
+  },
+  {
+    "Name": "Automobile Diethelm AG",
+    "Strasse": "St. Gallerstrasse 26/28",
+    "PLZ": "8580",
+    "Ort": "Amriswil",
+    "lat": 47.54420802682748,
+    "lng": 9.298590329882826
+  },
+  {
+    "Name": "Dimab Chablais SA",
+    "Strasse": "Route du Simplon 16",
+    "PLZ": "1895",
+    "Ort": "Vionnaz",
+    "lat": 46.30845935,
+    "lng": 6.904958444531844
+  },
+  {
+    "Name": "Dimab Riviera SA",
+    "Strasse": "Ch. de la Veyre d'en Haut A3",
+    "PLZ": "1806",
+    "Ort": "St-Légier-La Chiésaz",
+    "lat": 46.4768107,
+    "lng": 6.859867714575023
+  },
+  {
+    "Name": "DIMAB Rossens SA",
+    "Strasse": "Chemin de la Longivue 1",
+    "PLZ": "1726",
+    "Ort": "Farvagny-le-Grand",
+    "lat": 46.7231472,
+    "lng": 7.0841993
+  },
+  {
+    "Name": "Dimab SA Succursale d'Yverdon",
+    "Strasse": "Avenue Haldimand 34",
+    "PLZ": "1400",
+    "Ort": "Yverdon-les-Bains",
+    "lat": 46.77870944999999,
+    "lng": 6.646294214375009
+  },
+  {
+    "Name": "DM - DOUCE MOBILITÉ SARL",
+    "Strasse": "Chemin du Petit-Flon 27",
+    "PLZ": "1052",
+    "Ort": "Le Mont-sur-Lausanne",
+    "lat": 46.54463185,
+    "lng": 6.62671685205172
+  },
+  {
+    "Name": "Garage du Mont-Blanc Moulin SA",
+    "Strasse": "route du Grand-St-Bernard 24",
+    "PLZ": "1921",
+    "Ort": "Martigny-Croix",
+    "lat": 46.08795269173175,
+    "lng": 7.055940351235378
+  },
+  {
+    "Name": "Garage du Nord Monthey SA",
+    "Strasse": "route du Simplon 19",
+    "PLZ": "1870",
+    "Ort": "Monthey",
+    "lat": 46.2988934,
+    "lng": 6.90994315
+  },
+  {
+    "Name": "Garage du Rallye Cornol SA",
+    "Strasse": "Route de Courgenay 8",
+    "PLZ": "2952",
+    "Ort": "Cornol",
+    "lat": 47.407732,
+    "lng": 7.1575834
+  },
+  {
+    "Name": "Automobiles du Verdel SA",
+    "Strasse": "Rue de l'Etang 13",
+    "PLZ": "1630",
+    "Ort": "Bulle",
+    "lat": 46.6252737,
+    "lng": 7.0676178
+  },
+  {
+    "Name": "Garage et Carrosserie du Viaduc- Villeneuve S.A",
+    "Strasse": "Zone Industrielle C",
+    "PLZ": "1844",
+    "Ort": "Villeneuve VD",
+    "lat": 46.39148315,
+    "lng": 6.932887262885755
+  },
+  {
+    "Name": "Garage Dubach AG",
+    "Strasse": "Oltenstrasse 9",
+    "PLZ": "4702",
+    "Ort": "Oensingen",
+    "lat": 47.29052865,
+    "lng": 7.727764889057738
+  },
+  {
+    "Name": "Auto-Center Durrer AG",
+    "Strasse": "Brünigstrasse 37",
+    "PLZ": "6055",
+    "Ort": "Alpnach Dorf",
+    "lat": 46.9385645,
+    "lng": 8.270894639510278
+  },
+  {
+    "Name": "Durret Automobiles SA - FordStore",
+    "Strasse": "Route de la Drague 60",
+    "PLZ": "1950",
+    "Ort": "Sion",
+    "lat": 46.220153,
+    "lng": 7.3514954
+  },
+  {
+    "Name": "Duxon AG",
+    "Strasse": "Betti 46",
+    "PLZ": "8856",
+    "Ort": "Tuggen",
+    "lat": 47.18568595,
+    "lng": 8.9330897
+  },
+  {
+    "Name": "Garage E. Bieri AG",
+    "Strasse": "Hauptstrasse",
+    "PLZ": "6162",
+    "Ort": "Entlebuch",
+    "lat": 47.00163492692486,
+    "lng": 8.070418478326713
+  },
+  {
+    "Name": "Garage Elite C. Chammartin Sàrl",
+    "Strasse": "route de Bocheferra 9",
+    "PLZ": "1680",
+    "Ort": "Romont FR",
+    "lat": 46.7041628,
+    "lng": 6.932467803156642
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Rossbodenstrasse",
+    "Strasse": "Rossbodenstrasse 10",
+    "PLZ": "7000",
+    "Ort": "Chur",
+    "lat": 46.85018549999999,
+    "lng": 9.505197921593677
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Kasernenstrasse",
+    "Strasse": "Kasernenstrasse 148",
+    "PLZ": "7007",
+    "Ort": "Chur",
+    "lat": 46.84658505,
+    "lng": 9.512337163543691
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Autowelt Basel-Dreispitz",
+    "Strasse": "Brüglingerstrasse 2",
+    "PLZ": "4002",
+    "Ort": "Basel",
+    "lat": 47.5365011,
+    "lng": 7.6102123
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Bern Eigerplatz",
+    "Strasse": "Eigerplatz 2",
+    "PLZ": "3007",
+    "Ort": "Bern",
+    "lat": 46.9414294,
+    "lng": 7.43059
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Dübendorf",
+    "Strasse": "Zürichstrasse 127/129",
+    "PLZ": "8600",
+    "Ort": "Dübendorf",
+    "lat": 47.3957739612395,
+    "lng": 8.606474564549362
+  },
+  {
+    "Name": "Emil Frey SA Succursale Centre Automobiles aux Vernets",
+    "Strasse": "Rue François-Dussaud 13",
+    "PLZ": "1211",
+    "Ort": "Genève",
+    "lat": 46.1946302,
+    "lng": 6.1310789
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Kreuzgarage Schaffhausen",
+    "Strasse": "Herblingerstrasse 44",
+    "PLZ": "8207",
+    "Ort": "Schaffhausen",
+    "lat": 47.7191279,
+    "lng": 8.655793943560418
+  },
+  {
+    "Name": "Emil Frey SA Succursale Pambio-Noranco",
+    "Strasse": "via Pian Scairolo",
+    "PLZ": "6915",
+    "Ort": "Pambio-Noranco",
+    "lat": 45.98542792812088,
+    "lng": 8.932393251940544
+  },
+  {
+    "Name": "Emil Frey AG Autocenter Luzern-Littau",
+    "Strasse": "Schachenhof 2",
+    "PLZ": "6014",
+    "Ort": "Luzern",
+    "lat": 47.0619045,
+    "lng": 8.264945749999999
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Moosseedorf",
+    "Strasse": "Gewerbestrasse 17",
+    "PLZ": "3302",
+    "Ort": "Moosseedorf",
+    "lat": 47.01418925,
+    "lng": 7.492135121694377
+  },
+  {
+    "Name": "Emil Frey SA Succursale Garage et Carrosserie",
+    "Strasse": "route de Fribourg 11",
+    "PLZ": "1723",
+    "Ort": "Marly",
+    "lat": 46.77947949999999,
+    "lng": 7.152160886616363
+  },
+  {
+    "Name": "Emil Frey SA Succursale Morges",
+    "Strasse": "Avenue de Plan 8",
+    "PLZ": "1110",
+    "Ort": "Morges",
+    "lat": 46.517341,
+    "lng": 6.5042234
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Münchenstein",
+    "Strasse": "Grabenackerstrasse 10",
+    "PLZ": "4142",
+    "Ort": "Münchenstein",
+    "lat": 47.5220112,
+    "lng": 7.6047883
+  },
+  {
+    "Name": "Emil Frey AG, Zweigniederlassung Autocenter",
+    "Strasse": "Milchstrasse 3",
+    "PLZ": "3072",
+    "Ort": "Ostermundigen",
+    "lat": 46.96306955,
+    "lng": 7.480175061824894
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Safenwil",
+    "Strasse": "Emil-Frey-Strasse",
+    "PLZ": "5745",
+    "Ort": "Safenwil",
+    "lat": 47.32384222902859,
+    "lng": 7.979901467037533
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Schaffhausen",
+    "Strasse": "Gennersbrunnerstrasse 58",
+    "PLZ": "8207",
+    "Ort": "Schaffhausen",
+    "lat": 47.7176527,
+    "lng": 8.6625378
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Schlieren",
+    "Strasse": "Zürcherstrasse 94",
+    "PLZ": "8952",
+    "Ort": "Schlieren",
+    "lat": 47.3971338,
+    "lng": 8.460827457683306
+  },
+  {
+    "Name": "Emil Frey SA Succursale Sion",
+    "Strasse": "Rue de la Dixence 83",
+    "PLZ": "1950",
+    "Ort": "Sion",
+    "lat": 46.2252869,
+    "lng": 7.3739805
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Spreitenbach",
+    "Strasse": "Landstrasse 148",
+    "PLZ": "8957",
+    "Ort": "Spreitenbach",
+    "lat": 47.4179936,
+    "lng": 8.3754652
+  },
+  {
+    "Name": "Emil Frey SA Succursale Centre Automobile St. Légier",
+    "Strasse": "route Industrielle 10",
+    "PLZ": "1806",
+    "Ort": "St-Légier-La Chiésaz",
+    "lat": 46.4755138,
+    "lng": 6.864248019020673
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung St. Moritz",
+    "Strasse": "Via Maistra 46",
+    "PLZ": "7500",
+    "Ort": "St. Moritz",
+    "lat": 46.50092115,
+    "lng": 9.845029234011893
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Volketswil",
+    "Strasse": "Industriestrasse 31/33",
+    "PLZ": "8604",
+    "Ort": "Volketswil",
+    "lat": 47.3802118,
+    "lng": 8.6843052
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Auto Central Zuchwil",
+    "Strasse": "Langfeldstrasse 1",
+    "PLZ": "4528",
+    "Ort": "Zuchwil",
+    "lat": 47.20461945,
+    "lng": 7.563592500830517
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Züri-Oberland Volketswil",
+    "Strasse": "Industriestrasse 2b",
+    "PLZ": "8604",
+    "Ort": "Volketswil",
+    "lat": 47.38267775,
+    "lng": 8.664299455544317
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Garage Zürich Nord",
+    "Strasse": "Thurgauerstrasse 35",
+    "PLZ": "8050",
+    "Ort": "Zürich",
+    "lat": 47.4137337,
+    "lng": 8.550269003006845
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Rheintal-Garage Chur",
+    "Strasse": "Rossbodenstrasse 2",
+    "PLZ": "7000",
+    "Ort": "Chur",
+    "lat": 46.84882695,
+    "lng": 9.504811701953413
+  },
+  {
+    "Name": "Emil Frey AG Zweigniederlassung Landquart",
+    "Strasse": "Wuhrstrasse 15",
+    "PLZ": "7302",
+    "Ort": "Landquart",
+    "lat": 46.96903415,
+    "lng": 9.57184784506108
+  },
+  {
+    "Name": "EMIL FREY SA succursale de Chavannes-près-Renens",
+    "Strasse": "Route de la Maladière 44",
+    "PLZ": "1022",
+    "Ort": "Chavannes-près-Renens",
+    "lat": 46.5266586,
+    "lng": 6.5814935
+  },
+  {
+    "Name": "Garage Engeler AG",
+    "Strasse": "Zürcherstrasse 281",
+    "PLZ": "8501",
+    "Ort": "Frauenfeld",
+    "lat": 47.5629819,
+    "lng": 8.907137560930671
+  },
+  {
+    "Name": "Engeler Automobile AG",
+    "Strasse": "Dunantstrasse 9",
+    "PLZ": "8570",
+    "Ort": "Weinfelden",
+    "lat": 47.56597855,
+    "lng": 9.093254528593128
+  },
+  {
+    "Name": "Engeler Automobile AG",
+    "Strasse": "Romanshornerstrasse 113",
+    "PLZ": "8280",
+    "Ort": "Kreuzlingen",
+    "lat": 47.6399085,
+    "lng": 9.201506921888374
+  },
+  {
+    "Name": "Garage Enzian B&F AG",
+    "Strasse": "Kantonsstrasse 1",
+    "PLZ": "3946",
+    "Ort": "Turtmann",
+    "lat": 46.3015754,
+    "lng": 7.6998099
+  },
+  {
+    "Name": "Epper AG",
+    "Strasse": "Horwerstrasse 81",
+    "PLZ": "6005",
+    "Ort": "Luzern",
+    "lat": 47.0359679,
+    "lng": 8.3027709
+  },
+  {
+    "Name": "Epper AG",
+    "Strasse": "Baselstrasse 10",
+    "PLZ": "6210",
+    "Ort": "Sursee",
+    "lat": 47.1725278,
+    "lng": 8.092504681765003
+  },
+  {
+    "Name": "Ernst Ruckstuhl AG",
+    "Strasse": "Industriestrasse 10",
+    "PLZ": "8302",
+    "Ort": "Kloten",
+    "lat": 47.4499276,
+    "lng": 8.5886938
+  },
+  {
+    "Name": "ETech-3 GmbH",
+    "Strasse": "Kägenstrasse 25",
+    "PLZ": "4153",
+    "Ort": "Reinach BL",
+    "lat": 47.4852349,
+    "lng": 7.5984263
+  },
+  {
+    "Name": "Etoile Automobile, succursale de Groupe Leuba SA",
+    "Strasse": "Les Tilles 5",
+    "PLZ": "2016",
+    "Ort": "Cortaillod",
+    "lat": 46.9455149528145,
+    "lng": 6.833035869493727
+  },
+  {
+    "Name": "ETPL SA",
+    "Strasse": "Rte du Bois de Bay 16",
+    "PLZ": "1242",
+    "Ort": "Satigny",
+    "lat": 46.2003894,
+    "lng": 6.064115
+  },
+  {
+    "Name": "Euro Truck AG Zweigniederlassung Aarau",
+    "Strasse": "Weihermattstrasse 64",
+    "PLZ": "5000",
+    "Ort": "Aarau",
+    "lat": 47.3960931,
+    "lng": 8.062329460659507
+  },
+  {
+    "Name": "Euromobile Sàrl",
+    "Strasse": "Chemin des Grandes-Vies 21",
+    "PLZ": "2900",
+    "Ort": "Porrentruy",
+    "lat": 47.42976295,
+    "lng": 7.080846741337556
+  },
+  {
+    "Name": "Euromobile Sàrl, succursale Delémont",
+    "Strasse": "Route de Moutier 64",
+    "PLZ": "2800",
+    "Ort": "Delémont",
+    "lat": 47.3626955,
+    "lng": 7.3507491
+  },
+  {
+    "Name": "Evodrive Sàrl",
+    "Strasse": "Route de l'industrie 16",
+    "PLZ": "1680",
+    "Ort": "Romont FR",
+    "lat": 46.68880465959989,
+    "lng": 6.908768565117801
+  },
+  {
+    "Name": "Facchinetti Automobiles (Delémont) SA",
+    "Strasse": "Route de Moutier 113",
+    "PLZ": "2800",
+    "Ort": "Delémont",
+    "lat": 47.36266645000001,
+    "lng": 7.361626372878822
+  },
+  {
+    "Name": "Facchinetti Automobiles (Genève-Meyrin) SA",
+    "Strasse": "route de Meyrin 214",
+    "PLZ": "1217",
+    "Ort": "Meyrin",
+    "lat": 46.2254112,
+    "lng": 6.0855951
+  },
+  {
+    "Name": "Facchinetti Automobiles SA",
+    "Strasse": "boulevard de la Liberté 2",
+    "PLZ": "2300",
+    "Ort": "La Chaux-de-Fonds",
+    "lat": 47.09335245,
+    "lng": 6.822236791550785
+  },
+  {
+    "Name": "Falknisgarge Kunz AG",
+    "Strasse": "Landstrasse 27",
+    "PLZ": "7304",
+    "Ort": "Maienfeld",
+    "lat": 47.0021098,
+    "lng": 9.532386967282708
+  },
+  {
+    "Name": "Felder 2Rad-Center GmbH",
+    "Strasse": "Entlebucherstrasse 10",
+    "PLZ": "6110",
+    "Ort": "Wolhusen",
+    "lat": 47.05857495,
+    "lng": 8.07185040572493
+  },
+  {
+    "Name": "Felix Emmenegger AG",
+    "Strasse": "Bollstrasse 2",
+    "PLZ": "5417",
+    "Ort": "Untersiggenthal",
+    "lat": 47.496485,
+    "lng": 8.2683652
+  },
+  {
+    "Name": "Fila Groupe SA",
+    "Strasse": "Chaussée de Treycovagnes 7-13",
+    "PLZ": "1401",
+    "Ort": "Yverdon-les-Bains",
+    "lat": 46.77882275,
+    "lng": 6.62674855
+  },
+  {
+    "Name": "Fila Groupe SA",
+    "Strasse": "Rue Eugène-de-Coulon 13",
+    "PLZ": "2022",
+    "Ort": "Bevaix",
+    "lat": 46.9238196,
+    "lng": 6.8099136
+  },
+  {
+    "Name": "Fila Groupe SA",
+    "Strasse": "Boulevard des Eplatures 51",
+    "PLZ": "2300",
+    "Ort": "La Chaux-de-Fonds",
+    "lat": 47.0850362,
+    "lng": 6.799623799398119
+  },
+  {
+    "Name": "Fischer AG, Baldegg",
+    "Strasse": "Hauptstrasse 8",
+    "PLZ": "6283",
+    "Ort": "Baldegg",
+    "lat": 47.1851546,
+    "lng": 8.280907919284768
+  },
+  {
+    "Name": "Fleuben-Garage AG",
+    "Strasse": "Oberrieterstrasse 61",
+    "PLZ": "9450",
+    "Ort": "Altstätten SG",
+    "lat": 47.36603555000001,
+    "lng": 9.554659501328597
+  },
+  {
+    "Name": "Flückiger Baumaschinen/Nutz- fahrzeuge AG",
+    "Strasse": "Industriestrasse 12",
+    "PLZ": "3315",
+    "Ort": "Bätterkinden",
+    "lat": 47.14079165,
+    "lng": 7.536760450000001
+  },
+  {
+    "Name": "Forellensee-Garage Aktiengesellschaft B. Salzmann",
+    "Strasse": "Thunstrasse 30",
+    "PLZ": "3770",
+    "Ort": "Zweisimmen",
+    "lat": 46.56320315,
+    "lng": 7.375849650261014
+  },
+  {
+    "Name": "Franz AG",
+    "Strasse": "St. Gallerstrasse 106",
+    "PLZ": "8404",
+    "Ort": "Winterthur",
+    "lat": 47.4979699,
+    "lng": 8.7471104
+  },
+  {
+    "Name": "Frei Bahnhof-Garage AG",
+    "Strasse": "Schlosstalstrasse 211",
+    "PLZ": "8408",
+    "Ort": "Winterthur",
+    "lat": 47.50467355,
+    "lng": 8.68648966550926
+  },
+  {
+    "Name": "Freihof-Garage AG",
+    "Strasse": "Oberdorf 40",
+    "PLZ": "8752",
+    "Ort": "Näfels",
+    "lat": 47.09433955,
+    "lng": 9.060208577748938
+  },
+  {
+    "Name": "Frey Cars AG",
+    "Strasse": "Thalstrasse 143",
+    "PLZ": "4714",
+    "Ort": "Aedermannsdorf",
+    "lat": 47.2984159,
+    "lng": 7.6155132
+  },
+  {
+    "Name": "Friderici Services SA",
+    "Strasse": "Rte du Molliau 30",
+    "PLZ": "1131",
+    "Ort": "Tolochenaz",
+    "lat": 46.5008099463923,
+    "lng": 6.482431650687107
+  },
+  {
+    "Name": "Garage Fries AG",
+    "Strasse": "Kantonsstrasse 73",
+    "PLZ": "6234",
+    "Ort": "Triengen",
+    "lat": 47.2372419,
+    "lng": 8.0749263
+  },
+  {
+    "Name": "Fritz Schläpfer & Co. AG",
+    "Strasse": "Bildstrasse 3",
+    "PLZ": "9015",
+    "Ort": "St. Gallen",
+    "lat": 47.41348765,
+    "lng": 9.311473040295727
+  },
+  {
+    "Name": "Furrer Auto Lachen AG",
+    "Strasse": "Glärnischstrasse 17",
+    "PLZ": "8853",
+    "Ort": "Lachen SZ",
+    "lat": 47.19132845,
+    "lng": 8.864710196383221
+  },
+  {
+    "Name": "G. Kolly S.A.",
+    "Strasse": "Rte de la Gruyère 88",
+    "PLZ": "1724",
+    "Ort": "Le Mouret",
+    "lat": 46.7413773,
+    "lng": 7.1720472
+  },
+  {
+    "Name": "Garage G. Zell GmbH",
+    "Strasse": "Juchstrasse 1",
+    "PLZ": "8604",
+    "Ort": "Volketswil",
+    "lat": 47.39197645,
+    "lng": 8.665060201407382
+  },
+  {
+    "Name": "Garage & Carrosserie Gachnang SA",
+    "Strasse": "Chemin des Orlons 1",
+    "PLZ": "1860",
+    "Ort": "Aigle",
+    "lat": 46.3131108,
+    "lng": 6.940969553724377
+  },
+  {
+    "Name": "Garage Galliker AG Aarburg",
+    "Strasse": "Oltnerstrasse 101",
+    "PLZ": "4663",
+    "Ort": "Aarburg",
+    "lat": 47.33366625,
+    "lng": 7.906052318029798
+  },
+  {
+    "Name": "Garage Galliker AG Bellach",
+    "Strasse": "Römerstrasse 8",
+    "PLZ": "4512",
+    "Ort": "Bellach",
+    "lat": 47.2122493,
+    "lng": 7.5091851
+  },
+  {
+    "Name": "Garage Galliker Nidfeld AG",
+    "Strasse": "Sternmattweg 4",
+    "PLZ": "6010",
+    "Ort": "Kriens",
+    "lat": 47.0285369,
+    "lng": 8.297111497732416
+  },
+  {
+    "Name": "Garage Galliker AG Luzern",
+    "Strasse": "Staldenhof 1",
+    "PLZ": "6014",
+    "Ort": "Luzern",
+    "lat": 47.06650775,
+    "lng": 8.269482786772487
+  },
+  {
+    "Name": "Garage Galliker AG Strengelbach",
+    "Strasse": "Zofingerstrasse 30",
+    "PLZ": "4802",
+    "Ort": "Strengelbach",
+    "lat": 47.28066605,
+    "lng": 7.934167565934062
+  },
+  {
+    "Name": "Garage Galliker AG",
+    "Strasse": "Hohenrainstrasse 50",
+    "PLZ": "6280",
+    "Ort": "Hochdorf",
+    "lat": 47.16840515,
+    "lng": 8.304422913398444
+  },
+  {
+    "Name": "Garage Galliker Mittelland AG Zweigniederlassung Bern",
+    "Strasse": "Freiburgstrasse 451",
+    "PLZ": "3018",
+    "Ort": "Bern",
+    "lat": 46.9334183,
+    "lng": 7.390939747999827
+  },
+  {
+    "Name": "Garage Galliker Mittelland AG",
+    "Strasse": "Kanalweg 4",
+    "PLZ": "3322",
+    "Ort": "Urtenen-Schönbühl",
+    "lat": 47.0188561,
+    "lng": 7.490648346088198
+  },
+  {
+    "Name": "Garage Galliker Nidfeld AG Kriens",
+    "Strasse": "Luzernerstrasse 57",
+    "PLZ": "6030",
+    "Ort": "Ebikon",
+    "lat": 47.0711862,
+    "lng": 8.323914960622684
+  },
+  {
+    "Name": "Garage Ackermann AG, Dotzigen",
+    "Strasse": "Scheurenstrasse 15",
+    "PLZ": "3293",
+    "Ort": "Dotzigen",
+    "lat": 47.12011405,
+    "lng": 7.335407484511822
+  },
+  {
+    "Name": "Garage Arnet AG",
+    "Strasse": "Ettiswilerstrasse 34",
+    "PLZ": "6130",
+    "Ort": "Willisau",
+    "lat": 47.1278017,
+    "lng": 7.998186711426484
+  },
+  {
+    "Name": "Garage B. Studer AG",
+    "Strasse": "Industriezone Basper 17",
+    "PLZ": "3942",
+    "Ort": "Raron",
+    "lat": 46.3035616,
+    "lng": 7.8113408
+  },
+  {
+    "Name": "Garage Balmer AG",
+    "Strasse": "Simmentalstrasse 625a",
+    "PLZ": "3758",
+    "Ort": "Latterbach",
+    "lat": 46.6644809,
+    "lng": 7.5796665
+  },
+  {
+    "Name": "Garage Bernard Despont SA",
+    "Strasse": "Zi du Vivier 2",
+    "PLZ": "1690",
+    "Ort": "Villaz-St-Pierre",
+    "lat": 46.7179475,
+    "lng": 6.9618666
+  },
+  {
+    "Name": "Garage Berset Sàrl, la Tour-de-Trême",
+    "Strasse": "Impasse Verte 5",
+    "PLZ": "1635",
+    "Ort": "La Tour-de-Trême",
+    "lat": 46.6031764,
+    "lng": 7.0732139
+  },
+  {
+    "Name": "Garage Bircher Ägeri AG",
+    "Strasse": "Zugerstrasse 75",
+    "PLZ": "6314",
+    "Ort": "Unterägeri",
+    "lat": 47.1400985,
+    "lng": 8.5731214
+  },
+  {
+    "Name": "Garage Bolzern Koch AG",
+    "Strasse": "Schachenweidstrasse 48",
+    "PLZ": "6030",
+    "Ort": "Ebikon",
+    "lat": 47.07329435,
+    "lng": 8.327527516640213
+  },
+  {
+    "Name": "Garage Brem AG",
+    "Strasse": "Sonnmattweg 6b",
+    "PLZ": "5620",
+    "Ort": "Bremgarten AG",
+    "lat": 47.3543173,
+    "lng": 8.338796
+  },
+  {
+    "Name": "Garage Bürgler GmbH",
+    "Strasse": "Gewerbestrasse 19",
+    "PLZ": "6438",
+    "Ort": "Ibach",
+    "lat": 47.01271145,
+    "lng": 8.632776545692023
+  },
+  {
+    "Name": "Garage-Carrosserie Friedli SA",
+    "Strasse": "rue de la Vignette 65",
+    "PLZ": "1530",
+    "Ort": "Payerne",
+    "lat": 46.81835020531742,
+    "lng": 6.937790270606894
+  },
+  {
+    "Name": "Garage-Carrosserie Willemin SA",
+    "Strasse": "Route de Porrentruy 88",
+    "PLZ": "2800",
+    "Ort": "Delémont",
+    "lat": 47.36153917898166,
+    "lng": 7.322877204785409
+  },
+  {
+    "Name": "Garage Carrozzeria Maffeis SA",
+    "Strasse": "Via Lugano 125",
+    "PLZ": "6950",
+    "Ort": "Tesserete",
+    "lat": 46.0651954,
+    "lng": 8.9681084
+  },
+  {
+    "Name": "Garage Chuard SA",
+    "Strasse": "Route de la Maladaire 6",
+    "PLZ": "1562",
+    "Ort": "Corcelles-près-Payerne",
+    "lat": 46.82685376379902,
+    "lng": 6.951975293554749
+  },
+  {
+    "Name": "Garage de l'Etoile, succursale de Groupe Leuba SA",
+    "Strasse": "route de Cossonay 101",
+    "PLZ": "1020",
+    "Ort": "Renens VD",
+    "lat": 46.5388537,
+    "lng": 6.5971845
+  },
+  {
+    "Name": "Garage de la Broye Ansermet SA",
+    "Strasse": "Route du Grand-Chemin 30",
+    "PLZ": "1562",
+    "Ort": "Corcelles-près-Payerne",
+    "lat": 46.8304193546622,
+    "lng": 6.960694434870188
+  },
+  {
+    "Name": "Garage de la Gare Vevey S.A.",
+    "Strasse": "avenue Général-Guisan 47",
+    "PLZ": "1800",
+    "Ort": "Vevey",
+    "lat": 46.46527705,
+    "lng": 6.838346730186728
+  },
+  {
+    "Name": "Garage de la Plaine Crétin SA",
+    "Strasse": "Route de Porrentruy 30",
+    "PLZ": "2923",
+    "Ort": "Courtemaîche",
+    "lat": 47.452173,
+    "lng": 7.0536081
+  },
+  {
+    "Name": "Garage de la Plaine, succursale de Groupe Leuba SA",
+    "Strasse": "rue de la Plaine 65",
+    "PLZ": "1400",
+    "Ort": "Yverdon-les-Bains",
+    "lat": 46.77695385,
+    "lng": 6.646214631167814
+  },
+  {
+    "Name": "Garage de la Riviera, succursale de Groupe Leuba SA R.Leuba & Fils SA",
+    "Strasse": "route de Saint-Maurice 233",
+    "PLZ": "1814",
+    "Ort": "La Tour-de-Peilz",
+    "lat": 46.4486665,
+    "lng": 6.872444442530862
+  },
+  {
+    "Name": "Garage de la Vigie MC Sport Sàrl",
+    "Strasse": "chemin de la Rottaz 3",
+    "PLZ": "1820",
+    "Ort": "Montreux",
+    "lat": 46.45222405,
+    "lng": 6.898811589266963
+  },
+  {
+    "Name": "Garage du Château d'Enbas",
+    "Strasse": "Rue du Prieuré 38",
+    "PLZ": "1636",
+    "Ort": "Broc",
+    "lat": 46.60329015,
+    "lng": 7.093805062605043
+  },
+  {
+    "Name": "Garage du Crêt",
+    "Strasse": "rue de la Chapelle 52",
+    "PLZ": "2035",
+    "Ort": "Corcelles NE",
+    "lat": 46.9855998,
+    "lng": 6.8656895
+  },
+  {
+    "Name": "Garage du Nord SA",
+    "Strasse": "route de Sécheron 2",
+    "PLZ": "1964",
+    "Ort": "Conthey",
+    "lat": 46.2144774,
+    "lng": 7.292997047993101
+  },
+  {
+    "Name": "Garage du Nord Martigny Sarl",
+    "Strasse": "rue du Simplon 53",
+    "PLZ": "1920",
+    "Ort": "Martigny",
+    "lat": 46.1096654,
+    "lng": 7.0913627
+  },
+  {
+    "Name": "Garage du Nord Sierre SA",
+    "Strasse": "Ecoparc de Daval B 10",
+    "PLZ": "3960",
+    "Ort": "Sierre",
+    "lat": 46.2730781,
+    "lng": 7.5205139
+  },
+  {
+    "Name": "Garage du Repuis SA J.-J. Reymond",
+    "Strasse": "rue de Neuchâtel 43",
+    "PLZ": "1422",
+    "Ort": "Grandson",
+    "lat": 46.81515515,
+    "lng": 6.651907143094182
+  },
+  {
+    "Name": "Garage Chèvre SA",
+    "Strasse": "Rue Auguste-Quiquerez 14",
+    "PLZ": "2800",
+    "Ort": "Delémont",
+    "lat": 47.3661843,
+    "lng": 7.358886505134025
+  },
+  {
+    "Name": "Garage du Simplon Viscardi & Cie SA",
+    "Strasse": "Route du Grand-Saint-Bernard 17",
+    "PLZ": "1880",
+    "Ort": "Bex",
+    "lat": 46.2507662,
+    "lng": 7.002193208791617
+  },
+  {
+    "Name": "Garage Egli AG",
+    "Strasse": "Zürcherstrasse 7",
+    "PLZ": "4310",
+    "Ort": "Rheinfelden",
+    "lat": 47.5530924,
+    "lng": 7.797183428888974
+  },
+  {
+    "Name": "Garage Erard Sàrl",
+    "Strasse": "rue des Rangiers 22",
+    "PLZ": "2350",
+    "Ort": "Saignelégier",
+    "lat": 47.25865895,
+    "lng": 7.000025207867382
+  },
+  {
+    "Name": "Garage Eric Bussy",
+    "Strasse": "Route d'Yverdon 30",
+    "PLZ": "1373",
+    "Ort": "Chavornay",
+    "lat": 46.71372045,
+    "lng": 6.57507920000001
+  },
+  {
+    "Name": "Garage Galliker AG Gümligen",
+    "Strasse": "Worbstrasse 171",
+    "PLZ": "3073",
+    "Ort": "Gümligen",
+    "lat": 46.9353071,
+    "lng": 7.499787432144965
+  },
+  {
+    "Name": "Garage Gautschi AG",
+    "Strasse": "Bützbergstrasse 98",
+    "PLZ": "4900",
+    "Ort": "Langenthal",
+    "lat": 47.21732555,
+    "lng": 7.770099890435261
+  },
+  {
+    "Name": "Garage Gautschi AG",
+    "Strasse": "Bern-Zürichstrasse 44",
+    "PLZ": "4900",
+    "Ort": "Langenthal",
+    "lat": 47.21921905000001,
+    "lng": 7.769065100288185
+  },
+  {
+    "Name": "Garage Gautschi AG",
+    "Strasse": "Schachenstrasse 31",
+    "PLZ": "3421",
+    "Ort": "Lyssach",
+    "lat": 47.0737707,
+    "lng": 7.58881183771784
+  },
+  {
+    "Name": "Garage Gloor AG",
+    "Strasse": "Dorfstrasse 489",
+    "PLZ": "5728",
+    "Ort": "Gontenschwil",
+    "lat": 47.2676699,
+    "lng": 8.1473245
+  },
+  {
+    "Name": "Garage Grenacher AG",
+    "Strasse": "Kirchgass 26",
+    "PLZ": "9442",
+    "Ort": "Berneck",
+    "lat": 47.424189,
+    "lng": 9.614751754353458
+  },
+  {
+    "Name": "Garage Greub AG Honda Terminal Oberaargau",
+    "Strasse": "Kapellenweg 2+4",
+    "PLZ": "4923",
+    "Ort": "Wynau",
+    "lat": 47.2584446,
+    "lng": 7.8228899
+  },
+  {
+    "Name": "Garage Guex Nyon SA",
+    "Strasse": "Route d’Oulteret 44",
+    "PLZ": "1260",
+    "Ort": "Nyon",
+    "lat": 46.39322845,
+    "lng": 6.237043225135058
+  },
+  {
+    "Name": "Garage Guex SA",
+    "Strasse": "Route de Romanel 40",
+    "PLZ": "1121",
+    "Ort": "Bremblens",
+    "lat": 46.5488623427251,
+    "lng": 6.514112256835344
+  },
+  {
+    "Name": "Garage H.R. Baumgartner AG",
+    "Strasse": "Kreuzmatte 12",
+    "PLZ": "6260",
+    "Ort": "Reiden",
+    "lat": 47.24691385,
+    "lng": 7.96254109595609
+  },
+  {
+    "Name": "Garage Herzog AG",
+    "Strasse": "Wilerstrasse 106",
+    "PLZ": "8370",
+    "Ort": "Sirnach",
+    "lat": 47.46319465000001,
+    "lng": 9.0230106
+  },
+  {
+    "Name": "Garage Hofer AG",
+    "Strasse": "Landstrasse 24",
+    "PLZ": "8595",
+    "Ort": "Altnau",
+    "lat": 47.6178793,
+    "lng": 9.2676533
+  },
+  {
+    "Name": "Garage Hofmann AG",
+    "Strasse": "Emmentalstrasse 100",
+    "PLZ": "3414",
+    "Ort": "Oberburg",
+    "lat": 47.03555555,
+    "lng": 7.629270184101279
+  },
+  {
+    "Name": "Garage Hug AG",
+    "Strasse": "Karmaad 17",
+    "PLZ": "9473",
+    "Ort": "Gams",
+    "lat": 47.2031756,
+    "lng": 9.4561103
+  },
+  {
+    "Name": "Garage Kaufmann AG Wittenbach",
+    "Strasse": "Arbonerstrasse 39",
+    "PLZ": "9300",
+    "Ort": "Wittenbach",
+    "lat": 47.46524395,
+    "lng": 9.393860354088952
+  },
+  {
+    "Name": "Garage Kehrli Frères Aubonne SNC",
+    "Strasse": "Route d'Allaman 106",
+    "PLZ": "1170",
+    "Ort": "Aubonne",
+    "lat": 46.4897415,
+    "lng": 6.398728862311629
+  },
+  {
+    "Name": "Garage Lüthi AG Hermiswil",
+    "Strasse": "Hauptstrasse 83",
+    "PLZ": "3475",
+    "Ort": "Hermiswil",
+    "lat": 47.15265555,
+    "lng": 7.695908108495347
+  },
+  {
+    "Name": "Garage Lüthi AG Hermiswil Zweigniederlassung Langenthal",
+    "Strasse": "Bleienbachstrasse 54",
+    "PLZ": "4900",
+    "Ort": "Langenthal",
+    "lat": 47.202269,
+    "lng": 7.780900567254477
+  },
+  {
+    "Name": "Garage Marti AG",
+    "Strasse": "Solothurnerstrasse 22",
+    "PLZ": "4614",
+    "Ort": "Hägendorf",
+    "lat": 47.3308022,
+    "lng": 7.836390340384444
+  },
+  {
+    "Name": "Garage Moderne SA",
+    "Strasse": "rue de la Poterne 1-3",
+    "PLZ": "1630",
+    "Ort": "Bulle",
+    "lat": 46.62060231367547,
+    "lng": 7.05859650774998
+  },
+  {
+    "Name": "Garage Moix",
+    "Strasse": "Route de Bramois 2",
+    "PLZ": "1950",
+    "Ort": "Sion",
+    "lat": 46.2260736,
+    "lng": 7.3872419
+  },
+  {
+    "Name": "Garage Oetterli AG",
+    "Strasse": "Murgenthalstrasse 67",
+    "PLZ": "4900",
+    "Ort": "Langenthal",
+    "lat": 47.2273103,
+    "lng": 7.79115315980758
+  },
+  {
+    "Name": "Garage Pfister AG",
+    "Strasse": "Bischofszellerstrasse 315",
+    "PLZ": "9212",
+    "Ort": "Arnegg",
+    "lat": 47.44095915,
+    "lng": 9.254795646898653
+  },
+  {
+    "Name": "Garage Rickli",
+    "Strasse": "Bleichiweg 3",
+    "PLZ": "4460",
+    "Ort": "Gelterkinden",
+    "lat": 47.4606279,
+    "lng": 7.861033575225767
+  },
+  {
+    "Name": "Garage Robert SA",
+    "Strasse": "route de Boudry 11",
+    "PLZ": "2016",
+    "Ort": "Cortaillod",
+    "lat": 46.94463229971642,
+    "lng": 6.843488324853032
+  },
+  {
+    "Name": "Garage Rupli",
+    "Strasse": "Bahnhofstrasse 25",
+    "PLZ": "4950",
+    "Ort": "Huttwil",
+    "lat": 47.11364475,
+    "lng": 7.845234730583035
+  },
+  {
+    "Name": "Garage Sport Lugano SA",
+    "Strasse": "Via Sonvico 17",
+    "PLZ": "6952",
+    "Ort": "Canobbio",
+    "lat": 46.0307863,
+    "lng": 8.9705454
+  },
+  {
+    "Name": "Garage St-Christophe, Willemin SA",
+    "Strasse": "Route de Delémont 91",
+    "PLZ": "2802",
+    "Ort": "Develier",
+    "lat": 47.3614267,
+    "lng": 7.3112504
+  },
+  {
+    "Name": "Garage Staehlin Cycles-motos Succ. Alain Coucheman",
+    "Strasse": "rue de Lausanne 3",
+    "PLZ": "1530",
+    "Ort": "Payerne",
+    "lat": 46.82051675,
+    "lng": 6.936738617038543
+  },
+  {
+    "Name": "Garage Tanguy Micheloud SA",
+    "Strasse": "route de Riddes 54",
+    "PLZ": "1950",
+    "Ort": "Sion",
+    "lat": 46.2236368,
+    "lng": 7.369696178590974
+  },
+  {
+    "Name": "Garage Thöni AG",
+    "Strasse": "Via Santeri 73",
+    "PLZ": "7130",
+    "Ort": "Ilanz",
+    "lat": 46.7722611,
+    "lng": 9.1962544
+  },
+  {
+    "Name": "Garage Tondo AG",
+    "Strasse": "Landstrasse 6",
+    "PLZ": "8754",
+    "Ort": "Netstal",
+    "lat": 47.06598055,
+    "lng": 9.057388446833155
+  },
+  {
+    "Name": "Garage Tondo AG",
+    "Strasse": "Hauptstrasse 1",
+    "PLZ": "8756",
+    "Ort": "Mitlödi",
+    "lat": 47.0082492,
+    "lng": 9.078342595411549
+  },
+  {
+    "Name": "Garage Voigtmann AG",
+    "Strasse": "Frauenfelderstrasse 1A",
+    "PLZ": "8404",
+    "Ort": "Winterthur",
+    "lat": 47.5156708,
+    "lng": 8.765602171994855
+  },
+  {
+    "Name": "Garage Wirz AG",
+    "Strasse": "Wyhlenstrasse 43",
+    "PLZ": "4133",
+    "Ort": "Pratteln",
+    "lat": 47.5337518,
+    "lng": 7.707274459625223
+  },
+  {
+    "Name": "Gattoni Maintenance Poids Lourds SA",
+    "Strasse": "Rue du Closillon 45",
+    "PLZ": "1870",
+    "Ort": "Monthey",
+    "lat": 46.25737465,
+    "lng": 6.962801454765179
+  },
+  {
+    "Name": "Garage Gavillet SA",
+    "Strasse": "Route de Moudon 30",
+    "PLZ": "1670",
+    "Ort": "Ursy",
+    "lat": 46.63667525,
+    "lng": 6.833038121952116
+  },
+  {
+    "Name": "G.E.M. Garage Electro & Mécanique SA",
+    "Strasse": "rue de Vermont 4",
+    "PLZ": "1202",
+    "Ort": "Genève",
+    "lat": 46.2152438,
+    "lng": 6.1343519
+  },
+  {
+    "Name": "Garage Gerber Sarl",
+    "Strasse": "Le Saucy 2",
+    "PLZ": "2722",
+    "Ort": "Les Reussilles",
+    "lat": 47.22405655,
+    "lng": 7.084479833304049
+  },
+  {
+    "Name": "Garage Gerbsch GmbH",
+    "Strasse": "Badhausstrasse 1",
+    "PLZ": "3063",
+    "Ort": "Ittigen",
+    "lat": 46.97339385,
+    "lng": 7.485894742146533
+  },
+  {
+    "Name": "Auto Germann AG",
+    "Strasse": "Hauptstrasse 37",
+    "PLZ": "5502",
+    "Ort": "Hunzenschwil",
+    "lat": 47.38702325,
+    "lng": 8.118218155825197
+  },
+  {
+    "Name": "GNG AG",
+    "Strasse": "Langfeldstrasse 10",
+    "PLZ": "9200",
+    "Ort": "Gossau SG",
+    "lat": 47.42395095,
+    "lng": 9.242186534912816
+  },
+  {
+    "Name": "Gotthelf Garage AG",
+    "Strasse": "Wanderstrasse 63",
+    "PLZ": "4054",
+    "Ort": "Basel",
+    "lat": 47.5523002,
+    "lng": 7.5661412
+  },
+  {
+    "Name": "Karl Graf Automobile AG",
+    "Strasse": "Zürichstrasse 30",
+    "PLZ": "8932",
+    "Ort": "Mettmenstetten",
+    "lat": 47.24695920000001,
+    "lng": 8.461144015476911
+  },
+  {
+    "Name": "Garage Grandjean Sàrl",
+    "Strasse": "Chemin de Budron D5",
+    "PLZ": "1052",
+    "Ort": "Le Mont-sur-Lausanne",
+    "lat": 46.57830654048037,
+    "lng": 6.631863774133915
+  },
+  {
+    "Name": "Gräub Auto Center AG",
+    "Strasse": "Industriestrasse 39",
+    "PLZ": "5036",
+    "Ort": "Oberentfelden",
+    "lat": 47.3507286,
+    "lng": 8.052575549999997
+  },
+  {
+    "Name": "Garage Nicola Greco SA",
+    "Strasse": "Via Industria 4",
+    "PLZ": "6807",
+    "Ort": "Taverne",
+    "lat": 46.0603881,
+    "lng": 8.9315093
+  },
+  {
+    "Name": "Grimm Centre André Chevalley SA",
+    "Strasse": "avenue des Morgines 26",
+    "PLZ": "1213",
+    "Ort": "Petit-Lancy",
+    "lat": 46.1938772,
+    "lng": 6.109485
+  },
+  {
+    "Name": "Gross Garage Baden AG",
+    "Strasse": "Halbartenstrasse 7a",
+    "PLZ": "5430",
+    "Ort": "Wettingen",
+    "lat": 47.459084,
+    "lng": 8.3349634
+  },
+  {
+    "Name": "Gross Garage Baden AG",
+    "Strasse": "Bruggerstrasse 194",
+    "PLZ": "5400",
+    "Ort": "Baden",
+    "lat": 47.4826127,
+    "lng": 8.278853481274258
+  },
+  {
+    "Name": "Groupe AFH Automobiles Autosport SA",
+    "Strasse": "Avenue de Grandson 39",
+    "PLZ": "1400",
+    "Ort": "Yverdon-les-Bains",
+    "lat": 46.78962985,
+    "lng": 6.628772986607145
+  },
+  {
+    "Name": "Groupe AFH Automobiles Forges SA",
+    "Strasse": "Boulevard des Eplatures 59",
+    "PLZ": "2300",
+    "Ort": "La Chaux-de-Fonds",
+    "lat": 47.0842087,
+    "lng": 6.7976182
+  },
+  {
+    "Name": "Groupe AFH Automobiles Hauterive SA",
+    "Strasse": "Rouges-Terres 57",
+    "PLZ": "2068",
+    "Ort": "Hauterive NE",
+    "lat": 47.01005404999999,
+    "lng": 6.97303084999999
+  },
+  {
+    "Name": "Garage Grundbacher AG",
+    "Strasse": "Industrieweg 3",
+    "PLZ": "3426",
+    "Ort": "Aefligen",
+    "lat": 47.09589135,
+    "lng": 7.560595227939057
+  },
+  {
+    "Name": "Grunderco SA",
+    "Strasse": "rue de la Bergère 26",
+    "PLZ": "1242",
+    "Ort": "Satigny",
+    "lat": 46.2235875,
+    "lng": 6.059484619045338
+  },
+  {
+    "Name": "Grüzenfeld-Garage AG",
+    "Strasse": "Rudolf-Dieselstrasse 1",
+    "PLZ": "8404",
+    "Ort": "Winterthur",
+    "lat": 47.49564025,
+    "lng": 8.753339326695935
+  },
+  {
+    "Name": "Garage Gubler AG",
+    "Strasse": "Industriestrasse 1",
+    "PLZ": "4654",
+    "Ort": "Lostorf",
+    "lat": 47.3720745,
+    "lng": 7.947414770329302
+  },
+  {
+    "Name": "Garage Gut AG",
+    "Strasse": "Untere Industrie 6",
+    "PLZ": "7304",
+    "Ort": "Maienfeld",
+    "lat": 47.0028289,
+    "lng": 9.523975601075318
+  },
+  {
+    "Name": "Moto Güüge GmbH",
+    "Strasse": "Bouley 5",
+    "PLZ": "1792",
+    "Ort": "Guschelmuth",
+    "lat": 46.88087335,
+    "lng": 7.137702341280221
+  },
+  {
+    "Name": "Gysin + Gerspacher AG",
+    "Strasse": "Hunnenweg 8",
+    "PLZ": "4503",
+    "Ort": "Solothurn",
+    "lat": 47.19881815,
+    "lng": 7.532025314413307
+  },
+  {
+    "Name": "Gysin + Gerspacher AG",
+    "Strasse": "Ringstrasse 21",
+    "PLZ": "4556",
+    "Ort": "Aeschi SO",
+    "lat": 47.17802215,
+    "lng": 7.657640478448279
+  },
+  {
+    "Name": "H.P. Senn AG",
+    "Strasse": "Kasernenstrasse 67",
+    "PLZ": "7007",
+    "Ort": "Chur",
+    "lat": 46.8469079,
+    "lng": 9.5213314
+  },
+  {
+    "Name": "Hächler AG Nutzfahrzeuge",
+    "Strasse": "Giesserstrasse 1",
+    "PLZ": "5504",
+    "Ort": "Othmarsingen",
+    "lat": 47.4076539,
+    "lng": 8.215711943010213
+  },
+  {
+    "Name": "Halbeisen AG",
+    "Strasse": "Schneckelerstrasse 14",
+    "PLZ": "4414",
+    "Ort": "Füllinsdorf",
+    "lat": 47.51494985,
+    "lng": 7.720668897392979
+  },
+  {
+    "Name": "Garage Haltinner AG",
+    "Strasse": "Oberaustrasse 62",
+    "PLZ": "9453",
+    "Ort": "Eichberg",
+    "lat": 47.3387202,
+    "lng": 9.523991036816277
+  },
+  {
+    "Name": "Hammer Auto Center AG",
+    "Strasse": "Luzernerstrasse 44",
+    "PLZ": "6045",
+    "Ort": "Meggen",
+    "lat": 47.04396545,
+    "lng": 8.363587438647588
+  },
+  {
+    "Name": "Erich Hänggi Garage",
+    "Strasse": "Im See 14",
+    "PLZ": "4208",
+    "Ort": "Nunningen",
+    "lat": 47.39574205,
+    "lng": 7.615435575885206
+  },
+  {
+    "Name": "Häusermann AG",
+    "Strasse": "Rohrerstrasse 30",
+    "PLZ": "5000",
+    "Ort": "Aarau",
+    "lat": 47.39512305,
+    "lng": 8.0588417
+  },
+  {
+    "Name": "Häusermann Automobile AG",
+    "Strasse": "Am Dorfbach 14",
+    "PLZ": "8308",
+    "Ort": "Illnau",
+    "lat": 47.4120695,
+    "lng": 8.722688
+  },
+  {
+    "Name": "Häusermann Automobile AG",
+    "Strasse": "Bernerstrasse Nord 188",
+    "PLZ": "8064",
+    "Ort": "Zürich",
+    "lat": 47.3953609,
+    "lng": 8.485827511914472
+  },
+  {
+    "Name": "Häusermann Citygarage AG",
+    "Strasse": "In Huebwiesen 11",
+    "PLZ": "8600",
+    "Ort": "Dübendorf",
+    "lat": 47.40101485,
+    "lng": 8.614964395731295
+  },
+  {
+    "Name": "Häusermann Stadion Garage AG",
+    "Strasse": "Rapperswilerstrasse 66",
+    "PLZ": "8620",
+    "Ort": "Wetzikon ZH",
+    "lat": 47.3145128,
+    "lng": 8.7983263
+  },
+  {
+    "Name": "Garage Hediger SA",
+    "Strasse": "Route d'Italie 35",
+    "PLZ": "1951",
+    "Ort": "Sion",
+    "lat": 46.2463218,
+    "lng": 7.3879373
+  },
+  {
+    "Name": "Hedin Automotive Chur AG",
+    "Strasse": "Kasernenstrasse 165",
+    "PLZ": "7007",
+    "Ort": "Chur",
+    "lat": 46.8460814,
+    "lng": 9.5102194
+  },
+  {
+    "Name": "Hedin Automotive Schweiz AG",
+    "Strasse": "Hügsamstrasse 2",
+    "PLZ": "8833",
+    "Ort": "Samstagern",
+    "lat": 47.19665879999999,
+    "lng": 8.680741670353195
+  },
+  {
+    "Name": "Hedin Automotive Schweiz AG Zweigniederlassung Dielsdorf",
+    "Strasse": "Industriestrasse 6",
+    "PLZ": "8157",
+    "Ort": "Dielsdorf",
+    "lat": 47.4833093,
+    "lng": 8.4636207
+  },
+  {
+    "Name": "Hedin Automotive Schweiz AG Zweigniederlassung Wohlen",
+    "Strasse": "Schützenmattweg 20",
+    "PLZ": "5610",
+    "Ort": "Wohlen AG",
+    "lat": 47.3578079,
+    "lng": 8.272181261615138
+  },
+  {
+    "Name": "Hedin Automotive Widnau AG",
+    "Strasse": "Unterdorfstrasse 85",
+    "PLZ": "9443",
+    "Ort": "Widnau",
+    "lat": 47.4161739,
+    "lng": 9.6341763
+  },
+  {
+    "Name": "Hedin Automotive Widnau AG",
+    "Strasse": "Schuppisstrasse 9",
+    "PLZ": "9016",
+    "Ort": "St. Gallen",
+    "lat": 47.4410691,
+    "lng": 9.41742164613003
+  },
+  {
+    "Name": "Garage M. Heiz AG",
+    "Strasse": "Motorenstrasse 105",
+    "PLZ": "8620",
+    "Ort": "Wetzikon ZH",
+    "lat": 47.33211344999999,
+    "lng": 8.791019676317756
+  },
+  {
+    "Name": "Garage Hertach AG",
+    "Strasse": "Arbonerstrasse 7",
+    "PLZ": "9315",
+    "Ort": "Neukirch (Egnach)",
+    "lat": 47.52822915,
+    "lng": 9.371295049688879
+  },
+  {
+    "Name": "Hilfsmittel-Markt GmbH",
+    "Strasse": "Leenrütimattweg 7",
+    "PLZ": "4704",
+    "Ort": "Niederbipp",
+    "lat": 47.2821539,
+    "lng": 7.702227653263853
+  },
+  {
+    "Name": "Hirn Appenzell AG",
+    "Strasse": "Gaiserstrasse 151",
+    "PLZ": "9050",
+    "Ort": "Appenzell",
+    "lat": 47.3479286,
+    "lng": 9.4317159
+  },
+  {
+    "Name": "Hirn Balgach AG",
+    "Strasse": "Hauptstrasse 64",
+    "PLZ": "9436",
+    "Ort": "Balgach",
+    "lat": 47.4052558,
+    "lng": 9.601744219486287
+  },
+  {
+    "Name": "Hirn Oberriet AG",
+    "Strasse": "Staatstrasse 192",
+    "PLZ": "9463",
+    "Ort": "Oberriet SG",
+    "lat": 47.31157391419836,
+    "lng": 9.55494313597784
+  },
+  {
+    "Name": "Hirsch Automobile AG",
+    "Strasse": "Teslastrasse 3",
+    "PLZ": "9015",
+    "Ort": "St. Gallen",
+    "lat": 47.41013895,
+    "lng": 9.314243770716143
+  },
+  {
+    "Name": "HKS Fördertechnik AG",
+    "Strasse": "Alti Ruedelfingerstrass 18",
+    "PLZ": "8460",
+    "Ort": "Marthalen",
+    "lat": 47.6346854,
+    "lng": 8.6570806
+  },
+  {
+    "Name": "Garage Hofer AG",
+    "Strasse": "Weinfelderstrasse 125",
+    "PLZ": "8580",
+    "Ort": "Amriswil",
+    "lat": 47.54516686329259,
+    "lng": 9.298733683475593
+  },
+  {
+    "Name": "hoffmann automobile AG",
+    "Strasse": "Butthollenring 1-3",
+    "PLZ": "4147",
+    "Ort": "Aesch BL",
+    "lat": 47.47905000266981,
+    "lng": 7.588696033350218
+  },
+  {
+    "Name": "hoffmann automobil ag",
+    "Strasse": "Baselstrasse 31",
+    "PLZ": "4222",
+    "Ort": "Zwingen",
+    "lat": 47.4396964,
+    "lng": 7.53626600654685
+  },
+  {
+    "Name": "hoffmann automobile ag",
+    "Strasse": "Binningerstrasse 115a",
+    "PLZ": "4123",
+    "Ort": "Allschwil",
+    "lat": 47.54830045,
+    "lng": 7.549587762019467
+  },
+  {
+    "Name": "hoffmann automobile ag Betrieb Basel",
+    "Strasse": "Hardstrasse 62",
+    "PLZ": "4052",
+    "Ort": "Basel",
+    "lat": 47.5499204,
+    "lng": 7.6054347
+  },
+  {
+    "Name": "Garage Hollenstein AG",
+    "Strasse": "Therwilerstrasse 2",
+    "PLZ": "4147",
+    "Ort": "Aesch BL",
+    "lat": 47.4792367,
+    "lng": 7.5919779
+  },
+  {
+    "Name": "Autogarage Hörhager AG",
+    "Strasse": "Bernstrasse 8",
+    "PLZ": "3205",
+    "Ort": "Gümmenen",
+    "lat": 46.94338550000001,
+    "lng": 7.239291080313317
+  },
+  {
+    "Name": "Garage Otto Howald AG",
+    "Strasse": "Engestrasse 13",
+    "PLZ": "4500",
+    "Ort": "Solothurn",
+    "lat": 47.2011336,
+    "lng": 7.5469217
+  },
+  {
+    "Name": "Huber Automobile AG",
+    "Strasse": "Lenzburgerstrasse 8",
+    "PLZ": "5507",
+    "Ort": "Mellingen",
+    "lat": 47.4174003,
+    "lng": 8.272184179555666
+  },
+  {
+    "Name": "Huber Nutzfahrzeuge AG",
+    "Strasse": "Lenzbüel 5",
+    "PLZ": "8370",
+    "Ort": "Sirnach",
+    "lat": 47.4626841,
+    "lng": 9.024527662852108
+  },
+  {
+    "Name": "Hüsser & Palkoska AG",
+    "Strasse": "Sihlbruggstrasse 2",
+    "PLZ": "6340",
+    "Ort": "Baar",
+    "lat": 47.1971363,
+    "lng": 8.539601
+  },
+  {
+    "Name": "Hutter Auto Riedbach AG",
+    "Strasse": "Frauenfelderstrasse 9",
+    "PLZ": "8404",
+    "Ort": "Winterthur",
+    "lat": 47.5108572,
+    "lng": 8.760527718844541
+  },
+  {
+    "Name": "Hutter Auto Thomi AG",
+    "Strasse": "Schaffhauserstrasse 6",
+    "PLZ": "8503",
+    "Ort": "Frauenfeld",
+    "lat": 47.5612282,
+    "lng": 8.889146749299066
+  },
+  {
+    "Name": "Hutter Auto Ziel AG",
+    "Strasse": "Schaffhauserstrasse 131",
+    "PLZ": "8404",
+    "Ort": "Winterthur",
+    "lat": 47.5143294,
+    "lng": 8.721151133778738
+  },
+  {
+    "Name": "Hutter Dynamics AG Schaffhausen",
+    "Strasse": "Solenbergstrasse 1",
+    "PLZ": "8207",
+    "Ort": "Schaffhausen",
+    "lat": 47.713419,
+    "lng": 8.658340090095276
+  },
+  {
+    "Name": "Hutter Dynamics AG",
+    "Strasse": "Hegmattenstrasse 3",
+    "PLZ": "8404",
+    "Ort": "Winterthur",
+    "lat": 47.51027055,
+    "lng": 8.760568370297404
+  },
+  {
+    "Name": "HUWAG - NUTZFAHRZEUGE AG",
+    "Strasse": "Haltelhusstrasse 12",
+    "PLZ": "9402",
+    "Ort": "Mörschwil",
+    "lat": 47.4576347,
+    "lng": 9.431933247615877
+  },
+  {
+    "Name": "Imholz Autohaus AG",
+    "Strasse": "Sinserstrasse 45",
+    "PLZ": "6330",
+    "Ort": "Cham",
+    "lat": 47.1858167,
+    "lng": 8.454038058132422
+  },
+  {
+    "Name": "Auto Inderbitzin AG",
+    "Strasse": "Gotthardstrasse 18",
+    "PLZ": "6414",
+    "Ort": "Oberarth",
+    "lat": 47.0564996,
+    "lng": 8.533172465554003
+  },
+  {
+    "Name": "Inter-Auto, succursale de Groupe Leuba SA",
+    "Strasse": "Route d'Ollon 1",
+    "PLZ": "1860",
+    "Ort": "Aigle",
+    "lat": 46.3147711,
+    "lng": 6.9661443
+  },
+  {
+    "Name": "Automobiles Jäggi SA",
+    "Strasse": "Grand-rue 29",
+    "PLZ": "2606",
+    "Ort": "Corgémont",
+    "lat": 47.19369565,
+    "lng": 7.142119319796531
+  },
+  {
+    "Name": "Jost's Töfflade AG",
+    "Strasse": "Herzogenmühlestrasse 20",
+    "PLZ": "8051",
+    "Ort": "Zürich",
+    "lat": 47.4055742,
+    "lng": 8.573217583755453
+  },
+  {
+    "Name": "Automobile Jud AG",
+    "Strasse": "Hauptstrasse 107",
+    "PLZ": "5070",
+    "Ort": "Frick",
+    "lat": 47.5052246,
+    "lng": 8.025559651897098
+  },
+  {
+    "Name": "Kamoo AG",
+    "Strasse": "Auwiesenstrasse 1",
+    "PLZ": "8406",
+    "Ort": "Winterthur",
+    "lat": 47.4842282,
+    "lng": 8.710194566945333
+  },
+  {
+    "Name": "Keigel AG",
+    "Strasse": "St. Alban-Anlage 72",
+    "PLZ": "4052",
+    "Ort": "Basel",
+    "lat": 47.5525776,
+    "lng": 7.6044099
+  },
+  {
+    "Name": "Keigel AG",
+    "Strasse": "Rheinstrasse 69",
+    "PLZ": "4402",
+    "Ort": "Frenkendorf",
+    "lat": 47.5059532,
+    "lng": 7.721005184646065
+  },
+  {
+    "Name": "Renault Füllinsdorf Keigel AG",
+    "Strasse": "Rheinstrasse 32",
+    "PLZ": "4414",
+    "Ort": "Füllinsdorf",
+    "lat": 47.50611625,
+    "lng": 7.721693925595238
+  },
+  {
+    "Name": "Keigel AG",
+    "Strasse": "Lausenerstrasse 21",
+    "PLZ": "4410",
+    "Ort": "Liestal",
+    "lat": 47.475807,
+    "lng": 7.749794291045976
+  },
+  {
+    "Name": "Keigel AG Renault Oberwil",
+    "Strasse": "Sägestrasse 2",
+    "PLZ": "4104",
+    "Ort": "Oberwil BL",
+    "lat": 47.5116296,
+    "lng": 7.5559978
+  },
+  {
+    "Name": "Keigel AG",
+    "Strasse": "Hohenrainstrasse",
+    "PLZ": "4133",
+    "Ort": "Pratteln",
+    "lat": 47.5259672,
+    "lng": 7.694249450460024
+  },
+  {
+    "Name": "Keigel AG",
+    "Strasse": "Baselstrasse 14",
+    "PLZ": "4222",
+    "Ort": "Zwingen",
+    "lat": 47.4392431,
+    "lng": 7.5358288
+  },
+  {
+    "Name": "Kenny's Auto-Center AG Zweigniederlassung Dällikon",
+    "Strasse": "Buchserstrasse 30",
+    "PLZ": "8108",
+    "Ort": "Dällikon",
+    "lat": 47.445342,
+    "lng": 8.43911581408046
+  },
+  {
+    "Name": "Kenny's Auto-Center AG",
+    "Strasse": "Landstrasse 189",
+    "PLZ": "5430",
+    "Ort": "Wettingen",
+    "lat": 47.4593397,
+    "lng": 8.3421583
+  },
+  {
+    "Name": "Kestenholz Automobil AG NFZ Center",
+    "Strasse": "Güterstrasse 99",
+    "PLZ": "4133",
+    "Ort": "Pratteln",
+    "lat": 47.5220776,
+    "lng": 7.6722519
+  },
+  {
+    "Name": "H. Kiener AG",
+    "Strasse": "Riedmattli 5",
+    "PLZ": "6423",
+    "Ort": "Seewen SZ",
+    "lat": 47.0319567,
+    "lng": 8.625036898490706
+  },
+  {
+    "Name": "Garage Kocher AG",
+    "Strasse": "Vinelzstrasse 50",
+    "PLZ": "3235",
+    "Ort": "Erlach",
+    "lat": 47.0398566,
+    "lng": 7.099256406086957
+  },
+  {
+    "Name": "Garage Kohli SA",
+    "Strasse": "route des Tioleires 12",
+    "PLZ": "1880",
+    "Ort": "Bex",
+    "lat": 46.24732915,
+    "lng": 6.999075850000001
+  },
+  {
+    "Name": "Kolly Aigle SA",
+    "Strasse": "Chemin de la Biole 12",
+    "PLZ": "1860",
+    "Ort": "Aigle",
+    "lat": 46.3096023,
+    "lng": 6.9418214
+  },
+  {
+    "Name": "Kreuchi Auto AG",
+    "Strasse": "Aengistrasse 20",
+    "PLZ": "4704",
+    "Ort": "Niederbipp",
+    "lat": 47.27948505000001,
+    "lng": 7.699556814335573
+  },
+  {
+    "Name": "Kreuz-Garage E. Bischof AG",
+    "Strasse": "Trogenerstrasse 1",
+    "PLZ": "9042",
+    "Ort": "Speicher",
+    "lat": 47.40841565,
+    "lng": 9.44609900918614
+  },
+  {
+    "Name": "Kreuz-Garage Willisau AG",
+    "Strasse": "Ettiswilerstrasse 10",
+    "PLZ": "6130",
+    "Ort": "Willisau",
+    "lat": 47.1230213,
+    "lng": 7.99421022834021
+  },
+  {
+    "Name": "Kreuz-Garage AG Weinfelden",
+    "Strasse": "Amriswilerstrasse 149",
+    "PLZ": "8570",
+    "Ort": "Weinfelden",
+    "lat": 47.5619688,
+    "lng": 9.127784632032975
+  },
+  {
+    "Name": "Auto-Center Küng AG",
+    "Strasse": "Landstrasse 148",
+    "PLZ": "5430",
+    "Ort": "Wettingen",
+    "lat": 47.46435685214266,
+    "lng": 8.32977034867766
+  },
+  {
+    "Name": "Garage Küng AG",
+    "Strasse": "Landstrasse 53",
+    "PLZ": "5412",
+    "Ort": "Gebenstorf",
+    "lat": 47.4839257,
+    "lng": 8.2420715
+  },
+  {
+    "Name": "Autohaus Küng AG",
+    "Strasse": "Im Halt 2",
+    "PLZ": "5412",
+    "Ort": "Gebenstorf",
+    "lat": 47.48971615,
+    "lng": 8.245940103062171
+  },
+  {
+    "Name": "Küry Automobile AG",
+    "Strasse": "Moosstrasse 9",
+    "PLZ": "8803",
+    "Ort": "Rüschlikon",
+    "lat": 47.3025938,
+    "lng": 8.5463282
+  },
+  {
+    "Name": "Kyburz Switzerland AG",
+    "Strasse": "Stationsstrasse 90",
+    "PLZ": "8424",
+    "Ort": "Embrach",
+    "lat": 47.5138032,
+    "lng": 8.5905686
+  },
+  {
+    "Name": "Kyburz Switzerland AG Servicestelle Zentralschweiz",
+    "Strasse": "Altsagenstrasse 20",
+    "PLZ": "6048",
+    "Ort": "Horw",
+    "lat": 47.00962985,
+    "lng": 8.305830199999999
+  },
+  {
+    "Name": "Kyburz Switzerland AG Servicestelle Jura",
+    "Strasse": "Clos Donzel 2",
+    "PLZ": "2114",
+    "Ort": "Fleurier",
+    "lat": 46.9049722,
+    "lng": 6.5947466
+  },
+  {
+    "Name": "Kyburz Switzerland AG Servicestelle Suisse Romande",
+    "Strasse": "Route de Denges 28F",
+    "PLZ": "1027",
+    "Ort": "Lonay",
+    "lat": 46.5272058,
+    "lng": 6.5298042
+  },
+  {
+    "Name": "Garage de l`Athénée, André Chevalley SA",
+    "Strasse": "route de Meyrin 122",
+    "PLZ": "1214",
+    "Ort": "Vernier",
+    "lat": 46.2201667,
+    "lng": 6.1052508
+  },
+  {
+    "Name": "L'Etoile Jurassienne, succursale de Groupe Leuba SA",
+    "Strasse": "Rue Saint-Maurice 2",
+    "PLZ": "2800",
+    "Ort": "Delémont",
+    "lat": 47.3435315,
+    "lng": 7.317351
+  },
+  {
+    "Name": "Garage Lanthemann S.A.",
+    "Strasse": "chemin des Echelles 1",
+    "PLZ": "2016",
+    "Ort": "Cortaillod",
+    "lat": 46.94336615,
+    "lng": 6.8405505
+  },
+  {
+    "Name": "Larag AG Chablais Véhicules Utilitaires",
+    "Strasse": "Route Boeuferrant-Sud 8",
+    "PLZ": "1870",
+    "Ort": "Monthey",
+    "lat": 46.2735892,
+    "lng": 6.958676750000009
+  },
+  {
+    "Name": "LARAG AG Langenthal",
+    "Strasse": "Chasseralstrasse 20",
+    "PLZ": "4900",
+    "Ort": "Langenthal",
+    "lat": 47.2165462,
+    "lng": 7.765525772666786
+  },
+  {
+    "Name": "LARAG AG Neftenbach Nutzfahrzeuge",
+    "Strasse": "Weiachstrasse",
+    "PLZ": "8413",
+    "Ort": "Neftenbach",
+    "lat": 47.5194698,
+    "lng": 8.656542
+  },
+  {
+    "Name": "Larag AG Rümlang Nutzfahrzeuge",
+    "Strasse": "Riedgrabenstrasse 26",
+    "PLZ": "8153",
+    "Ort": "Rümlang",
+    "lat": 47.46127775,
+    "lng": 8.518892938461102
+  },
+  {
+    "Name": "Larag AG St. Gallen Nutzfahrzeuge",
+    "Strasse": "Lerchentalstrasse 6",
+    "PLZ": "9016",
+    "Ort": "St. Gallen",
+    "lat": 47.44142095,
+    "lng": 9.415465265112202
+  },
+  {
+    "Name": "Larag SA Echandens Véhicules Utilitaires",
+    "Strasse": "route d'Yverdon 18",
+    "PLZ": "1026",
+    "Ort": "Echandens",
+    "lat": 46.5347059,
+    "lng": 6.548602148618049
+  },
+  {
+    "Name": "Larag SA Satigny",
+    "Strasse": "rue de la Bergère 42",
+    "PLZ": "1217",
+    "Ort": "Meyrin",
+    "lat": 46.2217045,
+    "lng": 6.0645765
+  },
+  {
+    "Name": "Garage le Parc D' Andrès SA",
+    "Strasse": "route du Simplon 22",
+    "PLZ": "3960",
+    "Ort": "Sierre",
+    "lat": 46.2959303,
+    "lng": 7.539692
+  },
+  {
+    "Name": "Garage Lerch AG Rothrist-Aarau",
+    "Strasse": "Helblingstrasse 2",
+    "PLZ": "4852",
+    "Ort": "Rothrist",
+    "lat": 47.30985175,
+    "lng": 7.893489072875999
+  },
+  {
+    "Name": "Les garages Lanthemann S.A",
+    "Strasse": "Chemin de Praz 10",
+    "PLZ": "1424",
+    "Ort": "Champagne",
+    "lat": 46.82731385,
+    "lng": 6.663328900000002
+  },
+  {
+    "Name": "Honda Automobile Zürich Letzigraben Garage AG",
+    "Strasse": "Letzigraben 77",
+    "PLZ": "8040",
+    "Ort": "Zürich",
+    "lat": 47.378325,
+    "lng": 8.499993604279233
+  },
+  {
+    "Name": "Garage Nicolas Limat SA",
+    "Strasse": "Sécheron 1",
+    "PLZ": "1740",
+    "Ort": "Neyruz FR",
+    "lat": 46.771403,
+    "lng": 7.069714262201025
+  },
+  {
+    "Name": "Autocenter Limmattal B. Strebel AG",
+    "Strasse": "Grindlenstrasse 2",
+    "PLZ": "8954",
+    "Ort": "Geroldswil",
+    "lat": 47.4167438,
+    "lng": 8.4146957
+  },
+  {
+    "Name": "Lion Automobile AG",
+    "Strasse": "Bleienbachstrasse 54",
+    "PLZ": "4900",
+    "Ort": "Langenthal",
+    "lat": 47.202269,
+    "lng": 7.780900567254477
+  },
+  {
+    "Name": "Lorenz Nutzfahrzeuge AG",
+    "Strasse": "Kirchbergstrasse 61",
+    "PLZ": "3421",
+    "Ort": "Lyssach",
+    "lat": 47.07423900000001,
+    "lng": 7.580693430509752
+  },
+  {
+    "Name": "Lueg AG Zweigniederlassung Kriens",
+    "Strasse": "Sternmatt 6",
+    "PLZ": "6010",
+    "Ort": "Kriens",
+    "lat": 47.02829685,
+    "lng": 8.30038076636957
+  },
+  {
+    "Name": "Lueg AG",
+    "Strasse": "Spitalstrasse 8",
+    "PLZ": "6004",
+    "Ort": "Luzern",
+    "lat": 47.05945115,
+    "lng": 8.301500454081635
+  },
+  {
+    "Name": "Lueg AG Zweigniederlassung NF Luzern",
+    "Strasse": "Unterwilrain 16",
+    "PLZ": "6004",
+    "Ort": "Luzern",
+    "lat": 47.0489684,
+    "lng": 8.27180997411832
+  },
+  {
+    "Name": "Lueg AG Zweigniederlassung Sursee",
+    "Strasse": "Sandgruebestrasse 2",
+    "PLZ": "6210",
+    "Ort": "Sursee",
+    "lat": 47.17706975,
+    "lng": 8.110068449739963
+  },
+  {
+    "Name": "LUEG AG, Zweigniederlassung Langenthal",
+    "Strasse": "Schulhausstrasse 24",
+    "PLZ": "4900",
+    "Ort": "Langenthal",
+    "lat": 47.21203995,
+    "lng": 7.784265070038117
+  },
+  {
+    "Name": "Lustenberger Lehnhofgarage AG",
+    "Strasse": "Renggstrasse 2",
+    "PLZ": "6162",
+    "Ort": "Entlebuch",
+    "lat": 46.99844185000001,
+    "lng": 8.069511083890024
+  },
+  {
+    "Name": "Garage Lüthi Ins GmbH",
+    "Strasse": "Müntschemiergasse 56",
+    "PLZ": "3232",
+    "Ort": "Ins",
+    "lat": 47.0041295,
+    "lng": 7.114861468335747
+  },
+  {
+    "Name": "M. Bobnar AG Ford Hauptvertretung",
+    "Strasse": "Industriestrasse Ost 9",
+    "PLZ": "4614",
+    "Ort": "Hägendorf",
+    "lat": 47.33619035,
+    "lng": 7.852518710010722
+  },
+  {
+    "Name": "Maurice Montavon S.A.",
+    "Strasse": "route de Delémont 41",
+    "PLZ": "2802",
+    "Ort": "Develier",
+    "lat": 47.3603393,
+    "lng": 7.3034339
+  },
+  {
+    "Name": "M.S.R Sàrl",
+    "Strasse": "Route du Bois de Bay 16",
+    "PLZ": "1242",
+    "Ort": "Satigny",
+    "lat": 46.2003894,
+    "lng": 6.064115
+  },
+  {
+    "Name": "Maillard Monthey SA",
+    "Strasse": "Les Ilettes",
+    "PLZ": "1870",
+    "Ort": "Monthey",
+    "lat": 46.2468867,
+    "lng": 6.9651251
+  },
+  {
+    "Name": "MAN Truck & Bus Suisse SA Succursale de Bussigny",
+    "Strasse": "Chemin de la Venoge 1",
+    "PLZ": "1030",
+    "Ort": "Bussigny",
+    "lat": 46.55013525,
+    "lng": 6.542574694975272
+  },
+  {
+    "Name": "MAN Truck & Bus Schweiz AG Zweigniederlassung Volketswil",
+    "Strasse": "Im Chies 23",
+    "PLZ": "8604",
+    "Ort": "Volketswil",
+    "lat": 47.38485085,
+    "lng": 8.696105506645887
+  },
+  {
+    "Name": "mandelaugen group GmbH",
+    "Strasse": "Lidostrasse 5",
+    "PLZ": "6006",
+    "Ort": "Luzern",
+    "lat": 47.05275305,
+    "lng": 8.336636310270853
+  },
+  {
+    "Name": "Garage Benoit Marchon",
+    "Strasse": "route de Payerne 2",
+    "PLZ": "1482",
+    "Ort": "Cugy FR",
+    "lat": 46.8154233,
+    "lng": 6.8950143
+  },
+  {
+    "Name": "Garage Marti AG Niedergösgen",
+    "Strasse": "Oltnerstrasse 45",
+    "PLZ": "5013",
+    "Ort": "Niedergösgen",
+    "lat": 47.3702686,
+    "lng": 7.9820210231203
+  },
+  {
+    "Name": "Maurice Chapatte SA",
+    "Strasse": "Route de Courroux 39",
+    "PLZ": "2824",
+    "Ort": "Vicques",
+    "lat": 47.3520484,
+    "lng": 7.4018758
+  },
+  {
+    "Name": "Maurice Montavon SA Automobiles Olivotti",
+    "Strasse": "Route de Courtedoux 26",
+    "PLZ": "2900",
+    "Ort": "Porrentruy",
+    "lat": 47.4123044,
+    "lng": 7.0634489
+  },
+  {
+    "Name": "Max Jung AG",
+    "Strasse": "Eisenbahnstrasse 62",
+    "PLZ": "3645",
+    "Ort": "Gwatt (Thun)",
+    "lat": 46.7237422,
+    "lng": 7.620534134078513
+  },
+  {
+    "Name": "Mayer AG Garage Carrosserie",
+    "Strasse": "Oberaustrasse 2",
+    "PLZ": "7203",
+    "Ort": "Trimmis",
+    "lat": 46.91891055,
+    "lng": 9.560313557785632
+  },
+  {
+    "Name": "MB Auto Center Zug AG",
+    "Strasse": "Sennweidstrasse 28",
+    "PLZ": "6312",
+    "Ort": "Steinhausen",
+    "lat": 47.1911131,
+    "lng": 8.480553
+  },
+  {
+    "Name": "Autocenter Mels AG",
+    "Strasse": "Zeughausstrasse 18",
+    "PLZ": "8887",
+    "Ort": "Mels",
+    "lat": 47.05553575,
+    "lng": 9.411133880719252
+  },
+  {
+    "Name": "Mercedes-Benz Automobil  AG",
+    "Strasse": "Zürcherstrasse 109",
+    "PLZ": "8952",
+    "Ort": "Schlieren",
+    "lat": 47.39760945,
+    "lng": 8.461897363421656
+  },
+  {
+    "Name": "Mercedes-Benz Automobil AG Zweigniederlassung Aarburg",
+    "Strasse": "Oltnerstrasse 85",
+    "PLZ": "4663",
+    "Ort": "Aarburg",
+    "lat": 47.3315144,
+    "lng": 7.9051293
+  },
+  {
+    "Name": "Mercedes-Benz Automobil AG",
+    "Strasse": "Zürichstrasse 78",
+    "PLZ": "8134",
+    "Ort": "Adliswil",
+    "lat": 47.32381985,
+    "lng": 8.53033346426411
+  },
+  {
+    "Name": "Mercedes-Benz Automobil AG Zweigniederlassung Aegerten",
+    "Strasse": "Alte Bernstrasse 34",
+    "PLZ": "2558",
+    "Ort": "Aegerten",
+    "lat": 47.11762445,
+    "lng": 7.29216160569604
+  },
+  {
+    "Name": "Mercedes-Benz Automobil AG Zweigniederlassung Bellach",
+    "Strasse": "Römerstrasse 18",
+    "PLZ": "4512",
+    "Ort": "Bellach",
+    "lat": 47.21263745,
+    "lng": 7.512445095642048
+  },
+  {
+    "Name": "Mercedes-Benz Automobiles SA Succursale Bulle",
+    "Strasse": "Chemin de Champ-Francey 140",
+    "PLZ": "1630",
+    "Ort": "Bulle",
+    "lat": 46.6302071,
+    "lng": 7.060128398797096
+  },
+  {
+    "Name": "Mercedes-Benz Automobili SA Succursale Mendrisio",
+    "Strasse": "via Borromini 5",
+    "PLZ": "6850",
+    "Ort": "Mendrisio",
+    "lat": 45.87293325,
+    "lng": 8.978701503522288
+  },
+  {
+    "Name": "Mercedes-Benz Automobil AG Zweigniederlassung Neuendorf",
+    "Strasse": "Industriestrasse 23",
+    "PLZ": "4623",
+    "Ort": "Neuendorf",
+    "lat": 47.3130728,
+    "lng": 7.786253233343497
+  },
+  {
+    "Name": "Mercedes-Benz Automobil AG Zweigniederlassung NF Bern-Bümpliz",
+    "Strasse": "Freiburgstrasse 335",
+    "PLZ": "3018",
+    "Ort": "Bern",
+    "lat": 46.937257,
+    "lng": 7.395991121237088
+  },
+  {
+    "Name": "Mercedes-Benz Automobiles SA Succursale véhicules utilitaires Granges-Paccot Granges-Paccot",
+    "Strasse": "Route du Lac 6",
+    "PLZ": "1763",
+    "Ort": "Granges-Paccot",
+    "lat": 46.82376985000001,
+    "lng": 7.15150960000001
+  },
+  {
+    "Name": "Mercedes-Benz Automobil AG Zweigniederlassung NF Schlieren",
+    "Strasse": "Goldschlägistrasse 19",
+    "PLZ": "8952",
+    "Ort": "Schlieren",
+    "lat": 47.40152670000001,
+    "lng": 8.438163562048093
+  },
+  {
+    "Name": "Mercedes-Benz Automobiles SA Succursale voitures particulières Granges-Paccot Granges-Paccot (Fribourg)",
+    "Strasse": "Route d'Englisberg 4",
+    "PLZ": "1763",
+    "Ort": "Granges-Paccot",
+    "lat": 46.82811545,
+    "lng": 7.150178851805532
+  },
+  {
+    "Name": "Mercedes-Benz Automobil AG Zweigniederlassung Rohr",
+    "Strasse": "Hauptstrasse 104",
+    "PLZ": "5032",
+    "Ort": "Aarau Rohr",
+    "lat": 47.4046542,
+    "lng": 8.0944537
+  },
+  {
+    "Name": "Mercedes Benz Automobil AG Zweigniederlassung Stäfa",
+    "Strasse": "Seestrasse 153",
+    "PLZ": "8712",
+    "Ort": "Stäfa",
+    "lat": 47.2346316,
+    "lng": 8.735060264132775
+  },
+  {
+    "Name": "Mercedes-Benz Automobil AG Zweigniederlassung Thun",
+    "Strasse": "Gwattstrasse 18",
+    "PLZ": "3604",
+    "Ort": "Thun",
+    "lat": 46.7383719,
+    "lng": 7.626854017540587
+  },
+  {
+    "Name": "Mercedes-Benz Automobil AG Zweigniederlassung Uetendorf",
+    "Strasse": "Industriestrasse 15",
+    "PLZ": "3661",
+    "Ort": "Uetendorf",
+    "lat": 46.77722595,
+    "lng": 7.579520562432498
+  },
+  {
+    "Name": "Mercedes-Benz Automobili SA Succursale Vezia",
+    "Strasse": "Via Kosciuszko 1",
+    "PLZ": "6943",
+    "Ort": "Vezia",
+    "lat": 46.0293963,
+    "lng": 8.9382664
+  },
+  {
+    "Name": "Mercedes-Benz Automobil AG Zweigniederlassung Wettingen",
+    "Strasse": "Otelfingerstrasse 44",
+    "PLZ": "5430",
+    "Ort": "Wettingen",
+    "lat": 47.4583687,
+    "lng": 8.3463798
+  },
+  {
+    "Name": "Mercedes-Benz Automobil AG Zweigniederlassung Winterthur",
+    "Strasse": "Ohrbühlstrasse 37",
+    "PLZ": "8409",
+    "Ort": "Winterthur",
+    "lat": 47.500484,
+    "lng": 8.767546282463186
+  },
+  {
+    "Name": "Mercedes-Benz Automobil AG Zweigniederlassung Zollikon",
+    "Strasse": "Rotfluhstrasse 54",
+    "PLZ": "8702",
+    "Ort": "Zollikon",
+    "lat": 47.34307685,
+    "lng": 8.576595710438948
+  },
+  {
+    "Name": "Mercedes-Benz Automobil AG Zweigniederlassung Zürich-Nord",
+    "Strasse": "Hagenholzstrasse 111",
+    "PLZ": "8050",
+    "Ort": "Zürich",
+    "lat": 47.41580415,
+    "lng": 8.562736021679827
+  },
+  {
+    "Name": "Mercedes-Benz Automobil AG Zweigniederlassung Zürich-Seefeld",
+    "Strasse": "Färberstrasse 6",
+    "PLZ": "8008",
+    "Ort": "Zürich",
+    "lat": 47.36161445,
+    "lng": 8.54865098999894
+  },
+  {
+    "Name": "Mercedes-Benz Automobili SA",
+    "Strasse": "Via Pian Scairolo 31",
+    "PLZ": "6915",
+    "Ort": "Pambio-Noranco",
+    "lat": 45.98096565,
+    "lng": 8.929914849599426
+  },
+  {
+    "Name": "GARAGE ET CARROSSERIE MISTRAL MARTIGNY SA",
+    "Strasse": "Avenue des Grandes-Maresches 102",
+    "PLZ": "1920",
+    "Ort": "Martigny",
+    "lat": 46.1126895,
+    "lng": 7.0892005
+  },
+  {
+    "Name": "Garage Moderne Epalinges SA",
+    "Strasse": "Route de Berne 217",
+    "PLZ": "1066",
+    "Ort": "Epalinges",
+    "lat": 46.5497345,
+    "lng": 6.67621914890893
+  },
+  {
+    "Name": "Mon Repos Automobile, succursale de Groupe Leuba SA",
+    "Strasse": "rue Etraz 14",
+    "PLZ": "1003",
+    "Ort": "Lausanne",
+    "lat": 46.5190403,
+    "lng": 6.639433730072465
+  },
+  {
+    "Name": "Moncor Automobiles SA",
+    "Strasse": "route de Chandolan 6",
+    "PLZ": "1752",
+    "Ort": "Villars-sur-Glâne",
+    "lat": 46.8013971,
+    "lng": 7.1189709069918
+  },
+  {
+    "Name": "Garage  J. Montavon SA",
+    "Strasse": "Rue Xavier-Stockmar 8",
+    "PLZ": "2900",
+    "Ort": "Porrentruy",
+    "lat": 47.42165545,
+    "lng": 7.078602563398361
+  },
+  {
+    "Name": "Garage-Carrosserie Moser AG",
+    "Strasse": "Aspstrasse 4",
+    "PLZ": "8472",
+    "Ort": "Seuzach",
+    "lat": 47.5281878,
+    "lng": 8.708365293455344
+  },
+  {
+    "Name": "MOTO FUCHS AG",
+    "Strasse": "Ottenbacherstrasse 25",
+    "PLZ": "8912",
+    "Ort": "Obfelden",
+    "lat": 47.26730035,
+    "lng": 8.423555120732324
+  },
+  {
+    "Name": "Moto Strahm AG",
+    "Strasse": "Unterdorfstrasse 16",
+    "PLZ": "4934",
+    "Ort": "Madiswil",
+    "lat": 47.1663441,
+    "lng": 7.797086000410023
+  },
+  {
+    "Name": "MRS Maschinen + Reparaturservice GmbH",
+    "Strasse": "Querstrasse 2",
+    "PLZ": "8108",
+    "Ort": "Dällikon",
+    "lat": 47.4468216,
+    "lng": 8.4297831
+  },
+  {
+    "Name": "Müller Grynau-Garage AG Herrn Müller Leo",
+    "Strasse": "Grynaustrasse 21",
+    "PLZ": "8730",
+    "Ort": "Uznach",
+    "lat": 47.2236734,
+    "lng": 8.9829193
+  },
+  {
+    "Name": "Multimotor Garage AG",
+    "Strasse": "Glarnerstrasse 94",
+    "PLZ": "8854",
+    "Ort": "Siebnen",
+    "lat": 47.175739,
+    "lng": 8.9135252
+  },
+  {
+    "Name": "Muota-Garage GmbH",
+    "Strasse": "Erlenstrasse 4",
+    "PLZ": "6438",
+    "Ort": "Ibach",
+    "lat": 47.0104302,
+    "lng": 8.641531322110215
+  },
+  {
+    "Name": "Muzzarelli und Leuch AG",
+    "Strasse": "Hauptstrasse 26",
+    "PLZ": "7240",
+    "Ort": "Küblis",
+    "lat": 46.9140795,
+    "lng": 9.7849683
+  },
+  {
+    "Name": "Nef Truckcenter AG",
+    "Strasse": "Flachsackerstrasse 10",
+    "PLZ": "4402",
+    "Ort": "Frenkendorf",
+    "lat": 47.51463625,
+    "lng": 7.718580260743328
+  },
+  {
+    "Name": "Neff AG Flawil Automobile",
+    "Strasse": "Wilerstrasse 247-249",
+    "PLZ": "9230",
+    "Ort": "Flawil",
+    "lat": 47.4172032,
+    "lng": 9.1677523
+  },
+  {
+    "Name": "Garage Nepple AG Pratteln",
+    "Strasse": "Hohenrainstrasse 5",
+    "PLZ": "4133",
+    "Ort": "Pratteln",
+    "lat": 47.5254255,
+    "lng": 7.6907774
+  },
+  {
+    "Name": "Garage Nepple AG Basel",
+    "Strasse": "Netzibodenstrasse 21",
+    "PLZ": "4133",
+    "Ort": "Pratteln",
+    "lat": 47.5318346,
+    "lng": 7.7031457
+  },
+  {
+    "Name": "Garage Nepple AG",
+    "Strasse": "Industriestrasse 30 A",
+    "PLZ": "4415",
+    "Ort": "Lausen",
+    "lat": 47.4694957,
+    "lng": 7.760903163085983
+  },
+  {
+    "Name": "Neue Centrum Garage AG",
+    "Strasse": "Landstrasse 62/64",
+    "PLZ": "5436",
+    "Ort": "Würenlos",
+    "lat": 47.4539436,
+    "lng": 8.3489598
+  },
+  {
+    "Name": "Garage Neuhof AG",
+    "Strasse": "Industrie Neuhof 10",
+    "PLZ": "3422",
+    "Ort": "Kirchberg BE",
+    "lat": 47.09463820000001,
+    "lng": 7.571533750000008
+  },
+  {
+    "Name": "Neuhof Garage Frei GmbH",
+    "Strasse": "Wilerstrasse 48",
+    "PLZ": "9542",
+    "Ort": "Münchwilen TG",
+    "lat": 47.4738378,
+    "lng": 9.00342469965936
+  },
+  {
+    "Name": "NH Automobiles",
+    "Strasse": "Grand-Rue 101",
+    "PLZ": "1110",
+    "Ort": "Morges",
+    "lat": 46.5075968,
+    "lng": 6.4967102
+  },
+  {
+    "Name": "Nidfeld-Garage AG",
+    "Strasse": "Arsenalstrasse 35",
+    "PLZ": "6010",
+    "Ort": "Kriens",
+    "lat": 47.03529260000001,
+    "lng": 8.296519349763033
+  },
+  {
+    "Name": "Nord-Garage AG Ohringen",
+    "Strasse": "Erlenstrasse 24",
+    "PLZ": "8472",
+    "Ort": "Ohringen",
+    "lat": 47.52550255,
+    "lng": 8.714006976047935
+  },
+  {
+    "Name": "Garage Nordstern AG",
+    "Strasse": "Güterstrasse 10",
+    "PLZ": "8245",
+    "Ort": "Feuerthalen",
+    "lat": 47.6911016,
+    "lng": 8.645089511877824
+  },
+  {
+    "Name": "Nutzfahrzeug AG, Zentralschweiz",
+    "Strasse": "Bahnhofstrasse 17",
+    "PLZ": "6056",
+    "Ort": "Kägiswil",
+    "lat": 46.91220070188331,
+    "lng": 8.257098117637916
+  },
+  {
+    "Name": "Nutzfahrzeug AG Zentralschweiz",
+    "Strasse": "Hasliring 18",
+    "PLZ": "6032",
+    "Ort": "Emmen",
+    "lat": 47.0862271,
+    "lng": 8.310683978490744
+  },
+  {
+    "Name": "Obersee Garage AG",
+    "Strasse": "Rapperswilerstrasse 17",
+    "PLZ": "8733",
+    "Ort": "Eschenbach SG",
+    "lat": 47.23806865,
+    "lng": 8.920780406918489
+  },
+  {
+    "Name": "Autocorner J.-C. & C. Oberson S.A.",
+    "Strasse": "route de Neuchâtel 4",
+    "PLZ": "1032",
+    "Ort": "Romanel-sur-Lausanne",
+    "lat": 46.5705309,
+    "lng": 6.6058299
+  },
+  {
+    "Name": "Autocorner J.-C. & C. Oberson S.A.",
+    "Strasse": "Route de Lavaux 105",
+    "PLZ": "1095",
+    "Ort": "Lutry",
+    "lat": 46.5045742,
+    "lng": 6.6820679
+  },
+  {
+    "Name": "Off Road Shop Metzler GmbH",
+    "Strasse": "Zürcherstrasse 330",
+    "PLZ": "8500",
+    "Ort": "Frauenfeld",
+    "lat": 47.56607705,
+    "lng": 8.913319902526684
+  },
+  {
+    "Name": "Garage Olympia Imhof Edi GmbH",
+    "Strasse": "Kantonsstrasse 2",
+    "PLZ": "3902",
+    "Ort": "Glis",
+    "lat": 46.3091539,
+    "lng": 7.971351115909092
+  },
+  {
+    "Name": "Garage Olympic A. Antille Sion SA",
+    "Strasse": "Route des Carolins 3",
+    "PLZ": "1950",
+    "Ort": "Sion",
+    "lat": 46.2206968,
+    "lng": 7.3616009
+  },
+  {
+    "Name": "Garage Olympic SA Agence Volkswagen Sierre",
+    "Strasse": "avenue de France 52",
+    "PLZ": "3960",
+    "Ort": "Sierre",
+    "lat": 46.2885477,
+    "lng": 7.5212656
+  },
+  {
+    "Name": "Garage Olympic SA Agence Partenaire Service Audi Martigny",
+    "Strasse": "Rue du Levant 149",
+    "PLZ": "1920",
+    "Ort": "Martigny",
+    "lat": 46.1032102,
+    "lng": 7.0903035
+  },
+  {
+    "Name": "Garage Olympic SA",
+    "Strasse": "Rte du Levant 151",
+    "PLZ": "1920",
+    "Ort": "Martigny",
+    "lat": 46.09808977522606,
+    "lng": 7.07981351382111
+  },
+  {
+    "Name": "Garage Olympic SA",
+    "Strasse": "Route d'Aproz 4",
+    "PLZ": "1950",
+    "Ort": "Sion",
+    "lat": 46.219374,
+    "lng": 7.3426981
+  },
+  {
+    "Name": "Orpundgarage Biel AG",
+    "Strasse": "Orpundstrasse 77",
+    "PLZ": "2501",
+    "Ort": "Biel/Bienne",
+    "lat": 47.1461319,
+    "lng": 7.2732879
+  },
+  {
+    "Name": "Garage Ozelley AG",
+    "Strasse": "Erlenauweg 5c",
+    "PLZ": "3110",
+    "Ort": "Münsingen",
+    "lat": 46.86969705,
+    "lng": 7.560087255314265
+  },
+  {
+    "Name": "Garage E. Pafumi",
+    "Strasse": "Wiesenweg 45",
+    "PLZ": "5102",
+    "Ort": "Rupperswil",
+    "lat": 47.40839705,
+    "lng": 8.14141499586146
+  },
+  {
+    "Name": "Pargger AG",
+    "Strasse": "Riedenmatt 5",
+    "PLZ": "6370",
+    "Ort": "Stans",
+    "lat": 46.96456805,
+    "lng": 8.384483147830002
+  },
+  {
+    "Name": "Park Garage AG Hauptsitz",
+    "Strasse": "Seestrasse 47",
+    "PLZ": "8800",
+    "Ort": "Thalwil",
+    "lat": 47.2865906,
+    "lng": 8.574978538557405
+  },
+  {
+    "Name": "Park Garage AG Zweigniederlassung Küsnacht (ZH)",
+    "Strasse": "Seestrasse 115",
+    "PLZ": "8700",
+    "Ort": "Küsnacht ZH",
+    "lat": 47.32000225,
+    "lng": 8.579152430511225
+  },
+  {
+    "Name": "Garage Kunz Automobile AG",
+    "Strasse": "Worbstrasse 170",
+    "PLZ": "3073",
+    "Ort": "Gümligen",
+    "lat": 46.9345214,
+    "lng": 7.500551070037596
+  },
+  {
+    "Name": "Pfingstweid Truck Center AG",
+    "Strasse": "Heimstrasse 45",
+    "PLZ": "8953",
+    "Ort": "Dietikon",
+    "lat": 47.412915,
+    "lng": 8.4016717
+  },
+  {
+    "Name": "Auto Pfister AG",
+    "Strasse": "San Bastiaun 55",
+    "PLZ": "7503",
+    "Ort": "Samedan",
+    "lat": 46.5295065,
+    "lng": 9.867320000000003
+  },
+  {
+    "Name": "Piaggiorama  AG",
+    "Strasse": "Johann-Verresius-Strasse 16",
+    "PLZ": "2502",
+    "Ort": "Biel/Bienne",
+    "lat": 47.13237785,
+    "lng": 7.245806760974824
+  },
+  {
+    "Name": "Garage de la Pierre-à-Voir SA",
+    "Strasse": "route du Simplon 7",
+    "PLZ": "1907",
+    "Ort": "Saxon",
+    "lat": 46.1518727,
+    "lng": 7.1793873
+  },
+  {
+    "Name": "Pierre Steulet Neuchâtel SA",
+    "Strasse": "Rue Louis-Joseph-Chevrolet 55",
+    "PLZ": "2300",
+    "Ort": "La Chaux-de-Fonds",
+    "lat": 47.0833511,
+    "lng": 6.803007147089608
+  },
+  {
+    "Name": "PP Autotreff AG",
+    "Strasse": "Arbonerstrasse 19",
+    "PLZ": "9300",
+    "Ort": "Wittenbach",
+    "lat": 47.4624186,
+    "lng": 9.3941707
+  },
+  {
+    "Name": "Procar Davos AG",
+    "Strasse": "Prättigauerstrasse 12",
+    "PLZ": "7265",
+    "Ort": "Davos Wolfgang",
+    "lat": 46.8251045,
+    "lng": 9.8541541
+  },
+  {
+    "Name": "Garage Proietti SA",
+    "Strasse": "boulevard des Eplatures 51",
+    "PLZ": "2304",
+    "Ort": "La Chaux-de-Fonds",
+    "lat": 47.0850362,
+    "lng": 6.799623799398119
+  },
+  {
+    "Name": "Garage Urs Räbmatter",
+    "Strasse": "Grossmattenstrasse 1",
+    "PLZ": "4813",
+    "Ort": "Uerkheim",
+    "lat": 47.3056495,
+    "lng": 8.01924765182598
+  },
+  {
+    "Name": "Radsport Limacher Limacher Hanspeter",
+    "Strasse": "Bahnhofstrasse 39",
+    "PLZ": "6244",
+    "Ort": "Nebikon",
+    "lat": 47.1887597,
+    "lng": 7.9758112
+  },
+  {
+    "Name": "Rattin AG",
+    "Strasse": "Zollstrasse 95",
+    "PLZ": "8212",
+    "Ort": "Neuhausen am Rheinfall",
+    "lat": 47.67523065,
+    "lng": 8.59975904278837
+  },
+  {
+    "Name": "Riantbosson Automobiles Meyrin Sàrl",
+    "Strasse": "chemin Riantbosson 12",
+    "PLZ": "1217",
+    "Ort": "Meyrin",
+    "lat": 46.2263782,
+    "lng": 6.08583002110973
+  },
+  {
+    "Name": "RECAM SA",
+    "Strasse": "route de Soleure 4",
+    "PLZ": "2072",
+    "Ort": "St-Blaise",
+    "lat": 47.0127771,
+    "lng": 6.990572184799512
+  },
+  {
+    "Name": "Garage Reichlin AG",
+    "Strasse": "Grepperstrasse 86-92",
+    "PLZ": "6403",
+    "Ort": "Küssnacht am Rigi",
+    "lat": 47.07161756631469,
+    "lng": 8.437864739389353
+  },
+  {
+    "Name": "RH Auto Service AG",
+    "Strasse": "Wohlerstrasse 6",
+    "PLZ": "5612",
+    "Ort": "Villmergen",
+    "lat": 47.34466285000001,
+    "lng": 8.246066240866286
+  },
+  {
+    "Name": "RH Auto-Service Lenzburg AG",
+    "Strasse": "Aarauerstrasse 35",
+    "PLZ": "5600",
+    "Ort": "Lenzburg",
+    "lat": 47.3869482,
+    "lng": 8.166894178752749
+  },
+  {
+    "Name": "Ritter Automobile AG",
+    "Strasse": "Sägeweg 15",
+    "PLZ": "4452",
+    "Ort": "Itingen",
+    "lat": 47.47027915,
+    "lng": 7.781177798101432
+  },
+  {
+    "Name": "RM Autos SA",
+    "Strasse": "Rue Auguste-Quiquerez 36",
+    "PLZ": "2800",
+    "Ort": "Delémont",
+    "lat": 47.3673684,
+    "lng": 7.3582787
+  },
+  {
+    "Name": "Robert Huber AG",
+    "Strasse": "Mülligerstrasse",
+    "PLZ": "5210",
+    "Ort": "Windisch",
+    "lat": 47.47109969229795,
+    "lng": 8.228292134066628
+  },
+  {
+    "Name": "Garage Rod SA",
+    "Strasse": "Rte de Lausanne 33",
+    "PLZ": "1610",
+    "Ort": "Oron-la-Ville",
+    "lat": 46.5708929961724,
+    "lng": 6.818605283444962
+  },
+  {
+    "Name": "Rolf Aebi & Co.",
+    "Strasse": "Bahnhofstrasse 9",
+    "PLZ": "6403",
+    "Ort": "Küssnacht am Rigi",
+    "lat": 47.08162255000001,
+    "lng": 8.43952765000001
+  },
+  {
+    "Name": "Rollerbude Thun GmbH",
+    "Strasse": "Grabenstrasse 4",
+    "PLZ": "3600",
+    "Ort": "Thun",
+    "lat": 46.7616658,
+    "lng": 7.6277986
+  },
+  {
+    "Name": "Römergarage AG",
+    "Strasse": "Hauptstrasse 127",
+    "PLZ": "5070",
+    "Ort": "Frick",
+    "lat": 47.50342515,
+    "lng": 8.030086600000002
+  },
+  {
+    "Name": "Garage Röschmann AG",
+    "Strasse": "Berglistrasse 14",
+    "PLZ": "8750",
+    "Ort": "Glarus",
+    "lat": 47.04477815,
+    "lng": 9.05911270428832
+  },
+  {
+    "Name": "Rottal Auto AG",
+    "Strasse": "Rütmattstrasse 2",
+    "PLZ": "6017",
+    "Ort": "Ruswil",
+    "lat": 47.07845399999999,
+    "lng": 8.136744626944374
+  },
+  {
+    "Name": "RRG SUISSE SA",
+    "Strasse": "Route de Reculan 11",
+    "PLZ": "1024",
+    "Ort": "Ecublens VD",
+    "lat": 46.53772025000001,
+    "lng": 6.553562175
+  },
+  {
+    "Name": "RRG SUISSE SA Niederlassung Zürich",
+    "Strasse": "Badenerstrasse 330",
+    "PLZ": "8004",
+    "Ort": "Zürich",
+    "lat": 47.37829139999999,
+    "lng": 8.511942499999993
+  },
+  {
+    "Name": "RRG SUISSE SA Succursale Lausanne",
+    "Strasse": "avenue de Morges 7",
+    "PLZ": "1004",
+    "Ort": "Lausanne",
+    "lat": 46.5238834,
+    "lng": 6.621130640468222
+  },
+  {
+    "Name": "RRG SUISSE SA Succursale Marly",
+    "Strasse": "route de Fribourg 13",
+    "PLZ": "1723",
+    "Ort": "Marly",
+    "lat": 46.78206075,
+    "lng": 7.148174477822376
+  },
+  {
+    "Name": "RRG SUISSE SA Niederlassung Glattpark",
+    "Strasse": "Thurgauerstrasse 103",
+    "PLZ": "8152",
+    "Ort": "Glattpark (Opfikon) ",
+    "lat": 47.424633,
+    "lng": 8.5598648
+  },
+  {
+    "Name": "RRG SUISSE SA Succursale Nyon",
+    "Strasse": "route de Duillier 6",
+    "PLZ": "1260",
+    "Ort": "Nyon",
+    "lat": 46.3942563,
+    "lng": 6.236355399999995
+  },
+  {
+    "Name": "RRG SUISSE SA Succursale Plan-les-Ouates",
+    "Strasse": "route de St-Julien 180",
+    "PLZ": "1228",
+    "Ort": "Plan-les-Ouates",
+    "lat": 46.16623575,
+    "lng": 6.112062881360162
+  },
+  {
+    "Name": "Rutishauser Automobile AG",
+    "Strasse": "Hauptstrasse 119",
+    "PLZ": "8274",
+    "Ort": "Tägerwilen",
+    "lat": 47.6592585,
+    "lng": 9.123737
+  },
+  {
+    "Name": "Rutishauser Automobile AG",
+    "Strasse": "Egelseestrasse 49",
+    "PLZ": "8280",
+    "Ort": "Kreuzlingen",
+    "lat": 47.64305585,
+    "lng": 9.182725600000001
+  },
+  {
+    "Name": "Rütli Garage AG",
+    "Strasse": "Zipfelwiesenstrasse 5",
+    "PLZ": "8305",
+    "Ort": "Dietlikon",
+    "lat": 47.4156643,
+    "lng": 8.618579950000004
+  },
+  {
+    "Name": "S. Flückiger AG",
+    "Strasse": "Huttwilstrasse 58",
+    "PLZ": "4944",
+    "Ort": "Auswil",
+    "lat": 47.1283195,
+    "lng": 7.82562316940332
+  },
+  {
+    "Name": "S. Flückiger AG",
+    "Strasse": "Bleienbachstrasse 54",
+    "PLZ": "4900",
+    "Ort": "Langenthal",
+    "lat": 47.202269,
+    "lng": 7.780900567254477
+  },
+  {
+    "Name": "Scania Schweiz AG",
+    "Strasse": "Buholzstrasse 6",
+    "PLZ": "6032",
+    "Ort": "Emmen",
+    "lat": 47.0842441,
+    "lng": 8.31178540967299
+  },
+  {
+    "Name": "Scania Schweiz AG",
+    "Strasse": "Ikarusstrasse 6",
+    "PLZ": "9015",
+    "Ort": "St. Gallen",
+    "lat": 47.40469455,
+    "lng": 9.3049231
+  },
+  {
+    "Name": "Scania Schweiz AG",
+    "Strasse": "Felsenaustrasse 49",
+    "PLZ": "7000",
+    "Ort": "Chur",
+    "lat": 46.8599732,
+    "lng": 9.509301861598814
+  },
+  {
+    "Name": "Scania Schweiz AG",
+    "Strasse": "Zürcherstrasse 334",
+    "PLZ": "8500",
+    "Ort": "Frauenfeld",
+    "lat": 47.5665972,
+    "lng": 8.914319285179026
+  },
+  {
+    "Name": "Scania Schweiz AG",
+    "Strasse": "Steinackerstrasse 57",
+    "PLZ": "8302",
+    "Ort": "Kloten",
+    "lat": 47.44759995,
+    "lng": 8.605785049109198
+  },
+  {
+    "Name": "Scania Schweiz AG",
+    "Strasse": "Buechmattstrasse 11",
+    "PLZ": "8645",
+    "Ort": "Jona",
+    "lat": 47.22604685,
+    "lng": 8.868336045166663
+  },
+  {
+    "Name": "Scania Schweiz AG",
+    "Strasse": "Hauptstrasse 19",
+    "PLZ": "4853",
+    "Ort": "Murgenthal",
+    "lat": 47.283984,
+    "lng": 7.849004570010843
+  },
+  {
+    "Name": "Scania Schweiz AG",
+    "Strasse": "Netzibodenstrasse 29",
+    "PLZ": "4133",
+    "Ort": "Pratteln",
+    "lat": 47.5327929,
+    "lng": 7.7054252
+  },
+  {
+    "Name": "Scania Schweiz AG",
+    "Strasse": "Gennersbrunnerstrasse 69",
+    "PLZ": "8207",
+    "Ort": "Schaffhausen",
+    "lat": 47.7152925,
+    "lng": 8.6647878
+  },
+  {
+    "Name": "Scania Schweiz AG",
+    "Strasse": "Grubenstrasse 9",
+    "PLZ": "3322",
+    "Ort": "Urtenen-Schönbühl",
+    "lat": 47.0201318,
+    "lng": 7.503494064786286
+  },
+  {
+    "Name": "Scania Suisse SA",
+    "Strasse": "route d'Ecublens 26",
+    "PLZ": "1026",
+    "Ort": "Echandens",
+    "lat": 46.5359613,
+    "lng": 6.5476709
+  },
+  {
+    "Name": "Schachengarage AG",
+    "Strasse": "Looweg 2",
+    "PLZ": "9463",
+    "Ort": "Oberriet SG",
+    "lat": 47.32227899999999,
+    "lng": 9.565406474753459
+  },
+  {
+    "Name": "Schär Elektrofahrzeuge GmbH",
+    "Strasse": "Lindengasse 12",
+    "PLZ": "5042",
+    "Ort": "Hirschthal",
+    "lat": 47.32112225,
+    "lng": 8.0522147
+  },
+  {
+    "Name": "W. Schärer Schlossgarage AG",
+    "Strasse": "Lindenstrasse 23",
+    "PLZ": "3367",
+    "Ort": "Thörigen",
+    "lat": 47.16815795,
+    "lng": 7.73111985760834
+  },
+  {
+    "Name": "W. Schärer Bahnhof-Garage AG",
+    "Strasse": "Buchsistrasse 1",
+    "PLZ": "3380",
+    "Ort": "Wangen an der Aare",
+    "lat": 47.22940015,
+    "lng": 7.654316119610471
+  },
+  {
+    "Name": "Schärli + Bossert AG",
+    "Strasse": "Hackenrüti 10",
+    "PLZ": "6110",
+    "Ort": "Wolhusen",
+    "lat": 47.05508655,
+    "lng": 8.085824495295874
+  },
+  {
+    "Name": "Scheidweg-Garage AG",
+    "Strasse": "Gontenstrasse 1",
+    "PLZ": "9050",
+    "Ort": "Appenzell",
+    "lat": 47.3314827,
+    "lng": 9.39601637970955
+  },
+  {
+    "Name": "Garage Scheuber",
+    "Strasse": "Pilatusstrasse 25",
+    "PLZ": "5630",
+    "Ort": "Muri AG",
+    "lat": 47.2617774,
+    "lng": 8.352229506870488
+  },
+  {
+    "Name": "Garage Schmid",
+    "Strasse": "Sternenhofstrasse 13a",
+    "PLZ": "4153",
+    "Ort": "Reinach BL",
+    "lat": 47.4891478,
+    "lng": 7.596038
+  },
+  {
+    "Name": "Schmid-Garage AG",
+    "Strasse": "Kirchbergerstrasse 36",
+    "PLZ": "9534",
+    "Ort": "Gähwil",
+    "lat": 47.39712635,
+    "lng": 9.006567121895014
+  },
+  {
+    "Name": "Garage Schmitt SA",
+    "Strasse": "Avenue Mayor-Vautier 10",
+    "PLZ": "1815",
+    "Ort": "Clarens",
+    "lat": 46.4424871,
+    "lng": 6.895071689441589
+  },
+  {
+    "Name": "Schneeberger AG Automobile",
+    "Strasse": "Zürichstrasse 37",
+    "PLZ": "4922",
+    "Ort": "Bützberg",
+    "lat": 47.21766925,
+    "lng": 7.75605169643398
+  },
+  {
+    "Name": "Bahnhof-Garage Leo Schnyder AG",
+    "Strasse": "Hauptstrasse 39",
+    "PLZ": "6170",
+    "Ort": "Schüpfheim",
+    "lat": 46.9502427,
+    "lng": 8.01615847631579
+  },
+  {
+    "Name": "Schönenberger Auto-Elektro GmbH",
+    "Strasse": "Brunngasse 12",
+    "PLZ": "4463",
+    "Ort": "Buus",
+    "lat": 47.507545,
+    "lng": 7.86586101477754
+  },
+  {
+    "Name": "Garage Schuwey SA",
+    "Strasse": "rue de l'Ancien Comte 105",
+    "PLZ": "1635",
+    "Ort": "La Tour-de-Trême",
+    "lat": 46.6050302,
+    "lng": 7.0702149
+  },
+  {
+    "Name": "Schweri Zweirad",
+    "Strasse": "Hauptstrasse 14",
+    "PLZ": "8259",
+    "Ort": "Wagenhausen",
+    "lat": 47.6590777,
+    "lng": 8.8511519
+  },
+  {
+    "Name": "Garage Sédunois SA",
+    "Strasse": "Route de Riddes 115",
+    "PLZ": "1950",
+    "Ort": "Sion",
+    "lat": 46.2212193,
+    "lng": 7.3655814
+  },
+  {
+    "Name": "Seegarage Müller AG",
+    "Strasse": "Seestrasse 340",
+    "PLZ": "8810",
+    "Ort": "Horgen",
+    "lat": 47.2531303,
+    "lng": 8.6194521
+  },
+  {
+    "Name": "Automobiles Senn SA",
+    "Strasse": "Crêtets 90",
+    "PLZ": "2301",
+    "Ort": "La Chaux-de-Fonds",
+    "lat": 47.09440035,
+    "lng": 6.821306934427993
+  },
+  {
+    "Name": "Automobiles Senn SA",
+    "Strasse": "Rue de la Pierre-à-Mazel 25",
+    "PLZ": "2000",
+    "Ort": "Neuchâtel",
+    "lat": 46.9948813825558,
+    "lng": 6.941024507127641
+  },
+  {
+    "Name": "Automobiles Senn SA",
+    "Strasse": "Champ de la Croix",
+    "PLZ": "2075",
+    "Ort": "Thielle",
+    "lat": 47.0193599,
+    "lng": 7.026964
+  },
+  {
+    "Name": "Sepp Fässler AG",
+    "Strasse": "Feldstrasse 11",
+    "PLZ": "9050",
+    "Ort": "Appenzell",
+    "lat": 47.334256,
+    "lng": 9.404237800729568
+  },
+  {
+    "Name": "Sepp Fässler (Wil) AG",
+    "Strasse": "Flawilerstrasse 23",
+    "PLZ": "9500",
+    "Ort": "Wil SG",
+    "lat": 47.4523208,
+    "lng": 9.0532989
+  },
+  {
+    "Name": "Auto Sidler AG",
+    "Strasse": "Brünigstrasse 109",
+    "PLZ": "6060",
+    "Ort": "Sarnen",
+    "lat": 46.89931605,
+    "lng": 8.246686985325773
+  },
+  {
+    "Name": "Garage Siegenthaler AG",
+    "Strasse": "Höhenstrasse 2",
+    "PLZ": "9555",
+    "Ort": "Tobel",
+    "lat": 47.5124184,
+    "lng": 9.03097595
+  },
+  {
+    "Name": "Romeo Solidoro Auto-Garage Solidoro Carrosserie",
+    "Strasse": "Zürcherstrasse 73",
+    "PLZ": "8800",
+    "Ort": "Thalwil",
+    "lat": 47.285635,
+    "lng": 8.563142808001063
+  },
+  {
+    "Name": "Spring - Bächler AG",
+    "Strasse": "Galteren 19",
+    "PLZ": "1712",
+    "Ort": "Tafers",
+    "lat": 46.8029012,
+    "lng": 7.2279951
+  },
+  {
+    "Name": "Auto Zentrum St.Margrethen AG",
+    "Strasse": "Nebengraben 5",
+    "PLZ": "9430",
+    "Ort": "St. Margrethen SG",
+    "lat": 47.45936725,
+    "lng": 9.612777545591468
+  },
+  {
+    "Name": "Garage Stadio SA",
+    "Strasse": "Via alla Bozzoreda 49",
+    "PLZ": "6963",
+    "Ort": "Pregassona",
+    "lat": 46.02280509950002,
+    "lng": 8.96948735653444
+  },
+  {
+    "Name": "Autohaus Steffen AG",
+    "Strasse": "Länggasse 3",
+    "PLZ": "6208",
+    "Ort": "Oberkirch LU",
+    "lat": 47.15136285,
+    "lng": 8.115828931014152
+  },
+  {
+    "Name": "Steinbach Garage AG",
+    "Strasse": "Steinbachstrasse 39",
+    "PLZ": "3123",
+    "Ort": "Belp",
+    "lat": 46.8969731,
+    "lng": 7.490779803528129
+  },
+  {
+    "Name": "Garage Steiner AG",
+    "Strasse": "Eystrasse 6",
+    "PLZ": "3427",
+    "Ort": "Utzenstorf",
+    "lat": 47.12664505,
+    "lng": 7.552939727796242
+  },
+  {
+    "Name": "Steiner Group AG",
+    "Strasse": "Fluhmühle 9",
+    "PLZ": "6015",
+    "Ort": "Luzern",
+    "lat": 47.0576008,
+    "lng": 8.285337925579952
+  },
+  {
+    "Name": "Steiner Group AG Filiale Kriens",
+    "Strasse": "Horwerstrasse 70",
+    "PLZ": "6010",
+    "Ort": "Kriens",
+    "lat": 47.02838035,
+    "lng": 8.293686983518562
+  },
+  {
+    "Name": "Steiner Group AG Filiale Nebikon",
+    "Strasse": "Vorstatt 28",
+    "PLZ": "6244",
+    "Ort": "Nebikon",
+    "lat": 47.18901235,
+    "lng": 7.973966455287682
+  },
+  {
+    "Name": "Steiner Tech AG",
+    "Strasse": "Gehracker 2",
+    "PLZ": "3042",
+    "Ort": "Ortschwaben",
+    "lat": 46.9949881,
+    "lng": 7.4038579
+  },
+  {
+    "Name": "Pierre Steulet SA",
+    "Strasse": "route de Delémont 115",
+    "PLZ": "2802",
+    "Ort": "Develier",
+    "lat": 47.362332,
+    "lng": 7.3133742
+  },
+  {
+    "Name": "Garage O. Stock AG",
+    "Strasse": "Kantonsstrasse 152",
+    "PLZ": "7205",
+    "Ort": "Zizers",
+    "lat": 46.9277785,
+    "lng": 9.562172226310533
+  },
+  {
+    "Name": "Strack AG",
+    "Strasse": "Ebnatstrasse 125",
+    "PLZ": "8200",
+    "Ort": "Schaffhausen",
+    "lat": 47.71072215,
+    "lng": 8.651245622055612
+  },
+  {
+    "Name": "Stratos Automobile AG",
+    "Strasse": "Bildstrasse 3",
+    "PLZ": "9030",
+    "Ort": "Abtwil SG",
+    "lat": 47.4171367,
+    "lng": 9.3123782
+  },
+  {
+    "Name": "Garage Ruedi Strub AG",
+    "Strasse": "Weiermatt 1",
+    "PLZ": "4446",
+    "Ort": "Buckten",
+    "lat": 47.4154257,
+    "lng": 7.844331651502909
+  },
+  {
+    "Name": "Suhre Garage AG Fam. H.Roth",
+    "Strasse": "Holzikerstrasse 14",
+    "PLZ": "5040",
+    "Ort": "Schöftland",
+    "lat": 47.3125188,
+    "lng": 8.047246687198793
+  },
+  {
+    "Name": "Garage Sulser AG",
+    "Strasse": "St. Gallerstrasse 19",
+    "PLZ": "9470",
+    "Ort": "Buchs SG",
+    "lat": 47.1660379,
+    "lng": 9.467513000183597
+  },
+  {
+    "Name": "Garage Susten AG",
+    "Strasse": "Kantonsstrasse 12",
+    "PLZ": "3952",
+    "Ort": "Susten",
+    "lat": 46.31056295,
+    "lng": 7.643713845431872
+  },
+  {
+    "Name": "Garage Suter AG",
+    "Strasse": "Hauptstrasse 278",
+    "PLZ": "3852",
+    "Ort": "Ringgenberg BE",
+    "lat": 46.70592329999999,
+    "lng": 7.904016118965226
+  },
+  {
+    "Name": "Garage Tanner AG",
+    "Strasse": "Auerstrasse 45",
+    "PLZ": "9435",
+    "Ort": "Heerbrugg",
+    "lat": 47.4175209,
+    "lng": 9.632244246767865
+  },
+  {
+    "Name": "Th. Willy AG Auto-Zentrum, Schlieren",
+    "Strasse": "Zürcherstrasse 145",
+    "PLZ": "8952",
+    "Ort": "Schlieren",
+    "lat": 47.39643340000001,
+    "lng": 8.467153438276965
+  },
+  {
+    "Name": "Thomann Nutzfahrzeuge AG",
+    "Strasse": "Blumenaustrasse 11",
+    "PLZ": "9320",
+    "Ort": "Arbon",
+    "lat": 47.4975559,
+    "lng": 9.419072888850387
+  },
+  {
+    "Name": "Thomann Nutzfahrzeuge AG",
+    "Strasse": "Juchstrasse 45",
+    "PLZ": "8500",
+    "Ort": "Frauenfeld",
+    "lat": 47.5721381,
+    "lng": 8.913852976431984
+  },
+  {
+    "Name": "Thomann Nutzfahrzeuge AG",
+    "Strasse": "Allmeindstrasse 10",
+    "PLZ": "8716",
+    "Ort": "Schmerikon",
+    "lat": 47.22522600000001,
+    "lng": 8.94734333681045
+  },
+  {
+    "Name": "Tognetti Auto SA",
+    "Strasse": "via San Gottardo 139",
+    "PLZ": "6596",
+    "Ort": "Gordola",
+    "lat": 46.18077212221276,
+    "lng": 8.862513015826122
+  },
+  {
+    "Name": "Garage Tondo AG",
+    "Strasse": "Industriestrasse 86",
+    "PLZ": "7310",
+    "Ort": "Bad Ragaz",
+    "lat": 47.0145849,
+    "lng": 9.496813823410967
+  },
+  {
+    "Name": "Top Garage Fischenthal AG",
+    "Strasse": "Tösstalstrasse 263",
+    "PLZ": "8497",
+    "Ort": "Fischenthal",
+    "lat": 47.33801965,
+    "lng": 8.925798548063248
+  },
+  {
+    "Name": "Garage Tornisello AG",
+    "Strasse": "Kornweg 17A",
+    "PLZ": "4665",
+    "Ort": "Oftringen",
+    "lat": 47.30623955,
+    "lng": 7.932580434539342
+  },
+  {
+    "Name": "Garage Torretta SA",
+    "Strasse": "via San Gottardo 109",
+    "PLZ": "6500",
+    "Ort": "Bellinzona",
+    "lat": 46.20169947592247,
+    "lng": 9.033391529636988
+  },
+  {
+    "Name": "Touring-Garage AG Huttwil",
+    "Strasse": "Luzernstrasse 76",
+    "PLZ": "4950",
+    "Ort": "Huttwil",
+    "lat": 47.11454455,
+    "lng": 7.865977687036359
+  },
+  {
+    "Name": "Touring-Garage Luggen AG",
+    "Strasse": "Laubisrütistrasse 68",
+    "PLZ": "8712",
+    "Ort": "Stäfa",
+    "lat": 47.23835335,
+    "lng": 8.749120474976735
+  },
+  {
+    "Name": "Auto-Trachsler AG",
+    "Strasse": "Pfäffikerstrasse 48",
+    "PLZ": "8623",
+    "Ort": "Wetzikon ZH",
+    "lat": 47.3366478,
+    "lng": 8.812012795330304
+  },
+  {
+    "Name": "Transit-Garage Müller AG",
+    "Strasse": "Gotthardstrasse 8",
+    "PLZ": "6410",
+    "Ort": "Goldau",
+    "lat": 47.0511333,
+    "lng": 8.543228406288613
+  },
+  {
+    "Name": "Truck Center Mittelland AG Nutzfahrzeuge",
+    "Strasse": "Pfannenstiel 2",
+    "PLZ": "4624",
+    "Ort": "Härkingen",
+    "lat": 47.3149638,
+    "lng": 7.8135742
+  },
+  {
+    "Name": "Truck Center Valais AG",
+    "Strasse": "Littenstrasse 7",
+    "PLZ": "3970",
+    "Ort": "Salgesch",
+    "lat": 46.3036752,
+    "lng": 7.5686239
+  },
+  {
+    "Name": "Trucks Vans Solutions SA",
+    "Strasse": "route André-Piller 46",
+    "PLZ": "1762",
+    "Ort": "Givisiez",
+    "lat": 46.81257345,
+    "lng": 7.116786326123965
+  },
+  {
+    "Name": "Claude Urfer SA",
+    "Strasse": "Rue du Levant 171",
+    "PLZ": "1920",
+    "Ort": "Martigny",
+    "lat": 46.1066048,
+    "lng": 7.0996476
+  },
+  {
+    "Name": "Claude Urfer SA",
+    "Strasse": "Route du Simplon 58",
+    "PLZ": "3960",
+    "Ort": "Sierre",
+    "lat": 46.2535331,
+    "lng": 7.4248446
+  },
+  {
+    "Name": "Claude Urfer SA",
+    "Strasse": "Chemin Saint-Hubert 12",
+    "PLZ": "1950",
+    "Ort": "Sion",
+    "lat": 46.223135,
+    "lng": 7.3489742
+  },
+  {
+    "Name": "Vasellari AG",
+    "Strasse": "Bienenweg 10",
+    "PLZ": "4313",
+    "Ort": "Möhlin",
+    "lat": 47.5581536,
+    "lng": 7.844172903396299
+  },
+  {
+    "Name": "VI Véhicules Industriels SA",
+    "Strasse": "route de la Plâtrière 17",
+    "PLZ": "1907",
+    "Ort": "Saxon",
+    "lat": 46.1403813,
+    "lng": 7.1594584
+  },
+  {
+    "Name": "Garage Viatte-Straub AG",
+    "Strasse": "Aesplistrasse 1",
+    "PLZ": "4562",
+    "Ort": "Biberist",
+    "lat": 47.1907736,
+    "lng": 7.5530826
+  },
+  {
+    "Name": "VM Cars GmbH",
+    "Strasse": "Talstrasse 4",
+    "PLZ": "6372",
+    "Ort": "Ennetmoos",
+    "lat": 46.9553061,
+    "lng": 8.334385655285576
+  },
+  {
+    "Name": "Vogelsang AG Garage + Carrosserie",
+    "Strasse": "Bielstrasse 85-89",
+    "PLZ": "2540",
+    "Ort": "Grenchen",
+    "lat": 47.18885452048869,
+    "lng": 7.387017695497716
+  },
+  {
+    "Name": "Vogt Automobile AG",
+    "Strasse": "Gewerbestrasse 9",
+    "PLZ": "8162",
+    "Ort": "Steinmaur",
+    "lat": 47.4885507,
+    "lng": 8.4472916
+  },
+  {
+    "Name": "Volvo Group (Schweiz) AG Truck Center Aclens",
+    "Strasse": "Route de la Venoge 3",
+    "PLZ": "1123",
+    "Ort": "Aclens",
+    "lat": 46.562926,
+    "lng": 6.524795622377257
+  },
+  {
+    "Name": "Volvo Group (Schweiz) AG Truck Center Egerkingen",
+    "Strasse": "Industriestrasse 26",
+    "PLZ": "4622",
+    "Ort": "Egerkingen",
+    "lat": 47.3145354,
+    "lng": 7.789114694677817
+  },
+  {
+    "Name": "Volvo Group (Schweiz) AG Truck Center Dällikon",
+    "Strasse": "Lindenstrasse 6",
+    "PLZ": "8108",
+    "Ort": "Dällikon",
+    "lat": 47.44799655,
+    "lng": 8.435012474390156
+  },
+  {
+    "Name": "Volvo Group (Schweiz) AG Truck Center Inwil",
+    "Strasse": "Industriestrasse 48",
+    "PLZ": "6034",
+    "Ort": "Inwil",
+    "lat": 47.11781550000001,
+    "lng": 8.348190198425225
+  },
+  {
+    "Name": "Volvo Group (Schweiz) AG Trucks Center Münchenbuchsee",
+    "Strasse": "Moosrainweg 12",
+    "PLZ": "3053",
+    "Ort": "Münchenbuchsee",
+    "lat": 47.03028225,
+    "lng": 7.435738003496105
+  },
+  {
+    "Name": "Volvo Group (Schweiz) AG Truck Center Winterthur",
+    "Strasse": "Wülflingerstrasse 149",
+    "PLZ": "8408",
+    "Ort": "Winterthur",
+    "lat": 47.50785745,
+    "lng": 8.704697941900925
+  },
+  {
+    "Name": "Volvo Group (Schweiz) SA Succursale Truck Center Cornaux",
+    "Strasse": "Route des Prés-Bersot 31",
+    "PLZ": "2087",
+    "Ort": "Cornaux NE",
+    "lat": 47.0370185546281,
+    "lng": 7.024128646004523
+  },
+  {
+    "Name": "Volvo Group (Schweiz) AG Truck Center Niederuzwil",
+    "Strasse": "Hirzenstrasse 4",
+    "PLZ": "9244",
+    "Ort": "Niederuzwil",
+    "lat": 47.4433479,
+    "lng": 9.147879756263592
+  },
+  {
+    "Name": "Vorort-Garage AG",
+    "Strasse": "Zürichstrasse 61",
+    "PLZ": "8184",
+    "Ort": "Bachenbülach",
+    "lat": 47.5067845,
+    "lng": 8.545000772031749
+  },
+  {
+    "Name": "Vorstadt-Garage Ilardo AG",
+    "Strasse": "Hunnenweg 1",
+    "PLZ": "4500",
+    "Ort": "Solothurn",
+    "lat": 47.19911995,
+    "lng": 7.533076594807396
+  },
+  {
+    "Name": "VRA AG",
+    "Strasse": "Steinachermatt 1",
+    "PLZ": "5033",
+    "Ort": "Buchs AG",
+    "lat": 47.3963502,
+    "lng": 8.0726927
+  },
+  {
+    "Name": "vRbikes.ch ag",
+    "Strasse": "Bahnhofstrasse 23",
+    "PLZ": "6300",
+    "Ort": "Zug",
+    "lat": 47.1700546,
+    "lng": 8.5156839
+  },
+  {
+    "Name": "VUD Romandie SA",
+    "Strasse": "Route d'Yverdon 34",
+    "PLZ": "1373",
+    "Ort": "Chavornay",
+    "lat": 46.7146803,
+    "lng": 6.575401562351987
+  },
+  {
+    "Name": "Garage Vuilleumier Sarl",
+    "Strasse": "rue de Tramelan 2",
+    "PLZ": "2710",
+    "Ort": "Tavannes",
+    "lat": 47.22055684999999,
+    "lng": 7.198263051789877
+  },
+  {
+    "Name": "Walker Fahrzeugtechnik AG",
+    "Strasse": "Furkastrasse 140b",
+    "PLZ": "3904",
+    "Ort": "Naters",
+    "lat": 46.32769260000001,
+    "lng": 8.010692575586443
+  },
+  {
+    "Name": "Garage Walker GmbH",
+    "Strasse": "Ried 2B",
+    "PLZ": "6467",
+    "Ort": "Schattdorf",
+    "lat": 46.8548845,
+    "lng": 8.640677965866931
+  },
+  {
+    "Name": "Walter Streuli AG Sandhof-Garage",
+    "Strasse": "Schönenbergstrasse 139",
+    "PLZ": "8820",
+    "Ort": "Wädenswil",
+    "lat": 47.21906749999999,
+    "lng": 8.669760228493775
+  },
+  {
+    "Name": "Walter Streuli AG Garage Altendorf",
+    "Strasse": "Churerstrasse 66",
+    "PLZ": "8852",
+    "Ort": "Altendorf",
+    "lat": 47.19002395,
+    "lng": 8.843511253151938
+  },
+  {
+    "Name": "We Automobile Sàrl",
+    "Strasse": "Rue des Grands-Prés 2",
+    "PLZ": "1964",
+    "Ort": "Conthey",
+    "lat": 46.2257824,
+    "lng": 7.2943748
+  },
+  {
+    "Name": "Garage Weber-Monaco SA",
+    "Strasse": "Via Kosciuszko 4A",
+    "PLZ": "6943",
+    "Ort": "Vezia",
+    "lat": 46.02962782818941,
+    "lng": 8.938420928804048
+  },
+  {
+    "Name": "Centralgarage Weinfelden AG",
+    "Strasse": "Walkestrasse 27",
+    "PLZ": "8570",
+    "Ort": "Weinfelden",
+    "lat": 47.56579940309837,
+    "lng": 9.100197383011132
+  },
+  {
+    "Name": "Garage Carrosserie Welti AG",
+    "Strasse": "Militärstrasse 12",
+    "PLZ": "6467",
+    "Ort": "Schattdorf",
+    "lat": 46.8579799,
+    "lng": 8.642655748857976
+  },
+  {
+    "Name": "Garage Wenger AG",
+    "Strasse": "Wychelstrasse 32",
+    "PLZ": "3800",
+    "Ort": "Interlaken",
+    "lat": 46.68082750000001,
+    "lng": 7.859011943167634
+  },
+  {
+    "Name": "Wheelpower GmbH",
+    "Strasse": "Fliegeneggstrasse 7",
+    "PLZ": "9555",
+    "Ort": "Tobel",
+    "lat": 47.51552700000001,
+    "lng": 9.03000330381105
+  },
+  {
+    "Name": "Wiaz AG",
+    "Strasse": "St. Gallerstrasse 29",
+    "PLZ": "9524",
+    "Ort": "Zuzwil SG",
+    "lat": 47.46892345,
+    "lng": 9.108701957724534
+  },
+  {
+    "Name": "J. Windlin AG",
+    "Strasse": "Stanserstrasse 113",
+    "PLZ": "6064",
+    "Ort": "Kerns",
+    "lat": 46.9100038,
+    "lng": 8.293167208063288
+  },
+  {
+    "Name": "J. Windlin AG Garage",
+    "Strasse": "Sternmatt 10",
+    "PLZ": "6010",
+    "Ort": "Kriens",
+    "lat": 47.0290396,
+    "lng": 8.29838754642062
+  },
+  {
+    "Name": "J. Windlin AG",
+    "Strasse": "Vorderschlund 1",
+    "PLZ": "6010",
+    "Ort": "Kriens",
+    "lat": 47.0241544,
+    "lng": 8.292768298716245
+  },
+  {
+    "Name": "Autocenter Winkeln GmbH",
+    "Strasse": "Ikarusstrasse 2",
+    "PLZ": "9015",
+    "Ort": "St. Gallen",
+    "lat": 47.4042403,
+    "lng": 9.304578225442535
+  },
+  {
+    "Name": "Garage Wirz AG",
+    "Strasse": "Netzenstrasse 8",
+    "PLZ": "4450",
+    "Ort": "Sissach",
+    "lat": 47.46743600000001,
+    "lng": 7.800866073818704
+  },
+  {
+    "Name": "Yersin Automobiles et Voyages SA",
+    "Strasse": "Grand-Rue 94b",
+    "PLZ": "1660",
+    "Ort": "Château-d'Oex",
+    "lat": 46.47644304771359,
+    "lng": 7.141574489217948
+  },
+  {
+    "Name": "Zbinden AG Hägendorf",
+    "Strasse": "Oltnerstrasse 18",
+    "PLZ": "4614",
+    "Ort": "Hägendorf",
+    "lat": 47.3348874,
+    "lng": 7.849274328894471
+  },
+  {
+    "Name": "Zentrum-Garage AG",
+    "Strasse": "Hauptstrasse 36",
+    "PLZ": "3186",
+    "Ort": "Düdingen",
+    "lat": 46.8487588,
+    "lng": 7.189684750727695
+  },
+  {
+    "Name": "Zil-Garage St. Gallen Garage Hirn Gruppe",
+    "Strasse": "Zilstrasse 79",
+    "PLZ": "9016",
+    "Ort": "St. Gallen",
+    "lat": 47.44293930000001,
+    "lng": 9.413000835562407
+  },
+  {
+    "Name": "Garage Zimmerli Aarau AG",
+    "Strasse": "Hauptstrasse 1",
+    "PLZ": "5032",
+    "Ort": "Aarau Rohr",
+    "lat": 47.3994296,
+    "lng": 8.072248127799984
+  },
+  {
+    "Name": "Garage Zimmerli AG",
+    "Strasse": "Hendschikerstrasse 9",
+    "PLZ": "5600",
+    "Ort": "Lenzburg",
+    "lat": 47.39030984999999,
+    "lng": 8.18361110105139
+  },
+  {
+    "Name": "Zollhaus & Paoluzzo AutomoBiel GmbH",
+    "Strasse": "Guglerstrasse 6",
+    "PLZ": "2560",
+    "Ort": "Nidau",
+    "lat": 47.1257111,
+    "lng": 7.250490510946076
+  },
+  {
+    "Name": "Auto Zollikofer AG",
+    "Strasse": "Rorschacherstrasse 284",
+    "PLZ": "9016",
+    "Ort": "St. Gallen",
+    "lat": 47.44286005,
+    "lng": 9.414720590418616
+  },
+  {
+    "Name": "Zugerland Verkehrsbetriebe AG",
+    "Strasse": "General-Guisan-Strasse",
+    "PLZ": "6304",
+    "Ort": "Zug",
+    "lat": 47.17488737713747,
+    "lng": 8.510674239026244
+  }
+]

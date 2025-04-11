@@ -9,8 +9,7 @@
     html, body, #map {
       margin: 0;
       height: 100%;
-      background: #111;
-      font-family: sans-serif;
+      background: #000;
     }
     .searchbox {
       position: absolute;
@@ -29,7 +28,6 @@
       color: white;
       border: none;
       outline: none;
-      width: 180px;
     }
   </style>
 </head>
@@ -41,32 +39,28 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
-    const map = L.map('map').setView([46.8, 8.3], 8);
+    const map = L.map('map').setView([47.0, 8.0], 8);
 
-    // Satellitenkarte mit Grenzen und Labels (Esri)
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-      attribution: '&copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+      attribution: 'Tiles © Esri'
     }).addTo(map);
 
-    L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', {
-      attribution: '&copy; Esri Boundaries'
+    L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors',
+      opacity: 0.4
     }).addTo(map);
 
-    // Blauer Marker
     const blueIcon = L.icon({
       iconUrl: "https://maps.google.com/mapfiles/ms/icons/blue-dot.png",
       iconSize: [32, 32],
       iconAnchor: [16, 32],
-      popupAnchor: [0, -32],
       shadowUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-shadow.png",
       shadowSize: [41, 41],
       shadowAnchor: [12, 41]
     });
 
-    // Standortmarker
     navigator.geolocation.getCurrentPosition(pos => {
-      const marker = L.marker([pos.coords.latitude, pos.coords.longitude], {
-        title: "Mein Standort",
+      L.marker([pos.coords.latitude, pos.coords.longitude], {
         icon: L.icon({
           iconUrl: "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
           iconSize: [32, 32],
@@ -75,10 +69,9 @@
           shadowSize: [41, 41],
           shadowAnchor: [12, 41]
         })
-      }).addTo(map).bindPopup("Mein Standort");
+      }).addTo(map).bindPopup("Mein Standort").openPopup();
     });
 
-    // JSON laden
     fetch("partnergaragen.json")
       .then(res => res.json())
       .then(data => {
@@ -93,7 +86,6 @@
           }
         });
 
-        // Suche
         document.getElementById("plzSearch").addEventListener("input", e => {
           const input = e.target.value.trim();
           markers.forEach(marker => {

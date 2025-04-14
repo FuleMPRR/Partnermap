@@ -9,28 +9,98 @@
   <style>
     html, body { margin: 0; height: 100%; }
     #map { width: 100%; height: 100%; }
+    .controls {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 1000;
+      background: white;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+    .controls input, .controls select {
+      margin-top: 5px;
+      width: 100%;
+    }
+    img.logo {
+      max-width: 100px;
+      margin-top: 5px;
+    }
   </style>
 </head>
 <body>
   <div id="map"></div>
+  <div class="controls">
+    <label>PLZ:</label>
+    <input type="text" id="plzInput" placeholder="z. B. 3013" />
+    <label>Marke:</label>
+    <select id="markeSelect">
+      <option value="">Alle Marken</option>
+      
+    </select>
+  </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
     const map = L.map('map').setView([46.8, 8.2], 8);
-
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
     }).addTo(map);
 
-    fetch('garagen.json')
-      .then(res => res.json())
-      .then(data => {
-        data.forEach(g => {
-          const marker = L.marker([g.lat, g.lon]).addTo(map);
-          const popup = `<strong>${g.name}</strong><br>${g.adresse}` + (g.marke ? `<br><em>${g.marke}</em>` : "");
-          marker.bindPopup(popup);
+    let allMarkers = [];
+    let plzMarker = null;
+
+    function loadData(plzFilter, markeFilter) {
+      fetch('garagen_erweitert.json')
+        .then(res => res.json())
+        .then(data => {
+          allMarkers.forEach(m => map.removeLayer(m));
+          allMarkers = [];
+
+          if (plzMarker) {
+            map.removeLayer(plzMarker);
+            plzMarker = null;
+          }
+
+          if (plzFilter) {
+            const treffer = data.find(g => g.plz === plzFilter);
+            if (treffer) {
+              plzMarker = L.marker([treffer.lat, treffer.lon], {
+                icon: L.icon({
+                  iconUrl: 'https://maps.google.com/mapfiles/ms/icons/red-dot.png',
+                  iconSize: [32, 32]
+                })
+              }).addTo(map).bindPopup("PLZ: " + plzFilter);
+              map.setView([treffer.lat, treffer.lon], 11);
+            }
+          }
+
+          data.forEach(g => {
+            if (plzFilter && g.plz !== plzFilter) return;
+            if (markeFilter && !g.marken.includes(markeFilter)) return;
+
+            const logo = g.marken.length > 0 ? `<br><img class='logo' src='logos/{g.marken[0].toLowerCase()}.png' alt='Logo'>` : "";
+            const popup = `<strong>{g.name}</strong><br>{g.adresse}<br><em>{g.marken.join(', ')}</em>` + logo;
+            const marker = L.marker([g.lat, g.lon]).addTo(map).bindPopup(popup);
+            allMarkers.push(marker);
+          });
         });
-      });
+    }
+
+    document.getElementById('plzInput').addEventListener('input', () => {
+      const plz = document.getElementById('plzInput').value;
+      const marke = document.getElementById('markeSelect').value;
+      loadData(plz, marke);
+    });
+
+    document.getElementById('markeSelect').addEventListener('change', () => {
+      const plz = document.getElementById('plzInput').value;
+      const marke = document.getElementById('markeSelect').value;
+      loadData(plz, marke);
+    });
+
+    loadData("", "");
   </script>
 </body>
 </html>

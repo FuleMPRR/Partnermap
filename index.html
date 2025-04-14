@@ -37,7 +37,6 @@
     <label>Marke:</label>
     <select id="markeSelect">
       <option value="">Alle Marken</option>
-      
     </select>
   </div>
 
@@ -51,56 +50,71 @@
     let allMarkers = [];
     let plzMarker = null;
 
-    function loadData(plzFilter, markeFilter) {
-      fetch('garagen_erweitert.json')
-        .then(res => res.json())
-        .then(data => {
-          allMarkers.forEach(m => map.removeLayer(m));
-          allMarkers = [];
-
-          if (plzMarker) {
-            map.removeLayer(plzMarker);
-            plzMarker = null;
-          }
-
-          if (plzFilter) {
-            const treffer = data.find(g => g.plz === plzFilter);
-            if (treffer) {
-              plzMarker = L.marker([treffer.lat, treffer.lon], {
-                icon: L.icon({
-                  iconUrl: 'https://maps.google.com/mapfiles/ms/icons/red-dot.png',
-                  iconSize: [32, 32]
-                })
-              }).addTo(map).bindPopup("PLZ: " + plzFilter);
-              map.setView([treffer.lat, treffer.lon], 11);
-            }
-          }
-
-          data.forEach(g => {
-            if (plzFilter && g.plz !== plzFilter) return;
-            if (markeFilter && !g.marken.includes(markeFilter)) return;
-
-            const logo = g.marken.length > 0 ? `<br><img class='logo' src='logos/{g.marken[0].toLowerCase()}.png' alt='Logo'>` : "";
-            const popup = `<strong>{g.name}</strong><br>{g.adresse}<br><em>{g.marken.join(', ')}</em>` + logo;
-            const marker = L.marker([g.lat, g.lon]).addTo(map).bindPopup(popup);
-            allMarkers.push(marker);
-          });
-        });
+    function updateDropdown(data) {
+      const markeSelect = document.getElementById('markeSelect');
+      const markenSet = new Set();
+      data.forEach(g => g.marken.forEach(m => markenSet.add(m)));
+      const marken = Array.from(markenSet).sort();
+      markeSelect.innerHTML = '<option value="">Alle Marken</option>';
+      marken.forEach(m => {
+        const opt = document.createElement('option');
+        opt.value = m;
+        opt.textContent = m;
+        markeSelect.appendChild(opt);
+      });
     }
 
-    document.getElementById('plzInput').addEventListener('input', () => {
-      const plz = document.getElementById('plzInput').value;
-      const marke = document.getElementById('markeSelect').value;
-      loadData(plz, marke);
-    });
+    function showData(data, plzFilter, markeFilter) {
+      allMarkers.forEach(m => map.removeLayer(m));
+      allMarkers = [];
 
-    document.getElementById('markeSelect').addEventListener('change', () => {
-      const plz = document.getElementById('plzInput').value;
-      const marke = document.getElementById('markeSelect').value;
-      loadData(plz, marke);
-    });
+      if (plzMarker) {
+        map.removeLayer(plzMarker);
+        plzMarker = null;
+      }
 
-    loadData("", "");
+      if (plzFilter) {
+        const treffer = data.find(g => g.plz === plzFilter);
+        if (treffer) {
+          plzMarker = L.marker([treffer.lat, treffer.lon], {
+            icon: L.icon({
+              iconUrl: 'https://maps.google.com/mapfiles/ms/icons/red-dot.png',
+              iconSize: [32, 32]
+            })
+          }).addTo(map).bindPopup("PLZ: " + plzFilter);
+          map.setView([treffer.lat, treffer.lon], 11);
+        }
+      }
+
+      data.forEach(g => {
+        if (plzFilter && g.plz !== plzFilter) return;
+        if (markeFilter && !g.marken.includes(markeFilter)) return;
+
+        const logo = g.marken.length > 0 ? `<br><img class='logo' src='logos/{g.marken[0].toLowerCase()}.png' alt='Logo'>` : "";
+        const popup = `<strong>{g.name}</strong><br>{g.adresse}<br><em>{g.marken.join(', ')}</em>` + logo;
+        const marker = L.marker([g.lat, g.lon]).addTo(map).bindPopup(popup);
+        allMarkers.push(marker);
+      });
+    }
+
+    fetch('garagen.json')
+      .then(res => res.json())
+      .then(data => {
+        updateDropdown(data);
+        showData(data, "", "");
+
+        document.getElementById('plzInput').addEventListener('input', () => {
+          const plz = document.getElementById('plzInput').value;
+          const marke = document.getElementById('markeSelect').value;
+          showData(data, plz, marke);
+        });
+
+        document.getElementById('markeSelect').addEventListener('change', () => {
+          const plz = document.getElementById('plzInput').value;
+          const marke = document.getElementById('markeSelect').value;
+          showData(data, plz, marke);
+        });
+      });
   </script>
 </body>
 </html>

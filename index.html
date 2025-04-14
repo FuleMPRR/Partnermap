@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -87,11 +86,19 @@
       }
 
       data.forEach(g => {
-        if (plzFilter && g.plz !== plzFilter) return;
         if (markeFilter && !g.marken.includes(markeFilter)) return;
 
-        const logo = g.marken.length > 0 ? `<br><img class='logo' src='logos/{g.marken[0].toLowerCase()}.png' alt='Logo'>` : "";
-        const popup = `<strong>{g.name}</strong><br>{g.adresse}<br><em>{g.marken.join(', ')}</em>` + logo;
+        const logo = g.marken.length > 0
+          ? `<br><img class='logo' src='logos/${g.marken[0].toLowerCase()}.png' alt='Logo'>`
+          : "";
+
+        const popup = `
+          <strong>${g.name}</strong><br>
+          ${g.adresse}<br>
+          <em>${g.marken.join(', ')}</em>
+          ${logo}
+        `;
+
         const marker = L.marker([g.lat, g.lon]).addTo(map).bindPopup(popup);
         allMarkers.push(marker);
       });
@@ -103,17 +110,14 @@
         updateDropdown(data);
         showData(data, "", "");
 
-        document.getElementById('plzInput').addEventListener('input', () => {
+        const updateMap = () => {
           const plz = document.getElementById('plzInput').value;
           const marke = document.getElementById('markeSelect').value;
           showData(data, plz, marke);
-        });
+        };
 
-        document.getElementById('markeSelect').addEventListener('change', () => {
-          const plz = document.getElementById('plzInput').value;
-          const marke = document.getElementById('markeSelect').value;
-          showData(data, plz, marke);
-        });
+        document.getElementById('plzInput').addEventListener('input', updateMap);
+        document.getElementById('markeSelect').addEventListener('change', updateMap);
       });
   </script>
 </body>

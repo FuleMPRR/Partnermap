@@ -22,10 +22,6 @@
       margin-top: 5px;
       width: 100%;
     }
-    img.logo {
-      max-width: 100px;
-      margin-top: 5px;
-    }
   </style>
 </head>
 <body>
@@ -88,15 +84,10 @@
       data.forEach(g => {
         if (markeFilter && !g.marken.includes(markeFilter)) return;
 
-        const logo = g.marken.length > 0
-          ? `<br><img class='logo' src='logos/${g.marken[0].toLowerCase()}.png' alt='Logo'>`
-          : "";
-
         const popup = `
           <strong>${g.name}</strong><br>
           ${g.adresse}<br>
           <em>${g.marken.join(', ')}</em>
-          ${logo}
         `;
 
         const marker = L.marker([g.lat, g.lon]).addTo(map).bindPopup(popup);
